@@ -1,0 +1,31 @@
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+sdist
+
+# Buildout
+bin
+develop-eggs
+eggs
+.installed.cfg
+.mr.developer.cfg
+parts
+var
+
+#Translations
+*.mo
+
+# Unit tests/coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Installer logs
+pip-log.txt
+
+# Sphinx output
+docs/
