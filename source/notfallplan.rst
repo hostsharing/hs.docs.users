@@ -126,15 +126,27 @@ Software-Fehler
 Konfigurationsfehler
 --------------------
 
-.. Vorsorgemaßnahmen
-    Automatisierte, versionierte und reproduzierbare Konfigurationsverwaltung
+Vorsorgemaßnahmen
+    - Versionierte und reproduzierbare Konfigurationsverwaltung.
+
+      Zukünftig soll zusätzlich noch eine automatisierte
+      Konfigurationsverwaltung hinzukommen.
+
+    - ``sudo`` darf von den Hostmastern nur im 4-Augen-Prinzip angewendet werden.
+    - Alle Shell-Aktionen der Hostmaster werden mit
+      `ttyrec <0xcc.net/ttyrec/>`_ aufgezeichnet und sind damit nahvollziehbar.
+    - Um die Nachvollziehbarkeit zu erhöhen werden zukünftig auch alle Aufrufe
+      in HSAdmin aufgezeichnet. Dies erleichtert zusammen mit dem
+      Protokollieren der Shell-Aktionen das Wiederherstellen einer bestehenden
+      Konfiguration.
+
    Maßnahmen im Notfall
     Zurückrollen der Konfigurationsänderungen aus der Versionsverwaltung
     und Wiederherstellen der Daten aus dem letzten Backup sofern mit
     dem Konfigurationsfehler ein Datenverlust entstanden ist.
 
 Wiederherstellungszeit
- maximal 2 Werktage nach Bekanntwerden des Fehlers
+    maximal 1 Tag nach Bekanntwerden des Fehlers
 
 Anwendungsfehler
 ----------------
@@ -146,4 +158,5 @@ Maßnahmen im Notfall
  aus dem letzten Backup sofern mit dem Fehler ein Datenverlust entstanden ist.
 Wiederherstellungszeit
  maximal 2 Werktage nach Bekanntwerden des Fehlers
+
 
