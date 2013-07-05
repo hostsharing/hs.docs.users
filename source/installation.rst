@@ -2,6 +2,9 @@
 Installation von hsdocs
 =======================
 
+:Authors: - Veit Schiele
+:Date: 2013-07-05
+
 #. Auschecken des Projekts
    ::
     $ git clone https://github.com/hostsharing/hsdocs.git

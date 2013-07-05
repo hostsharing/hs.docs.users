@@ -2,6 +2,10 @@
 Rechenzentren
 =============
 
+:Authors: - Michael Hierweck
+          - Veit Schiele
+:Date: 2013-07-05
+
 Berlin
 ======
 

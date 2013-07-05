@@ -2,6 +2,10 @@
 Hardware
 ========
 
+:Authors: - Michael Hierweck
+          - Veit Schiele
+:Date: 2013-07-05
+
 3 Application- und Hot-Standby-Servers
 ======================================
 

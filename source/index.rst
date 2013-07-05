@@ -2,6 +2,10 @@
 Technische Dokumentation der Hostsharing e.G.
 =============================================
 
+:Authors: - Michael Hierweck
+          - Veit Schiele
+:Date: 2013-07-05
+
 .. note::
    Die technische Dokumentation ist auch als PDF verfügbar:  `hsdocs.pdf <hsdocs.pdf>`_
 

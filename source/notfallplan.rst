@@ -2,6 +2,10 @@
 Notfallplan
 ===========
 
+:Authors: - Michael Hierweck
+          - Veit Schiele
+:Date: 2013-07-05
+
 Der Notfallplan bietet einen Überblick über mögliche Notfallszenarien und wie
 die Hostsharing e.G. und deren Mitarbeiter ggf. damit umgehen.
 
