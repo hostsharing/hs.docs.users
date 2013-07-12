@@ -1,30 +1,40 @@
-=============================================
-Technische Dokumentation der Hostsharing e.G.
-=============================================
+===========================================
+Technische Dokumentation der Hostsharing eG
+===========================================
 
 :Authors: - Michael Hierweck
+          - Uwe Müller
           - Veit Schiele
-:Date: 2013-07-05
+:Date: 2013-07-12
 
-.. note::
-   Die technische Dokumentation ist auch als PDF verfügbar:  `hsdocs.pdf <hsdocs.pdf>`_
+Die technische Dokumentation ist auch als PDF verfügbar:  `hsdocs.pdf <hsdocs.pdf>`_
 
-. note::
-   Sie können die technische Dokumentation der Hostsharing e.G. auch als
-   Buildout-Projekt mit dem `Sphinx Documentation Generator
-   <http://sphinx.pocoo.org/>`_ und den Sourcen aus unserem github-Repository
-   auschecken. Gerne können Sie sich auch an der Weiterentwicklung der
-   technischen Dokumentation beteiligen. Weitere Information erhalten Sie unter
-   :doc:`installation`.
+Buildout-Projekt mit dem `Sphinx Documentation Generator <http://sphinx.pocoo.org/>`_
+und den Sourcen aus unserem github-Repository auschecken.
+Gerne können Sie sich auch an der Weiterentwicklung der
+technischen Dokumentation beteiligen. Weitere Information erhalten Sie unter
+:doc:`installation`.
 
 Inhalt: 
 
 .. toctree::
     :maxdepth: 1
 
-    hardware
+    zonefile/index
+    user/index
+    ssl
+    paket/index
+    hsadmin-cheetset
+    logging
+    email/index
+    domain/index
+    datenbanken/index
+    backup
+    anbindung
+    account/index
     rechenzentren
     notfallplan
-    impressum 
+    installation
+    impressum
     glossar
-
+    hardware
