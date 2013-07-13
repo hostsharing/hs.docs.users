@@ -5,7 +5,7 @@ Glossar
 :Authors: - Michael Hierweck
           - Veit Schiele
           - Uwe Müller
-:Date: 2013-07-05
+:Date: 2013-13-07
 
 .. glossary::
    
