@@ -2,31 +2,37 @@
 Backup
 ======
 
-:Authors: - Uwe Müeller
-:Date: 2013-03-01
+:Authors: - Michael Hierweck
+          - Uwe Müller
+:Date: 2013-07-10
 
-Hostsharing stellt ein Backup sämtlicher Daten der Webpakete incl. Datenbanken und User-Accounts zur Verfügung.
-Die Sicherungen werden 14 Tage rückwirkend zur Verfügung gestellt und in einem externen Rechenzentrum gesichert.
+Hostsharing sichert gespeicherte Daten nächtlich vollständig in einem externen Rechenzentrum
+und bewahrt diese für 14 Tage auf.
+
+E-Mails
+=======
+
+In die Postfächer zugestellte E-Mails werden von der Sicherung des Dateisystems erfasst.
 
 Datenbanken
 ===========
 
-Die Sicherungen der Datenbanken vom Vortag werden im Webpaket im Verzeichnis  /home/pacs/xyz00/.bak/ gesichert. 
-Die Wiederherstellung erfolgt durch den Paketadmin durch die entsprechenden Datenbanktools.
-Beispiele hierzu finden sich unter (http://Restore von Mysql Datenbanken) für Mysql und (http://Restore von Postgresql Datenbanken) für Potsgresql.
+Unmittelbar vor Beginn der Sicherung der Daten des Dateisystems werden MySQL- und PostgreSQL-
+Datenbanken in das Verzeichnis /home/pacs/xyz00/.bak/ gesichert. Diese Sicherungen fließen
+in die nachfolgende Dateisystemsicherung ein.
 
-Sollen ältere Sicherungen wiederhergestellt werden, muss ein Rücksicherungsauftrag  unter Angabe der jeweiligen Datenbank an  service@hostsharing.net gesendet werden. 
-Die Sicherung wird unter /home/restore/ bereitgestellt und kann vom Paketadmin in das Webpaket  zur weiteren Verarbeitung kopiert werden. 
+Rücksicherung
+=============
 
-Datendateien
-============
+Zur Rücksicherung der Dateidaten muss ein Rücksicherungsauftrag an service@hostsharing.net
+gesandt werden. Anzugeben sind:
 
-Zur Rücksicherung der Dateidaten muss ein Rücksicherungsauftrag an service@hostsharing.net gesandt werden. 
-Anzugeben sind:
+- das betreffende Webpaket
+- der Pfad des rückzusichernden Verzeichnisses, oder alternativ 
+- der Pfad und der Dateiname der rückzusichernden Datei
+- sowie das Datum des angeforderten Sicherungslaufs 
 
-- Betreffendes Webpaket
-- Pfad des rückzusichernden Verzeichnisses, oder alternativ 
-- Pfad und Dateiname der rückzusichernden Datei
-
-
- 
+Die Rücksicherung von Datenbanken erfolgt durch den Paket-Admin auf Basis der im Verzeichnis
+/home/pacs/xyz00/.bak/ abgelegten Datenbanksicherungen.
+Für ältere Datenbankbestände ist zuvor ein Rücksicherungsauftrag für die
+betroffene Sicherungsdatei in Auftrag zu geben.
