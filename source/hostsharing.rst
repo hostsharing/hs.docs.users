@@ -12,6 +12,7 @@ Hostsharing eG
 ==============
 
 Die Hostsharing eG bietet seinen Mitgliedern Shared-Hosting und Managed-Server auf Basis virtueller Maschinen.
+Die Virtualisierung erfolgt auf der Basis von KVM.
 
 Shared-Hosting
 -------------
@@ -21,7 +22,7 @@ Shared-Hosting
 
 Managed-Server
 --------------
-
+- eigene virtuelle Maschine
 - explizit zugewiesene Ressourcen, wie CPU,RAM, Speicher
 
 `note`
