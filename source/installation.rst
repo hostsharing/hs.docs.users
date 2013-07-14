@@ -2,23 +2,35 @@
 Installation von hsdocs
 =======================
 
-:Authors: - Veit Schiele
-:Date: 2013-07-05
+:Authors: - Michael HIerweck
+          - Veit Schiele
+:Date: 2013-07-14
+
+#. Anlegen einer Python-Umgebung mit virtualenv
+   ::
+    $ virtualenv virtual
 
 #. Auschecken des Projekts
    ::
-    $ git clone https://github.com/hostsharing/hsdocs.git
+    $ git clone https://github.com/hostsharing/hsdocs.git buildout
+
 #. Wechseln in das Verzeichnis
    ::
-    $ cd hsdocs
+    $ cd buildout
+
 #. Installation des Sphinx Documentation Generator
    ::
-    $ python2.7 bootstrap.py
+    $ ../virtualenv/bin/python bootstrap.py
     $ ./bin/buildout
-#. Erstellen der HTML-Dateien in ``hsdocs/docs/html/``
+
+#. Falls setuptools verlangt werden, sind diese zu installieren
+   und der vorangegangene Schritt im Anschluss zu wiederholen
    ::
-    $ cd docs/
-    $ make html
+    $ ../virtualenv/bin/pip install 'distribute>=0.7'
+
+#. Erstellen der Ausgabe-Dateien
+   ::
+    $ bin/sphinxbuilder
 
 .. _`Sphinx Documentation Generator`: http://sphinx.pocoo.org/
 
