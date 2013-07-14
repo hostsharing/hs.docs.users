@@ -73,9 +73,7 @@ alle Rechte eines Domain-Admin und folgende zusätzliche Rechte:
 - User und Datenbanken einrichten, löschen und ändern,
 - kann die Rechte eines Users seines Paketes annehmen.
 
-``note``
-    Eine Domain kann auf den Account eines Paketadmins aufgeschaltet werden.
-    Aus Sicherheitsgründen empfiehlt es sich Domains auf separate User aufzuschalten.
+..:note: Eine Domain kann auf den Account eines Paketadmins aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate User aufzuschalten.
 
 Domainbestellungen siehe Domainbestellungen
 
