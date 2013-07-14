@@ -1,42 +1,43 @@
 ========
-Accounts
+Benutzer
 ========
 
 :Authors: - Uwe Müller
-:Date: 2013-03-01
+:Date: 2013-07-13
 
-Accounts
+
+
+
+Benutzer
 ========
 
-Für unterschiedliche Aufgaben und Rechte der User in einem Paket hat Hostsharing eine Terminolgie vergeben um
-die zugedachten Aufgaben und Rollen zu verdeutlichen.  Die Trennung erfolgt durch die Vergabe
-von Rechten auf der Betriebsystemebene. User werden mit dem Administrationstool HSadmin (http://hsadmin) verwaltet.
+Für unterschiedliche Aufgaben der Benutzer in einem Paket können unterschiedliche Rollen vergeben werden, die durch die Vergabe
+von Rechten auf Betriebsystemebene definiert werden. 
 
 Die Hierarchie gliedert sich in absteigender Reihenfolge.
 
 TODO: zeichen und längenbeschränkung der usernamen.
 
-Mitgliedsaccount 
-================
+Mitglied 
+========
 
 - Initial vorhanden
-- der Name ist xyz (hsh00-xyz)
-- hat keine Shell (das Programm "passwd" wird an Stelle einer Shell gestartet).
+- der Name ist xyz 
+- hat keine Shell
 - erlischt mit dem Ende der Mitgliedschaft
 - eigenes Passwort
-- technisch unabhängig von anderen Accounts
+- technisch unabhängig von anderen Benutzern
 
 Nutzung
 =======
 
-- mit HSAdmin alle Pakete verwalten
-- Passwörter der Paket-Admins ändern
+- mit HSAdmin alle Pakete verwalten die dem Mitglied zugeordnet sind
 - kann die Rechte eines Paket-Admins annehmen
 - Rechnungen herunterladen
 - technisch unabhängig von anderen Accounts
 
-Domainbestellsystemaccount
-==========================
+Domainbestellsystem
+===================
 
 - Initial vorhanden
 - der Name ist hs-xyz
@@ -65,12 +66,12 @@ Nutzung
 Rechte
 ------
 
-alle Rechte eines [anker: Domain-Admins] und folgende zusätzliche Rechte:
+alle Rechte eines Domain-Admin und folgende zusätzliche Rechte:
 
 - Domains einem User (Domainadmin) des Pakets zuordnen,
 - Domains des Paketes administrieren,
 - User und Datenbanken einrichten, löschen und ändern,
-- per "sudo -u xyz00-paketuser -i" die Rechte eines Users seines Paketes annehmen.
+- kann die Rechte eines Users seines Paketes annehmen.
 
 note::
     Eine Domain kann auf den Account eines Paketadmins aufgeschaltet werden.
@@ -98,8 +99,8 @@ Verwalter seiner Domain(s)
 Rechte
 -------
 
-- E-Mail-Adressen für eine Domain einrichten,
-- Sub-Domains anlegen,
+- E-Mail-Adressen für eine Domain einrichten
+- Sub-Domains anlegen
 - Zonen-Daten einer Domain bearbeiten.
 
 
