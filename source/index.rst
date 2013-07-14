@@ -34,6 +34,7 @@ Inhalt:
     account/index
     rechenzentren
     notfallplan
+    infrastruktur
     installation
     impressum
     glossar
