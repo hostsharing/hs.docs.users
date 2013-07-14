@@ -10,7 +10,7 @@ Glossar
 .. glossary::
    
    Benutzer
-    Benutzer sind Unix-, shell-, ftp-, E-Mail-User
+    Benutzer sind Unix-, shell-, ftp-, E-Mail-User.
 
    Buildout
     `zc.buildout <http://pypi.python.org/pypi/zc.buildout/1.5.2/>`_ ist ein
@@ -30,6 +30,9 @@ Glossar
 
    Host
     Bezeichnet eine physikalische Maschine.
+
+   HSadmin
+    Verwaltungstool der Hostsharing eG.
 
    Mitgliedsaccount
      
