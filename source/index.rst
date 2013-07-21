@@ -39,3 +39,5 @@ Inhalt:
     impressum
     glossar
     hardware
+    monitoring/index
+
