@@ -15,7 +15,8 @@ der Artikel `Clustering Graphite <http://bitprophet.org/blog/2013/03/07/graphite
 - Die carbon-relays nutzen den ``consistent hashing``-Modus über mehrere
   `carbon-cache <http://graphite.readthedocs.org/en/1.0/carbon-daemons.html#carbon-cache-py>`_
   -Backends hinweg.
-- Die Redundanz gewährleistet, dass keine Daten fehlen, auch wenn eine
+- Wird für den oder die carbon-relays ``REPLICATION_FACTOR = 2`` gewählt, so
+  gewährleistet diese Redundanz, dass keine Daten fehlen, auch wenn eine
   Riemann-Instanz ausfallen sollte.
 
 Installation
