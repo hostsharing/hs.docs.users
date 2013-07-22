@@ -17,6 +17,7 @@ import sys, os
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('_ext'))
 
 # -- General configuration -----------------------------------------------------
 
@@ -25,7 +26,10 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo']
+extensions = [
+    'sphinx.ext.todo',
+    'edit_on_github',
+    ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -148,7 +152,7 @@ html_use_index = True
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-html_show_sourcelink = False
+html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 html_show_sphinx = False
@@ -241,3 +245,10 @@ texinfo_documents = [
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
+
+
+# -- Options for Edit on github ------------------------------------------------
+
+edit_on_github_project = 'hostsharing/hsdocs'
+edit_on_github_branch = 'master/source'
+
