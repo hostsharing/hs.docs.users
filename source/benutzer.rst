@@ -3,7 +3,7 @@ Benutzer
 ========
 
 :Authors: - Uwe Müller
-:Date: 2013-07-13
+:Date: 2013-08-01
 
 
 
@@ -11,10 +11,10 @@ Benutzer
 Benutzer
 ========
 
-Für unterschiedliche Aufgaben der Benutzer in einem Paket können unterschiedliche Rollen vergeben werden, die durch die Vergabe
-von Rechten auf Betriebsystemebene definiert werden. 
+Für unterschiedliche Aufgaben in einem Paket können unterschiedliche Rollen vergeben werden, die durch die Vergabe von Rechten auf Betriebssystemebene definiert werden.
+Datenbank-Systeme haben eine eigene User-Verwaltung und sind unabhängig von der Betriebssystemebene.  
 
-Die Hierarchie gliedert sich in absteigender Reihenfolge.
+Die folgende Hierarchie gliedert sich in absteigender Reihenfolge.
 
 TODO: zeichen und längenbeschränkung der usernamen.
 
@@ -28,8 +28,8 @@ Mitglied
 - eigenes Passwort
 - technisch unabhängig von anderen Benutzern
 
-Nutzung
-=======
+Rolle
+=====
 
 - mit HSAdmin alle Pakete verwalten die dem Mitglied zugeordnet sind
 - kann die Rechte eines Paket-Admins annehmen
