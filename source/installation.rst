@@ -2,33 +2,33 @@
 Installation von hsdocs
 =======================
 
-:Authors: - Michael HIerweck
+:Authors: - Michael Hierweck
           - Veit Schiele
 :Date: 2013-07-14
 
-#. Anlegen einer Python-Umgebung mit virtualenv
+. Anlegen einer Pythozon-Umgebung mit virtualenv
    ::
     $ virtualenv virtual
 
-#. Auschecken des Projekts
+. Auschecken des Projekts
    ::
     $ git clone https://github.com/hostsharing/hsdocs.git buildout
 
-#. Wechseln in das Verzeichnis
+. Wechseln in das Verzeichnis
    ::
     $ cd buildout
 
-#. Installation des Sphinx Documentation Generator
+. Installation des Sphinx Documentation Generator
    ::
     $ ../virtualenv/bin/python bootstrap.py
     $ ./bin/buildout
 
-#. Falls setuptools verlangt werden, sind diese zu installieren
+. Falls setuptools verlangt werden, sind diese zu installieren
    und der vorangegangene Schritt im Anschluss zu wiederholen
    ::
     $ ../virtualenv/bin/pip install 'distribute>=0.7'
 
-#. Erstellen der Ausgabe-Dateien
+. Erstellen der Ausgabe-Dateien
    ::
     $ bin/sphinxbuilder
 
@@ -58,6 +58,7 @@ Seitenstruktur
 
 Die Hauptüberschrift, die auch im Inhaltsverzeichnis erscheint, sollte so
 geschrieben werden::
+
 
     =======================
     Installation von hsdocs
