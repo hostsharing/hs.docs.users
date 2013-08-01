@@ -46,7 +46,7 @@ Domainbestellsystem
 Rolle
 -----
 
-- Login in das externe	Domainvertrags-Verwaltungstool
+- Verwaltung von Domains im externen Verwaltungstool für Domains.
 
 Paket-Admin
 ===========
