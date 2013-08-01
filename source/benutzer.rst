@@ -43,8 +43,8 @@ Domainbestellsystem
 - der Name ist hs-xyz
 - eigenes Passwort
 
-Nutzung
--------
+Rolle
+-----
 
 - Login in das externe	Domainvertrags-Verwaltungstool
 
@@ -58,10 +58,10 @@ Paket-Admin
   Zeichenfolge.
 - hat einen E-Mail Account
 
-Nutzung
--------
+Rolle
+-----
 
-- verwaltet ein Web-Paket, seine User, Dienste und Domains. 
+- verzowaltet ein Web-Paket, seine User, Dienste und Domains. 
 
 Rechte
 ------
@@ -85,8 +85,8 @@ Domain-Admin
 - hat eine Verzeichnisstruktur unterhalb ~/doms/
 - hat einen E-Mail Account
 
-Nutzung
-------- 
+Rolle
+----- 
 
 Verwalter seiner Domain(s)
 
@@ -95,7 +95,7 @@ Verwalter seiner Domain(s)
 
 
 Rechte
--------
+------
 
 - E-Mail-Adressen für eine Domain einrichten
 - Sub-Domains anlegen
@@ -109,8 +109,8 @@ User ohne Shell
 - hat keine Shell (das Programm "passwd" wird an Stelle einer Shell gestartet).
 
 
-Nutzung
--------
+Rolle
+-----
 
 - als E-Mail-Account.
 
