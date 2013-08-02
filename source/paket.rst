@@ -2,15 +2,15 @@
 Web-Pakete 
 ==========
 
-:Authors: - Uwe Müeller
-:Date: 2013-03-01
+:Authors: - Uwe Müller
+:Date: 2013-08-02
 
 Allgemein
 =========
 
-Ein Web-Paket stellt eine eigene UNIX-User-Gruppe dar, beinhaltet eine definierte Leistung
+Ein Web-Paket stellt technisch eine eigene UNIX-User-Gruppe dar, beinhaltet eine definierte Leistung
 (http:// Leistungsbeschreibungen)  und kann durch Optionen jederzeit aufgewertet werden. 
-Jedes Web-Paket hat eine Bezeichnung aus einem frei wählbaren Präfix und einem zweistelligen Zähler (z.B xyz00). 
+Die besteht Bezeichnung aus einem frei wählbaren Präfix, drei stelligen Präfix und einem zweistelligen Zähler (z.B xyz00). 
 Ableitend ergibt sich aus der Vergabe des Paket-Präfix:
 
 - der Name des Paketadmins xyz00 (http://userverwaltung)
