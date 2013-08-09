@@ -32,6 +32,7 @@ Inhalt:
     backup
     anbindung
     account/index
+    networking-firewalls
     rechenzentren
     notfallplan
     infrastruktur
