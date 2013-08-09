@@ -33,6 +33,7 @@ Inhalt:
     anbindung
     account/index
     networking-firewalls
+    betriebssystem
     rechenzentren
     notfallplan
     infrastruktur
