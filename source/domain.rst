@@ -40,14 +40,15 @@ Die Domainverwaltung  ist in zwei Aufgabenbereiche geteilt:
 Paket-Subdomain xyz00.hostsharing.net
 -------------------------------------
 
-Bei der Paketeinrichtung wird die Subdomain xyz00.hostsharing.net automatisch im doms-Ordner
+Bei der Paketeinrichtung wird die Subdomain xyz00.hostsharing.net im Ordner "doms" des Paketadmins
 angelegt. Hierbei handelt es sich um eine nutzbare Subdomain, die alle Funktionen von Domains unterstützt
 mit folgenden Einschränkungen:
 
 - Die Paket-Subdomain kann nicht gelöscht oder einem anderen Benutzer zugeordnet werden.
 - Subsubdomains zu der Paketdomain können nicht aufgeschaltet werden.
-- Das Zonefile der Paket-Subdomain sollte auf keinen Fall geändert werden, da durch 
-  Änderungen am Zonefile der Paket-Subdomain das gesamte Paket nicht mehr funktionsfähig sein kann.
 
-Die Paket-Subdomain ist dafür geeignet, Webpakete oder Web-Anwendungen zu testen ohne das
-hierfür eine Domain registriert werden muss. 
+   .. note::
+        Das Zonefile der Paket-Subdomain sollte auf keinen Fall geändert werden, da dies zur Funktionsunfähigkeit des gesamten Pakets führen kann.
+   ::  
+
+Die Paket-Subdomain ist dafür geeignet, Webpakete oder Web-Anwendungen zu testen ohne das hierfür eine Domain registriert werden muss. 
