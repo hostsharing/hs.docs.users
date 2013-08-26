@@ -180,16 +180,16 @@ $TTL 6H
 Kontrolle der Änderungen
 ------------------------
 
-Die Logdatei named.log ist lesbar um Änderungen am Zonefile überprüfen zu können.
-Dies kann folgendermaßen geschehen:
+Die Logdatei named.log ist lesbar um Änderungen am Zonefile überprüfen zu können. Dies kann folgendermaßen geschehen:
 
-tail -f /var/log/named/named.log 
+.. code-block:: console
+   
+    $ tail -f /var/log/named/named.log 
+    $ tail -f /var/log/named/named.log | grep example.com
  
-tail -f /var/log/named/named.log | grep example.com
- 
-Zur Überprüfung von Änderungen am Zonefile sollte immer die Seriennummer in den DNS-Servern 
-mit der aktuellen Seriennummer im Zonefile verglichen werden:
+Zur Überprüfung von Änderungen am Zonefile sollte immer die Seriennummer in den DNS-Servern mit der aktuellen Seriennummer im Zonefile verglichen werden:
 
-dig -t SOA @dns1 example.com | grep '^example.com.*SOA' | awk '{ print $7 }'
- 
-grep serial /etc/bind/pri.example.com | awk '{ print $1 }'  
+.. code-block:: console
+
+   $ dig -t SOA @dns1 example.com | grep '^example.com.*SOA' | awk '{ print $7 }'
+   $ grep serial /etc/bind/pri.example.com | awk '{ print $1 }'  
