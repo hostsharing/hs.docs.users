@@ -15,10 +15,10 @@ diese zeigen und welches Mailsystem für die Domain zuständig ist. Das Standard
 
 Das expandierte Standardzonefile
 --------------------------------
-:Code:
+::
 
-$TTL 6H
- example.com. IN SOA h00.hostsharing.net. hostmaster.hostsharing.net. (
+        $TTL 6H
+        example.com. IN SOA h00.hostsharing.net. hostmaster.hostsharing.net. (
                 1303649373      ; serial secs since Jan 1 1970  
                 6H              ; refresh (>=10000)
 
@@ -30,27 +30,17 @@ $TTL 6H
 
                 )
 
-example.com.    IN      NS      dns1.hostsharing.net.
-
-example.com.    IN      NS      dns2.hostsharing.net.
-
-example.com.    IN      NS      dns3.hostsharing.net.
-
-example.com.    IN      MX      30 mailin1.hostsharing.net.
-
-example.com.    IN      MX      30 mailin2.hostsharing.net.
-
-example.com.    IN      MX      30 mailin3.hostsharing.net.
-
-example.com.    IN      A       83.223.95.160
-
-*.example.com.  IN      MX      30 mailin1.hostsharing.net.
-
-*.example.com.  IN      MX      30 mailin2.hostsharing.net.
-
-*.example.com.  IN      MX      30 mailin3.hostsharing.net.
-
-*.example.com.  IN      A       83.223.95.160
+        example.com.    IN      NS      dns1.hostsharing.net.
+        example.com.    IN      NS      dns2.hostsharing.net.
+        example.com.    IN      NS      dns3.hostsharing.net.
+        example.com.    IN      MX      30 mailin1.hostsharing.net.
+        example.com.    IN      MX      30 mailin2.hostsharing.net.
+        example.com.    IN      MX      30 mailin3.hostsharing.net.
+        example.com.    IN      A       83.223.95.160
+        *.example.com.  IN      MX      30 mailin1.hostsharing.net.
+        *.example.com.  IN      MX      30 mailin2.hostsharing.net.
+        *.example.com.  IN      MX      30 mailin3.hostsharing.net.
+        *.example.com.  IN      A       83.223.95.160
 
 
 Eigenes Zonefile
