@@ -5,7 +5,7 @@ Glossar
 :Authors: - Michael Hierweck
           - Veit Schiele
           - Uwe Müller
-:Date: 2013-13-07
+:Date: 2013-26-08
 
 .. glossary::
    
@@ -35,7 +35,7 @@ Glossar
     Verwaltungstool der Hostsharing eG.
 
    Mitgliedsaccount
-     
+    Account zur Verwaltung der Mitgliedschaft in der Genossenschaft.     
 
    Paketadmin
     Der Administrator eines Paketes.  
