@@ -10,10 +10,8 @@ Zonefile
 Allgemein
 ---------
 
-Das Zonefile enthält die Konfiguration des Domain Name Service (DNS)der Domain. Im Zonefile wird 
-hinterlegt, welche Hostnamen innerhalb der Domain existieren und auf welche IP-Adressen 
-diese zeigen und welches Mailsystem für die Domain zuständig ist. 
-Das Standardzonefile ist für jede Domain unter /etc/bind/pri.example.com zu finden. 
+Das Zonefile enthält die Konfiguration des Domain Name Service (DNS)der Domain. Im Zonefile wird hinterlegt, welche Hostnamen innerhalb der Domain existieren und auf welche IP-Adressen 
+diese zeigen und welches Mailsystem für die Domain zuständig ist. Das Standardzonefile ist für jede Domain unter /etc/bind/pri.example.com zu finden. 
 
 Das expandierte Standardzonefile
 --------------------------------
