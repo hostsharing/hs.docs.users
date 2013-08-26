@@ -42,7 +42,6 @@ Eigene SSL Zertifikate
 ======================
 
 Für die Installation eigener Zertifikate einer Zertifizierungsstelle muss der Paketadmin einen "Private Key" und einen CSR  (Certificate Signing Request) erzeugen. 
-Die Vorgehensweise ist in der Regel auf den Webseiten der Zertifizierungsstelle beschrieben. Weitere Hinweise sind im Hostsharing Wiki beschrieben (http:// HS-wiki ssl).
-(Anmerkung: Existiert ein "Standard" in welchem Ordner wo die pem Datei im Paket gespeichet werden sollte (Apache, Paketadmin, User? / xyz00.pem,  xyz00.chain.pem)
+Die Vorgehensweise ist in der Regel auf den Webseiten der Zertifizierungsstelle beschrieben. Weitere Hinweise sind im Hostsharing Wiki beschrieben <https://wiki.hostsharing.net/index.php?title=SSL>_.
 
-Für die Aktivierung des Zertifikates wird ein Auftrag an service@hostsharing.net mit der Bitte um Aktivierung gesendet.
+Für die Aktivierung des Zertifikates wird ein Auftrag an service@hostsharing.net gesendet.
