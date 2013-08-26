@@ -15,7 +15,7 @@ diese zeigen und welches Mailsystem für die Domain zuständig ist. Das Standard
 
 Das expandierte Standardzonefile
 --------------------------------
-..highlight\:\: console
+..highlight:: console
 
 $TTL 6H
 example.com. IN SOA h00.hostsharing.net. hostmaster.hostsharing.net. (
