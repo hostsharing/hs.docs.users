@@ -16,8 +16,6 @@ Datenbank-Systeme haben eine eigene User-Verwaltung und sind unabhängig von der
 
 Die folgende Hierarchie gliedert sich in absteigender Reihenfolge.
 
-TODO: zeichen und längenbeschränkung der usernamen.
-
 Mitglied 
 ========
 
@@ -46,7 +44,7 @@ Domainbestellsystem
 Rolle
 -----
 
-- Verwaltung von Domains im externen Verwaltungstool für Domains.
+- Verwaltung von Domains im externen Verwaltungstool.
 
 Paket-Admin
 ===========
@@ -61,7 +59,7 @@ Paket-Admin
 Rolle
 -----
 
-- verzowaltet ein Web-Paket, seine User, Dienste und Domains. 
+- verwaltet ein Web-Paket, seine User, Dienste und Domains. 
 
 Rechte
 ------
