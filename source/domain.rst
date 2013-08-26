@@ -2,13 +2,13 @@
 Domain
 ======
 
-:Authors: - Uwe Müeller
-:Date: 2013-03-01
+:Authors: - Uwe Müller
+:Date: 2013-26-08
 
 Domain-Aktionen
 ---------------
 
-Bei Hostsharing sind folgende Aktionen mit Domains möglich:
+Folgende Aktionen sind möglich:
  
 - Domainregistrierung/-transfer zu Hostsharing
 - Domainkündigung (Transfer zu einem anderen Provider)
@@ -16,12 +16,12 @@ Bei Hostsharing sind folgende Aktionen mit Domains möglich:
 - Domain/Subdomains neu zuordnen (Domain-Admin, Paketzuordnung ändern)
 - lokale Subdomains separat aufschalten
 - Domain löschen
-- eigene Verwaltung der Zonefiles
+- Verwaltung der Zonefiles
 
 Domainverwaltung
 ----------------
 
-Die Domainverwaltung  ist in zwei Bereiche aufgeteilt:
+Die Domainverwaltung  ist in zwei Aufgabenbereiche geteilt:
 
 - Domaineinrichtung und -konfiguration.
   Die Einrichtung und Konfiguration wird mit HSadmin auf der shell (http:// hsadmin-shell)
