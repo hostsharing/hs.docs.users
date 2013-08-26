@@ -19,8 +19,7 @@ Das expandierte Standardzonefile
 
 $TTL 6H
  example.com. IN SOA h00.hostsharing.net. hostmaster.hostsharing.net. (
-                1303649373      ; serial secs since Jan 1 1970
-
+                1303649373      ; serial secs since Jan 1 1970  
                 6H              ; refresh (>=10000)
 
                 1H              ; retry (>=1800)
