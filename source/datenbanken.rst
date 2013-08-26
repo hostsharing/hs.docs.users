@@ -25,12 +25,6 @@ Webfrontend
 MySQL https://phpmyadmin.hostsharing.net/current .
 PostgesSQL https://phppgadmin.hostsharing.net/current .
 
-Dokumentation
--------------
-
-MySQL: http://dev.mysql.com/doc/. 
-PostgresSQL: https://phppgadmin.hostsharing.net/current .
-
 Datenbankuser
 -------------
 
