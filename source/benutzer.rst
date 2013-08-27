@@ -77,7 +77,7 @@ alle Rechte eines Domain-Admin und folgende zusätzliche Rechte:
 
 Domainbestellungen siehe Domainbestellungen
 
-Domain-Admin
+:Domain-Admin:
 ============
 
 - wird durch den Paket-Admin angelegt
