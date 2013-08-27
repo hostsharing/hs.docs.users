@@ -1,13 +1,15 @@
-MySQL PostgresSQL
-=================
+Datenbanken
+===========
 
-:Authors: - Uwe Müeller
+:Authors: - Uwe Müller
 :Date: 2013-03-01
+
 
 
 Jeder Host hat seinen eigenen MySQL und PostgresSQL Datenbankserver. 
 
-Zugriff MySQL
+Zugriff
+MySQL
 -------------
 
 - über den Hostnamen localhost
