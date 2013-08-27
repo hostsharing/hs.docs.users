@@ -77,10 +77,10 @@ alle Rechte eines Domain-Admin und folgende zusätzliche Rechte:
 
 Domainbestellungen siehe Domainbestellungen
 
-:Domain-Admin:
+Domain-Admin
 ============
 
-- wird durch den Paket-Admin angelegt
+- wird durch den :Paket-Admin: angelegt
 - hat eine reguläre Shell (z.B. "/bin/bash")
 - hat eine Verzeichnisstruktur unterhalb ~/doms/
 - hat einen E-Mail Account
