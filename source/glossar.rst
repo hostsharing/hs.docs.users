@@ -9,34 +9,34 @@ Glossar
 
 .. glossary::
    
-   :Benutzer:
-        Benutzer sind Unix-, shell-, ftp-, E-Mail-User.
+   Benutzer
+    Benutzer sind Unix-, shell-, ftp-, E-Mail-User.
 
-   :Buildout:
+   Buildout
     `zc.buildout <http://pypi.python.org/pypi/zc.buildout/1.5.2/>`_ ist ein
     Werkzeug zur Konfigurationsverwaltung von Softwareumgebungen.
 
     Buildout bietet u.a. Download Cache, automatisierte Updates sowie eine
     Python-API für die Installation von Eggs und Scripts.
 
-   :Domainadmin:
-        Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domainadmin.
+   Domainadmin
+     Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domainadmin.
 
-   :E-Mail-Aliases:
-        Virtuelle E-Mailempfänger für spezielle Aufgaben.
+   E-Mail-Aliases
+     Virtuelle E-Mailempfänger für spezielle Aufgaben.
    
-   :Hive:
-        Bezeichnet eine virtuelle Maschine.
+   Hive
+     Bezeichnet eine virtuelle Maschine.
 
-   :Host:
-        Bezeichnet eine physikalische Maschine.
+   Host
+     Bezeichnet eine physikalische Maschine.
 
-   :HSadmin:
-        Verwaltungstool der Hostsharing eG.
+   HSadmin
+    Verwaltungstool der Hostsharing eG.
 
-   :Mitgliedsaccount:
-        Account zur Verwaltung der Mitgliedschaft in der Genossenschaft.     
+   Mitgliedsaccount
+    Account zur Verwaltung der Mitgliedschaft in der Genossenschaft.     
 
-   :Paketadmin:
-        Der Administrator eines Paketes.  
+   Paketadmin
+    Der Administrator eines Paketes.  
 
