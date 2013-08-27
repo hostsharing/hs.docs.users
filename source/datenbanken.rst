@@ -3,9 +3,7 @@ Datenbanken
 ===========
 
 :Authors: - Uwe Müller
-:Date: 2013-03-01
-
-
+:Date: 2013-27-08
 
 
 Allgemein
