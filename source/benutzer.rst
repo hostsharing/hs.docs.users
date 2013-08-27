@@ -80,7 +80,7 @@ Domainbestellungen siehe Domainbestellungen
 Domain-Admin
 ============
 
-- wird durch den :Paket-Admin: angelegt
+- wird durch den Paket-Admin angelegt
 - hat eine reguläre Shell (z.B. "/bin/bash")
 - hat eine Verzeichnisstruktur unterhalb ~/doms/
 - hat einen E-Mail Account
@@ -88,11 +88,11 @@ Domain-Admin
 Rolle
 ----- 
 
-Verwalter seiner Domain(s)
+Verwalter seiner Domain(s):
 
 - Sub-Domains aufschalten
-- Dateien und Verzeichnisse anlegen oder ändern
-
+- Dateien und Verzeichnisse
+  anlegen oder ändern
 
 Rechte
 ------
@@ -101,13 +101,11 @@ Rechte
 - Sub-Domains anlegen
 - Zonen-Daten einer Domain bearbeiten.
 
-
 User ohne Shell
 ===============
 
 - wird durch den Paket-Admin angelegt,
 - hat keine Shell (das Programm "passwd" wird an Stelle einer Shell gestartet).
-
 
 Rolle
 -----
@@ -117,8 +115,7 @@ Rolle
 Rechte
 ------
 
-- es kann nur das Passwort geändert werden.
-
+- nur Passwortänderung möglich.
 
 Datenbank-User
 ==============
