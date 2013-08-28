@@ -206,4 +206,4 @@ Zur Überprüfung von Änderungen am Zonefile sollte immer die Seriennummer in d
 Das eigene Zonefile deaktivieren/zurücksetzen
 ---------------------------------------------
 
-Im Verzeichnis ~/doms/example.com/etc/ das vorhandene Zonefile (pri.example.com) leeren (0 Bytes). Das leere Zonefile wird gelöscht und es gilt das Standartzonefile. 
+Im Verzeichnis ~/doms/example.com/etc/ das vorhandene Zonefile (pri.example.com) leeren (0 Bytes). Das leere Zonefile wird durch einen Robot gelöscht und es gilt das Standardzonefile. 
