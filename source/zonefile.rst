@@ -40,8 +40,7 @@ Das expandierte Standardzonefile
 
 
 
-Eigenes Z
-onefile
+Eigenes Zonefile
 ---------------- 
 
 Es können für Domains/Subdomains jeweils eigene Zonefiles angelegt werden, in der Regel ist dies bei folgenden
