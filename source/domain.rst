@@ -5,28 +5,30 @@ Domain
 :Authors: - Uwe Müller
 :Date: 2013-26-08
 
-Domain-Aktionen
----------------
+Allgemein
+---------
 
-Folgende Aktionen sind möglich:
+Folgende Aufgaben sind in der Verwaltung einer Domain sind möglich:
  
-- Domainregistrierung/-transfer zu Hostsharing
-- Domainkündigung (Transfer zu einem anderen Provider)
-- Extern registrierte Domains/Subdomains bei Hostsharing aufschalten
-- Domain/Subdomains neu zuordnen (Domain-Admin, Paketzuordnung ändern)
+- Domainregistrierung
+- Domaintransfer zu Hostsharing
+- Extern registrierte Domains aufschalten
+- Extern registrierte Subdomains aufschalten
+- Domain neu zuordnen (Domain-Admin neu zuordnen oder Zuordnung zu einem Webpaket ändern)
+- Subdomain neu zuordnen (Domain-Admin neu zuordnen oder Zuordnung zu einem Webpaket ändern)
 - lokale Subdomains separat aufschalten
-- Domain löschen
 - Verwaltung der Zonefiles
-
+- Transfer zu einem anderen Provider
+- Domain löschen
+ 
 Domainverwaltung
 ----------------
 
 Die Domainverwaltung  ist in zwei Aufgabenbereiche geteilt:
 
 - Domaineinrichtung und -konfiguration.
-  Die Einrichtung und Konfiguration wird mit HSadmin auf der shell (http:// hsadmin-shell)
-  oder Alternativ im Webfrontend (http:// hsadmin webfrontend) durchgeführt.
-
+  Die Einrichtung und Konfiguration kann mit HSadmin auf der shell (http:// hsadmin-shell)
+  oder Alternativ im Webfrontend (http:// hsadmin webfrontend) durchgeführt werden.
 
 - Domain-Bestellsystem (http:// doku-domainbestellsystem)
   Zur Vergabe von Aufträgen (Registrierung, Kündigung, Transfer) an Domainregistrierungsstellen.
@@ -37,6 +39,7 @@ Die Domainverwaltung  ist in zwei Aufgabenbereiche geteilt:
   wie z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain.
   Die Anzahl der pro Tag möglichen Registrierungen ist auf 25 Domains beschränkt, um den Nuzter vor Mißbrauch zu schützen.
 
+  
 Paket-Subdomain xyz00.hostsharing.net
 -------------------------------------
 
