@@ -37,6 +37,6 @@ Glossar
    Mitgliedsaccount
     Account zur Verwaltung der Mitgliedschaft in der Genossenschaft.     
 
-   Paketadmin
+   Paket-Admin
     Der Administrator eines Paketes.  
 
