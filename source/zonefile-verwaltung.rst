@@ -39,6 +39,7 @@ Das expandierte Standardzonefile
         *.example.com.  IN      A       83.223.95.160
 
 
+
 Eigenes Zonefile
 ---------------- 
 
@@ -47,8 +48,7 @@ Anforderungen notwendig:
 
 - Domain oder Subdomain extern Aufschalten
 - Dienste extern aufschalten (z.B. E-Mail)
-
-
+  
 In eigenen Zonenfiles müssen Platzhalter verwendet werden. Diese Platzhalter ermöglichen
 das Ändern der DNS-Konfiguration seitens Hostsharing, ohne das der Domain-Admin sein
 Zonefile anpassen muss. Das Zonefile wird im Verzeichnis ~/doms/example.com/etc/pri.example.com abgelegt und . 
@@ -58,61 +58,64 @@ einige Minuten nach dem Speichern automatisch aktiv.
 
 Platzhalter
 -----------
-Platzhalter		expandiert zu 
-{DEFAULT_ZONEFILE}	{HEADER}
-			{SOA_RR}
-			{NS_RR}
-			{MX_RR}	
-			{A_RR}
-			{WILDCARD_MX_RR}
-			{WILDCARD_A_RR}
- 
-{HEADER}		$TTL {TTL}
-		
-{SOA_RR}		{DOM_HOSTNAME}. IN SOA {SOA_HOSTNAME}. {SOA_EMAIL}. (
-			{SIO}		; serial secs since Jan 1 1970
-			{REFRESH}	; refresh (>=10000)
-			{RETRY}		; retry (>=1800)
-			{EXPIRE}	; expire
-			{MINIMUM}	; minimum
-			)	
+::
+        
+        Platzhalter             expandiert zu
 
-{NS_RR}			{DOM_HOSTNAME}.		IN	NS	{DNS1_HOSTNAME}.
-			{DOM_HOSTNAME}.		IN	NS	{DNS2_HOSTNAME}.
-			{DOM_HOSTNAME}.		IN	NS	{DNS3_HOSTNAME}.
+        {DEFAULT_ZONEFILE}	{HEADER}
+        			{SOA_RR}
+                                {NS_RR}
+                                {MX_RR}	
+                                {A_RR}
+                                {WILDCARD_MX_RR}
+                                {WILDCARD_A_RR}
 
-{MX_RR} 		{DOM_HOSTNAME}.		IN	MX	30 {MX1_HOSTNAME}.
-			{DOM_HOSTNAME}.		IN	MX	30 {MX2_HOSTNAME}.
-			{DOM_HOSTNAME}.		IN	MX	30 {MX3_HOSTNAME}.
+        {HEADER}		$TTL {TTL}
+        
+        {SOA_RR}		{DOM_HOSTNAME}. IN SOA {SOA_HOSTNAME}. {SOA_EMAIL}. (
+                                        {SIO}		; serial secs since Jan 1 1970
+                                        {REFRESH}	; refresh (>=10000)
+                                        {RETRY}		; retry (>=1800)
+                                        {EXPIRE}	; expire
+                                        {MINIMUM}	; minimum
+                                )	
 
-{A_RR}			{DOM_HOSTNAME}.		IN	A	{DOM_IPNUMBER}
+        {NS_RR}			{DOM_HOSTNAME}.		IN	NS	{DNS1_HOSTNAME}.
+                                {DOM_HOSTNAME}.		IN	NS	{DNS2_HOSTNAME}.
+                                {DOM_HOSTNAME}.		IN	NS	{DNS3_HOSTNAME}.
 
-{WILDCARD_MX_RR} 	*.{DOM_HOSTNAME}.	IN	MX	30 {MX1_HOSTNAME}.
-			*.{DOM_HOSTNAME}.	IN	MX	30 {MX2_HOSTNAME}.
-			*.{DOM_HOSTNAME}.	IN	MX	30 {MX3_HOSTNAME}.
+        {MX_RR} 		{DOM_HOSTNAME}.		IN	MX	30 {MX1_HOSTNAME}.
+                                {DOM_HOSTNAME}.		IN	MX	30 {MX2_HOSTNAME}.
+                                {DOM_HOSTNAME}.		IN	MX	30 {MX3_HOSTNAME}.
 
-{WILDCARD_A_RR} 	*.{DOM_HOSTNAME}.	IN	A	{DOM_IPNUMBER}
+        {A_RR}			{DOM_HOSTNAME}.		IN	A	{DOM_IPNUMBER}
+
+        {WILDCARD_MX_RR} 	*.{DOM_HOSTNAME}.	IN	MX	30 {MX1_HOSTNAME}.
+                                *.{DOM_HOSTNAME}.	IN	MX	30 {MX2_HOSTNAME}.
+                                *.{DOM_HOSTNAME}.	IN	MX	30 {MX3_HOSTNAME}.
+
+        {WILDCARD_A_RR} 	*.{DOM_HOSTNAME}.	IN	A	{DOM_IPNUMBER}
 
 
-{TTL} 			6H
-{SOA_HOSTNAME} 		<HIVE>.hostsharing.net
-{SOA_EMAIL}		hostmaster.hostsharing.net
-{SIO} 			<SEKUNDEN>
-{REFRESH} 		6H
-{RETRY} 		1H
-{EXPIRE} 		1W
-{MINIMUM} 		1H
+        {TTL} 			6H
+        {SOA_HOSTNAME} 		<HIVE>.hostsharing.net
+        {SOA_EMAIL}		hostmaster.hostsharing.net
+        {SIO} 			<SEKUNDEN>
+        {REFRESH} 		6H
+        {RETRY} 		1H
+        {EXPIRE} 		1W
+        {MINIMUM} 		1H
 
-{DNS1_HOSTNAME} 	dns1.hostsharing.net
-{DNS2_HOSTNAME} 	dns2.hostsharing.net
-{DNS3_HOSTNAME} 	dns3.hostsharing.net
+        {DNS1_HOSTNAME} 	dns1.hostsharing.net
+        {DNS2_HOSTNAME} 	dns2.hostsharing.net
+        {DNS3_HOSTNAME} 	dns3.hostsharing.net
 
-{MX1_HOSTNAME} 		mailin1.hostsharing.net
-{MX2_HOSTNAME} 		mailin2.hostsharing.net
-{MX3_HOSTNAME} 		mailin3.hostsharing.net
+        {MX1_HOSTNAME} 		mailin1.hostsharing.net
+        {MX2_HOSTNAME} 		mailin2.hostsharing.net
+        {MX3_HOSTNAME} 		mailin3.hostsharing.net
 
-{DOM_HOSTNAME} 		<FQDN>
-{DOM_IPNUMBER}  	<IP>
+        {DOM_HOSTNAME} 		<FQDN>
+        {DOM_IPNUMBER}  	<IP>
 
 
 Folgende Werte werden von Hostsharing verwaltet:
@@ -122,65 +125,69 @@ Folgende Werte werden von Hostsharing verwaltet:
 <IP> 		für die der Domain zugewiesene IP-Adresse
 
 
+
 Expansion der Platzhalter
 -------------------------
 
 Der Platzhalter für das Gesamtzonefile {DEFAULT_ZONFILE} wird in drei Schritten folgermaßen expandiert. Zunächst werden die komplexen Platzhalter ersetzt.
-{DOM_HOSTNAME}. IN SOA {SOA_HOSTNAME}. {SOA_EMAIL}. (
-	{SIO}		; serial secs since Jan 1 1970
-	{REFRESH}	; refresh (>=10000)
-	{RETRY}		; retry (>=1800)
-	{EXPIRE}	; expire
-	{MINIMUM}	; minimum
-	)
+::
 
-{DOM_HOSTNAME}.		IN	NS	{DNS1_HOSTNAME}.
-{DOM_HOSTNAME}.		IN	NS	{DNS2_HOSTNAME}.
-{DOM_HOSTNAME}.		IN	NS	{DNS3_HOSTNAME}.
+        {DOM_HOSTNAME}. IN SOA {SOA_HOSTNAME}. {SOA_EMAIL}. (
+                {SIO}           ; serial secs since Jan 1 1970
+                {REFRESH}       ; refresh (>=10000)
+                {RETRY}		; retry (>=1800)
+                {EXPIRE}	; expire
+        	{MINIMUM}	; minimum
+        	)
+        {DOM_HOSTNAME}.		IN	NS	{DNS1_HOSTNAME}.
+        {DOM_HOSTNAME}.		IN	NS	{DNS2_HOSTNAME}.
+        {DOM_HOSTNAME}.		IN	NS	{DNS3_HOSTNAME}.
 
-{DOM_HOSTNAME}.		IN	MX	30 {MX1_HOSTNAME}.
-{DOM_HOSTNAME}.		IN	MX	30 {MX2_HOSTNAME}.
-{DOM_HOSTNAME}.		IN	MX	30 {MX3_HOSTNAME}.
+        {DOM_HOSTNAME}.		IN	MX	30 {MX1_HOSTNAME}.
+        {DOM_HOSTNAME}.		IN	MX	30 {MX2_HOSTNAME}.
+        {DOM_HOSTNAME}.		IN	MX	30 {MX3_HOSTNAME}.
 
-{DOM_HOSTNAME}.		IN	A	{DOM_IPNUMBER}
+        {DOM_HOSTNAME}.		IN	A	{DOM_IPNUMBER}
 
-*.{DOM_HOSTNAME}.	IN	MX	30 {MX1_HOSTNAME}.
-*.{DOM_HOSTNAME}.	IN	MX	30 {MX2_HOSTNAME}.
-*.{DOM_HOSTNAME}.	IN	MX	30 {MX3_HOSTNAME}.
+        *.{DOM_HOSTNAME}.	IN	MX	30 {MX1_HOSTNAME}.
+        *.{DOM_HOSTNAME}.	IN	MX	30 {MX2_HOSTNAME}.
+        *.{DOM_HOSTNAME}.	IN	MX	30 {MX3_HOSTNAME}.
 
-*.{DOM_HOSTNAME}.	IN	A	{DOM_IPNUMBER}
+        *.{DOM_HOSTNAME}.	IN	A	{DOM_IPNUMBER}
 
 Anschließend werden die atomaren Platzhalter ersetzt.
-$TTL 6H
+::
+        
+        $TTL 6H
 
-<FQDN>. IN SOA <HIVE>.hostsharing.net. hostmaster.hostsharing.net. (
-	<SEKUNDEN>	; serial secs since Jan 1 1970
-	6H		; refresh (>=10000)
-	1H		; retry (>=1800)
-	1W		; expire
-	1H		; minimum
-	)
+        <FQDN>. IN SOA <HIVE>.hostsharing.net. hostmaster.hostsharing.net. (
+                <SEKUNDEN>	; serial secs since Jan 1 1970
+                6H		; refresh (>=10000)
+                1H		; retry (>=1800)
+                1W		; expire
+                1H		; minimum
+                )
 
-<FQDN>.		IN	NS	dns1.hostsharing.net.
-<FQDN>.		IN	NS	dns2.hostsharing.net.
-<FQDN>.		IN	NS	dns3.hostsharing.net.
+        <FQDN>.		IN	NS	dns1.hostsharing.net.
+        <FQDN>.		IN	NS	dns2.hostsharing.net.
+        <FQDN>.		IN	NS	dns3.hostsharing.net.
 
-<FQDN>.		IN	MX	30 mail1.hostsharing.net.
-<FQDN>.		IN	MX	30 mail2.hostsharing.net.
-<FQDN>.		IN	MX	30 mail3.hostsharing.net.
+        <FQDN>.		IN	MX	30 mail1.hostsharing.net.
+        <FQDN>.		IN	MX	30 mail2.hostsharing.net.
+        <FQDN>.		IN	MX	30 mail3.hostsharing.net.
 
-<FQDN>.		IN	A	<IP>
+        <FQDN>.		IN	A	<IP>
 
-*.<FQDN>.	IN	MX	30 mail1.hostsharing.net.
-*.<FQDN>.	IN	MX	30 mail2.hostsharing.net.
-*.<FQDN>.	IN	MX	30 mail3.hostsharing.net.
+        *.<FQDN>.	IN	MX	30 mail1.hostsharing.net.
+        *.<FQDN>.	IN	MX	30 mail2.hostsharing.net.
+        *.<FQDN>.	IN	MX	30 mail3.hostsharing.net.
 
-*.<FQDN>.	IN	A	<IP>
+        *.<FQDN>.	IN	A	<IP>
 
 Kontrolle der Änderungen
 ------------------------
 
-Die Logdatei named.log ist lesbar um Änderungen am Zonefile überprüfen zu können. Dies kann folgendermaßen geschehen:
+Durchgeführte Änderungen am Zonefile können mit Hilfe der Logdatei named.log überprüft werden:
 
 .. code-block:: console
    
