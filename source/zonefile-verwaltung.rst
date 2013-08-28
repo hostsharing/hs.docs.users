@@ -3,7 +3,7 @@ Zonefile
 ========
 
 :Authors: - Uwe Müller
-:Date: 2013-27-08
+:Date: 2013-28-08
 
 [Anmerkung: Bild-skizze(n) einfügen]
 
@@ -60,7 +60,7 @@ Platzhalter
 -----------
 ::
         
-        **Platzhalter**             **expandiert zu**
+        Platzhalter             expandiert zu
 
         {DEFAULT_ZONEFILE}	{HEADER}
         			{SOA_RR}
