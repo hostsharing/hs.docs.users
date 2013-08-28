@@ -121,9 +121,10 @@ Platzhalter
 Folgende Werte werden von Hostsharing verwaltet:
 
 <Sekunden> 	für die Anzahl der Sekunden, welche seit dem 01.01.1970 vergangen sind
-<FQDN> 		für den vollständigen, qualifizierten Domainnamen der Domain
-<IP> 		für die der Domain zugewiesene IP-Adresse
 
+<FQDN> 		für den vollständigen, qualifizierten Domainnamen der Domain
+
+<IP> 		für die der Domain zugewiesene IP-Adresse
 
 
 Expansion der Platzhalter
