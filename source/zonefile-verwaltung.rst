@@ -60,7 +60,7 @@ Platzhalter
 -----------
 ::
         
-        Platzhalter             expandiert zu
+        **Platzhalter**             **expandiert zu**
 
         {DEFAULT_ZONEFILE}	{HEADER}
         			{SOA_RR}
