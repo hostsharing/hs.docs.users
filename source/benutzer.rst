@@ -27,7 +27,7 @@ Mitglied
 - technisch unabhängig von anderen Benutzern
 
 Rolle
-=====
+-----
 
 - mit HSAdmin alle Pakete verwalten die dem Mitglied zugeordnet sind
 - kann die Rechte eines Paket-Admins annehmen
@@ -52,8 +52,7 @@ Paket-Admin
 - ist Initial vorhanden.
 - der Name ist xyz00 (http:// pakete).
 - hat eine reguläre Shell (z.B. "/bin/bash")
-- weitere User beginnen mit dem Paket-Präfix xyz00-, gefolgt von einer individuell zu vergebenen
-  Zeichenfolge.
+- weitere User beginnen mit dem Paket-Präfix xyz00-, gefolgt von einer individuell zu vergebenen Zeichenfolge.
 - hat einen E-Mail Account
 
 Rolle
