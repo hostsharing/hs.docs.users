@@ -34,12 +34,18 @@ Die Domainverwaltung  ist in zwei Aufgabenbereiche geteilt:
   Zur Vergabe von Aufträgen (Registrierung, Kündigung, Transfer) an Domainregistrierungsstellen.
 
   Die Vergabe von Aufträgen an Domainregistrierungsstellen ist nur über das Webfrontend möglich.
-  Der Nutzer ist für die Aktionen im Domainbestellsystem juristisch eigenverantwortlich.  Über das Webfrontend
-  sind, abhängig von der jeweiligen Domainregistrierungsstelle, sämtliche  Aktionen möglich
-  wie z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain.
-  Die Anzahl der pro Tag möglichen Registrierungen ist auf 25 Domains beschränkt, um den Nuzter vor Mißbrauch zu schützen.
+  Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich, wie z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain.
 
-  
+  Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt, um den Nuzter vor Mißbrauch zu schützen. Auf Anfrage (E-Mail an service@hostsharing.net) kann das Limit erhöht werden.
+
+:: 
+
+  Hinweis
+  ```````
+        Der Nutzer ist für sämtliche Aktivitäten im Domainbestellsystem juristisch eigenverantwortlich. 
+
+
+
 Paket-Subdomain xyz00.hostsharing.net
 -------------------------------------
 
