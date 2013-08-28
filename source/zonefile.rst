@@ -50,7 +50,7 @@ Anforderungen notwendig:
 - Dienste extern aufschalten (z.B. E-Mail)
   
 In eigenen Zonenfiles müssen Platzhalter verwendet werden. Diese Platzhalter ermöglichen das Ändern der DNS-Konfiguration seitens Hostsharing, ohne das der Domain-Admin sein
-Zonefile anpassen muss. Das Zonefile wird im Verzeichnis :file:`~/doms/example.com/etc/pri.example.com` abgelegt und einige Minuten nach dem Speichern automatisch aktiv.
+Zonefile anpassen muss. Das Zonefile wird im Verzeichnis ``~/doms/example.com/etc/pri.example.com`` abgelegt und einige Minuten nach dem Speichern automatisch aktiv.
 
         .. warning::
           
