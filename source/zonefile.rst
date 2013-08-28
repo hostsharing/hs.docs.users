@@ -49,10 +49,18 @@ Anforderungen notwendig:
 - Domain oder Subdomain extern Aufschalten
 - Dienste extern aufschalten (z.B. E-Mail)
   
-In eigenen Zonenfiles müssen Platzhalter verwendet werden. Diese Platzhalter ermöglichen
-das Ändern der DNS-Konfiguration seitens Hostsharing, ohne das der Domain-Admin sein
-Zonefile anpassen muss. Das Zonefile wird im Verzeichnis ~/doms/example.com/etc/pri.example.com abgelegt und . 
-einige Minuten nach dem Speichern automatisch aktiv.
+In eigenen Zonenfiles müssen Platzhalter verwendet werden. Diese Platzhalter ermöglichen das Ändern der DNS-Konfiguration seitens Hostsharing, ohne das der Domain-Admin sein
+Zonefile anpassen muss. Das Zonefile wird im Verzeichnis 
+
+$ ~/doms/example.com/etc/pri.example.com 
+
+abgelegt und einige Minuten nach dem Speichern automatisch aktiv.
+
+        .. warning::
+          
+                Das nicht sachgemäße Erstellen oder Fehler im eigenen Zonefile kann zur Nichterreichbarkeit der Domain und zum Verlust von E-Mails führen!
+
+
 [http://wiki.hostsharing.net beispiele eigenes zonefile]
 
 
