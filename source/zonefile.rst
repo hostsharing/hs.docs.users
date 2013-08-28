@@ -52,13 +52,11 @@ Anforderungen notwendig:
 In eigenen Zonenfiles müssen Platzhalter verwendet werden. Diese Platzhalter ermöglichen das Ändern der DNS-Konfiguration seitens Hostsharing, ohne das der Domain-Admin sein
 Zonefile anpassen muss. Das Zonefile wird im Verzeichnis ``~/doms/example.com/etc/pri.example.com`` abgelegt und einige Minuten nach dem Speichern automatisch aktiv.
 
-        .. Warnung::
+        .. warning::
           
                 Das nicht sachgemäße Erstellen oder Fehler im eigenen Zonefile können zur Nichterreichbarkeit der Domain und zum Verlust von E-Mails führen!
 
-
-
-`Beispiele für eigene Zonefiles <https://wiki.hostsharing.net/index.php?title=Simple_Zonefile_Howto>`_
+Im Wiki der Mitglieder finden sich `Beispiele für eigene Zonefiles <https://wiki.hostsharing.net/index.php?title=Simple_Zonefile_Howto>`_ .
 
 
 Platzhalter
