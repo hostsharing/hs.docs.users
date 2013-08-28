@@ -200,4 +200,10 @@ Zur Überprüfung von Änderungen am Zonefile sollte immer die Seriennummer in d
 .. code-block:: console
 
    $ dig -t SOA @dns1 example.com | grep '^example.com.*SOA' | awk '{ print $7 }'
-   $ grep serial /etc/bind/pri.example.com | awk '{ print $1 }'  
+   $ grep serial /etc/bind/pri.example.com | awk '{ print $1 }' 
+
+
+Das eigene Zonefile deaktivieren/zurücksetzen
+---------------------------------------------
+
+Im Verzeichnis ~/doms/example.com/etc/ das vorhandene Zonefile (pri.example.com) leeren (0 Bytes). Das leere Zonefile wird gelöscht und es gilt das Standartzonefile. 
