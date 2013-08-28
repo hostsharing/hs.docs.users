@@ -40,7 +40,8 @@ Das expandierte Standardzonefile
 
 
 
-Eigenes Zonefile
+Eigenes Z
+onefile
 ---------------- 
 
 Es können für Domains/Subdomains jeweils eigene Zonefiles angelegt werden, in der Regel ist dies bei folgenden
@@ -123,11 +124,11 @@ Platzhalter
 
 Folgende Werte werden von Hostsharing verwaltet:
 
-<Sekunden> 	für die Anzahl der Sekunden, welche seit dem 01.01.1970 vergangen sind
+``<Sekunden>`` 	für die Anzahl der Sekunden, welche seit dem 01.01.1970 vergangen sind
 
-<FQDN> 		für den vollständigen, qualifizierten Domainnamen der Domain
+``<FQDN>`` 	für den vollständigen, qualifizierten Domainnamen der Domain
 
-<IP> 		für die der Domain zugewiesene IP-Adresse
+``<IP>``	für die der Domain zugewiesene IP-Adresse
 
 
 Expansion der Platzhalter
@@ -209,4 +210,4 @@ Zur Überprüfung von Änderungen am Zonefile sollte immer die Seriennummer in d
 Das eigene Zonefile deaktivieren/zurücksetzen
 ---------------------------------------------
 
-Im Verzeichnis ~/doms/example.com/etc/ das vorhandene Zonefile (pri.example.com) leeren (0 Bytes). Das leere Zonefile wird durch einen Robot gelöscht und es gilt das Standardzonefile. 
+Im Verzeichnis ``~/doms/example.com/etc/`` das vorhandene Zonefile (pri.example.com) leeren (0 Bytes). Das leere Zonefile wird durch einen Robot gelöscht und es gilt das Standardzonefile. 
