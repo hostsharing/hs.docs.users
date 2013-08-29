@@ -7,7 +7,7 @@ E-Mail
 
 Allgemein
 ---------
-Jeder User-Account besitzt ein E-Mail-Konto und kann E-Mail empfangen und senden. E-Mails werden unterhalb des Verzeichnisses ``~/Maildir abgelegt``. Der Name des Ordners ``Maildir`` kann nicht verändert werden.
+Jeder Account im Webpaket besitzt ein E-Mail-Konto und kann E-Mail empfangen und senden. E-Mails werden unterhalb des Verzeichnisses ``~/Maildir`` abgelegt. Der Name des Ordners ``Maildir`` kann nicht verändert werden.
 Jedes E-Mail-Konto ist POP3 und IMAP fähig. 
 
 Hostsharing bietet folgende Konfigurationsmöglichkeiten:
@@ -22,8 +22,8 @@ Hostsharing bietet folgende Konfigurationsmöglichkeiten:
 - Es können Mailinglisten eingerichtet werden.
 
 
-Der Zugriff auf das Mailkonto erfolgt über einen beliebigen E-Mailclient oder über das zentral installierte `Webmail <http://webmail.hostsharing.net>`_ . 
-Informationen zum installierten Webmailclient und zur Einrichtung findet im Wiki der Mitglieder: `Roundcube <https://wiki.hostsharing.net/index.php?title=Webmail>`_ . 
+Der Zugriff auf das E-Mail-Konto erfolgt über einen beliebigen E-Mail-Client oder über die zentrale `Webmail-Installation <http://webmail.hostsharing.net>`_ . 
+Informationen zur zentralen Webmail-Installation und zur Einrichtung ist im Wiki unter `Webmail <https://wiki.hostsharing.net/index.php?title=Webmail>`_ zu finden. 
 
 Posteingangsserver
 ------------------
