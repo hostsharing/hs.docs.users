@@ -58,10 +58,10 @@ Unsere Mail-Server akzeptieren E-Mails bis zu einer maximalen Größe von 128 MB
 
 
 Mailrouting
-===========
+-----------
 
 Von Extern eingehende E-Mails
------------------------------
+=============================
 
 Eingehende E-Mails, die von extern an bei Hostsharing aufgeschalteten Domains gesendet werden, werden von den redundant ausgelegten Maileingangservern 
 
@@ -71,11 +71,12 @@ Eingehende E-Mails, die von extern an bei Hostsharing aufgeschalteten Domains ge
 
 angenommen.
 
-* Extern --> mailin(1,2,3)--> xyz00.hostsharing.net --> IMAP, POP3, Webmail
+* Extern --> mailin(1,2,3)-->
+  xyz00.hostsharing.net --> IMAP, POP3, Webmail
 
 
 Ausgehende E-Mails
-------------------
+==================
 
 Ausgehende E-Mails von externen Nutzern können ausschließlich über die Webpakete (xyz00.hostsharing.net) mit einer Authentifizierung über SMTP-Auth (Benutzername und Passwort) versand werden.   
 
