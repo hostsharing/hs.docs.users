@@ -78,9 +78,9 @@ angenommen.
 Ausgehende E-Mails
 ==================
 
-Ausgehende E-Mails von externen Nutzern können ausschließlich über die Webpakete (xyz00.hostsharing.net) mit einer Authentifizierung über SMTP-Auth (Benutzername und Passwort) versand werden.   
+Ausgehende E-Mails von externen Nutzern können ausschließlich über ein Webpaket (xyz00.hostsharing.net) mit einer Authentifizierung über SMTP-Auth (Benutzername und Passwort) versand werden.   
 
-* SMTP/Webmail --> xyz00.hostsharing.net --> mailout(1,2,3)] --> extern
+* SMTP/Webmail --> xyz00.hostsharing.net --> mailout(1,2,3) --> extern
 
 Webanwendungen versenden E-Mails über den lokalen Mailserver (``localhost``) 
 
