@@ -12,18 +12,18 @@ Jedes E-Mail-Konto ist POP3 und IMAP fähig.
 
 Hostsharing bietet folgende Konfigurationsmöglichkeiten:
 
-  - Anlegen und Löschen von E-Mailadressen
-  - Anlegen und Löschen von E-Mailaliasen
-  - Einrichtung von Weiterleitungen
-  - Automatisches Versenden einer E-Mail-Bestätigung (Vacation)
-  - Automatisches Filtern und Bearbeiten von E-Mails über Managesieve (http://wiki.managesieve) oder procmail (http:// wiki.procmail). 
-  - Mit Aliasen kann die Zustellung von Nachrichten in die Postfächer der Benutzer gesteuert werden.
-  - E-Mailkonten bei anderen Anbietern abfragen ( http://wiki.fetchmail).
-  - Es können Mailinglisten eingerichtet werden.
+- Anlegen und Löschen von E-Mailadressen
+- Anlegen und Löschen von E-Mailaliasen
+- Einrichtung von Weiterleitungen
+- Automatisches Versenden einer E-Mail-Bestätigung (Vacation)
+- Automatisches Filtern und Bearbeiten von E-Mails über Managesieve (http://wiki.managesieve) oder procmail (http:// wiki.procmail). 
+- Mit Aliasen kann die Zustellung von Nachrichten in die Postfächer der Benutzer gesteuert werden.
+- E-Mailkonten bei anderen Anbietern abfragen ( http://wiki.fetchmail).
+- Es können Mailinglisten eingerichtet werden.
 
 
-Der Zugriff auf das Mailkonto erfolgt über einen beliebigen E-Mailclient oder über das zentral installierte `Webmail <http://webmail.hostsharing.net>`_ . (http://wiki.webmail). 
-
+Der Zugriff auf das Mailkonto erfolgt über einen beliebigen E-Mailclient oder über das zentral installierte `Webmail <http://webmail.hostsharing.net>`_ . 
+Informationen zum installierten Webmailclient und zur Einrichtung findet im Wiki der Mitglieder: `Roundcube <https://wiki.hostsharing.net/index.php?title=Webmail>`_ . 
 
 Posteingangsserver
 ------------------
