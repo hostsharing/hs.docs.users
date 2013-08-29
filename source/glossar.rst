@@ -7,7 +7,7 @@ Glossar
           - Uwe Müller
 :Date: 2013-26-08
 
-.. glossary::
+.. glossary:: :sorted:
    
    Benutzer
     Benutzer sind Unix-, shell-, ftp-, E-Mail-User.
@@ -20,16 +20,16 @@ Glossar
     Python-API für die Installation von Eggs und Scripts.
 
    Domain-Admin
-     Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domain-Admin.
+    Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domain-Admin.
 
    E-Mail-Aliases
-     Virtuelle E-Mailempfänger für spezielle Aufgaben.
+    Virtuelle E-Mailempfänger für spezielle Aufgaben.
    
    Hive
-     Bezeichnet eine virtuelle Maschine.
+    Bezeichnet eine virtuelle Maschine.
 
    Host
-     Bezeichnet eine physikalische Maschine.
+    Bezeichnet eine physikalische Maschine.
 
    HSadmin
     Verwaltungstool der Hostsharing eG.
