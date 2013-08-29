@@ -63,9 +63,9 @@ Rolle
 Rechte
 ------
 
-alle Rechte eines Domain-Admin und folgende zusätzliche Rechte:
+alle Rechte eines :term:`Domain-Admin` und folgende zusätzliche Rechte:
 
-- Domains einem User (Domainadmin) des Pakets zuordnen,
+- Domains einem Benutzer (:term:`Domain-Admin`) des Pakets zuordnen,
 - Domains des Paketes administrieren,
 - User und Datenbanken einrichten, löschen und ändern,
 - kann die Rechte eines Users seines Paketes annehmen.
@@ -77,12 +77,14 @@ alle Rechte eines Domain-Admin und folgende zusätzliche Rechte:
 Domainbestellungen siehe Domainbestellungen
 
 Domain-Admin
+
 ============
 
 - wird durch den Paket-Admin angelegt
 - hat eine reguläre Shell (z.B. ``/bin/bash``)
 - hat eine Verzeichnisstruktur unterhalb ``~/doms/``
-- hat einen E-Mail-Account
+
+  - hat einen E-Mail-Account
 
 Rolle
 ----- 
