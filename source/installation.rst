@@ -26,7 +26,8 @@ Installation von hsdocs
 . Falls setuptools verlangt werden, sind diese zu installieren
    und der vorangegangene Schritt im Anschluss zu wiederholen
    ::
-    $ ../virtualenv/bin/pip install 'distribute>=0.7'
+
+        $ ../virtualenv/bin/pip install 'distribute>=0.7'
 
 . Erstellen der Ausgabe-Dateien
    ::
@@ -64,7 +65,7 @@ geschrieben werden::
     Installation von hsdocs
     =======================
 
-===============
+
 Kapitelstruktur
 ===============
 
@@ -77,6 +78,7 @@ Abschnitten enthalten:
 
 Hervorhebungen
 --------------
+
 
 Mit `Pygments <http://pygments.org/>`_ lassen sich Hervorhebungen in Sphinx
 angeben.
