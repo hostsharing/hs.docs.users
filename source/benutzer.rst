@@ -52,8 +52,8 @@ Paket-Admin
 - ist Initial vorhanden.
 - der Name ist xyz00 (http:// pakete).
 - hat eine reguläre Shell (z.B. "/bin/bash")
-- weitere User beginnen mit dem Paket-Präfix xyz00-, gefolgt von einer individuell zu vergebenen Zeichenfolge.
-- hat einen E-Mail Account
+- weitere User beginnen mit dem Paket-Präfix ``xyz00-``, gefolgt von einer individuell zu vergebenen Zeichenfolge.
+- hat einen E-Mail-Account
 
 Rolle
 -----
@@ -80,9 +80,9 @@ Domain-Admin
 ============
 
 - wird durch den Paket-Admin angelegt
-- hat eine reguläre Shell (z.B. "/bin/bash")
-- hat eine Verzeichnisstruktur unterhalb ~/doms/
-- hat einen E-Mail Account
+- hat eine reguläre Shell (z.B. ``/bin/bash``)
+- hat eine Verzeichnisstruktur unterhalb ``~/doms/``
+- hat einen E-Mail-Account
 
 Rolle
 ----- 
@@ -90,8 +90,7 @@ Rolle
 Verwalter seiner Domain(s):
 
 - Sub-Domains aufschalten
-- Dateien und Verzeichnisse
-  anlegen oder ändern
+- Dateien und Verzeichnisse anlegen oder ändern
 
 Rechte
 ------
@@ -100,11 +99,12 @@ Rechte
 - Sub-Domains anlegen
 - Zonen-Daten einer Domain bearbeiten.
 
+
 User ohne Shell
 ===============
 
 - wird durch den Paket-Admin angelegt,
-- hat keine Shell (das Programm "passwd" wird an Stelle einer Shell gestartet).
+- hat keine Shell (das Programm ``passwd`` wird an Stelle einer Shell gestartet).
 
 Rolle
 -----
