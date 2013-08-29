@@ -19,8 +19,8 @@ Glossar
     Buildout bietet u.a. Download Cache, automatisierte Updates sowie eine
     Python-API für die Installation von Eggs und Scripts.
 
-   Domainadmin
-     Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domainadmin.
+   Domain-Admin
+     Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domain-Admin.
 
    E-Mail-Aliases
      Virtuelle E-Mailempfänger für spezielle Aufgaben.
@@ -40,3 +40,5 @@ Glossar
    Paket-Admin
     Der Administrator eines Paketes.  
 
+   xyz00
+    Synonym für ein beliebiges Webpaket.       
