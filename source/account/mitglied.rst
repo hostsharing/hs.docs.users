@@ -5,8 +5,8 @@ Mitglied
 :Authors: - Uwe Müller
 :Date: 2013-31-08
 
-Mitglied
-========
+Allgemein
+=========
 
      * Initial vorhanden
      * der Name ist xyz
