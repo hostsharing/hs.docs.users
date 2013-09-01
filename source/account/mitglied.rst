@@ -28,7 +28,7 @@ Rechte
 ======
 
 * Verwaltung aller Webpakete die dem Mitglied zugeordnet sind
-* kann die Rechte eines Paket-Admins annehmen
+* kann die Rechte eines :doc:`Paket-Admins <paket-admin>` annehmen
 * Rechnungen herunterladen
 * Änderung der Mitgliederdaten
 
