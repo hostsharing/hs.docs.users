@@ -8,7 +8,7 @@ Mitglied
 Übersicht
 =========
 
-Die Rolle *Mitglied* ist abhängig von der Mitgliedschaft und wird bei beim Eintritt in die Genossenschaft angelegt. Die Rolle *Mitglied* ist technisch unabhängig von anderen Rollen.
+Die Rolle *Mitglied* ist abhängig von der Mitgliedschaft und wird bei beim Eintritt in die Genossenschaft angelegt. Die Rolle ist technisch unabhängig von anderen Rollen.
 Nach Austritt aus der Genossenschaft wird die Rolle gelöscht. 
 
 
