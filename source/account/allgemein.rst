@@ -21,7 +21,6 @@ Die Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) erfolgt du
 * :doc:`Domain-Account <domainaccount>`
 
 im externen Verwaltungstool. 
-Datenbank-Systeme haben eine eigene User-Verwaltung und sind unabhängig von der Betriebssystemebene.
 
 Die folgende Hierarchie gliedert sich in absteigender Reihenfolge.
 [Bild]
