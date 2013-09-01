@@ -20,7 +20,7 @@ Die Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) erfolgt du
 
 * :doc:`Domain-Account <domainaccount>`
 
-im externen Verwaltungstool. 
+im externen Verwaltungstool und ist unabhängig von den oben genannten Rollen. 
 
 Die folgende Hierarchie gliedert sich in absteigender Reihenfolge.
 [Bild]
