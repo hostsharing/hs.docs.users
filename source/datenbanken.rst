@@ -3,32 +3,28 @@ Datenbanken
 ===========
 
 :Authors: - Uwe Müller
-:Date: 2013-27-08
+:Date: 2013-26-09
 
 
 Allgemein
 =========
 Jeder Host hat seinen eigenen MySQL und PostgresSQL Datenbankserver. 
 
-
 Zugriff MySQL
 -------------
-- über den Hostnamen localhost
-- Port 3306
+* über den Hostnamen localhost
+* Port 3306
 
 Zugriff PostgresSQL
 --------------------
-- über den Hostnamen localhost
-- Port 5432
-
-
+* über den Hostnamen localhost
+* Port 5432
 
 Webfrontend
 -----------
 
-MySQL https://phpmyadmin.hostsharing.net/current .
-PostgesSQL https://phppgadmin.hostsharing.net/current .
-
+MySQL      `PHPmyAdmin <https://phpmyadmin.hostsharing.net/current>`_ .
+PostgesSQL `PHPgAdmin <https://phppgadmin.hostsharing.net/current>`_ .
 
 Datenbankuser
 -------------
