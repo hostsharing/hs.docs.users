@@ -3,40 +3,38 @@ Domain
 ======
 
 :Authors: - Uwe Müller
-:Date: 2013-26-08
+:Date: 2013-26-09
 
 Allgemein
 ---------
 
 Folgende Aufgaben sind in der Verwaltung einer Domain sind möglich:
  
-- Domainregistrierung
-- Domaintransfer zu Hostsharing
-- Extern registrierte Domains aufschalten
-- Extern registrierte Subdomains aufschalten
-- Domain neu zuordnen (Domain-Admin neu zuordnen oder Zuordnung zu einem Webpaket ändern)
-- Subdomain neu zuordnen (Domain-Admin neu zuordnen oder Zuordnung zu einem Webpaket ändern)
-- lokale Subdomains separat aufschalten
-- Verwaltung der Zonefiles
-- Transfer zu einem anderen Provider
-- Domain löschen
+* Domainregistrierung,
+* Domaintransfer zu Hostsharing,
+* Extern registrierte Domains aufschalten,
+* Extern registrierte Subdomains aufschalten,
+* Domain neu zuordnen (:doc:`Domain-Admin <account/domain-admin>` neu zuordnen oder Zuordnung zu einem Web-Paket ändern),
+* Subdomain neu zuordnen (Domain-Admin neu zuordnen oder Zuordnung zu einem Webpaket ändern),
+* lokale Subdomains separat aufschalten,
+* Verwaltung der Zonefiles,
+* Verwaltung der Domaindaten (z.B. Handel, Owner, Kontaktdaten),
+* Transfer zu einem anderen Provider,
+* Domain löschen/kündigen.
  
 Domainverwaltung
 ----------------
 
-Die Domainverwaltung  ist in zwei Aufgabenbereiche geteilt:
+Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
 
-- Domaineinrichtung und -konfiguration.
-  Die Einrichtung und Konfiguration kann mit HSadmin auf der shell (http:// hsadmin-shell)
-  oder Alternativ im Webfrontend (http:// hsadmin webfrontend) durchgeführt werden.
+* Domaineinrichtung und -konfiguration.
+  Die Einrichtung und Konfiguration ist mit unserem Verwaltungstool HSadmin auf der Konsole (http:// hsadmin-shell)
+  oder alternativ im Webfrontend (http:// hsadmin webfrontend) möglich.
 
-- Domain-Bestellsystem (http:// doku-domainbestellsystem)
-  Zur Vergabe von Aufträgen (Registrierung, Kündigung, Transfer) an Domainregistrierungsstellen.
+* Domain-Bestellsystem (http:// doku-domainbestellsystem)
+  Zur Vergabe von Aufträgen an Domainregistrierungsstellen.
 
-  Die Vergabe von Aufträgen an Domainregistrierungsstellen ist nur über das Webfrontend möglich.
-  Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich, wie z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain.
-
-  Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt, um den Nuzter vor Mißbrauch zu schützen. Auf Anfrage (E-Mail an service@hostsharing.net) kann das Limit erhöht werden.
+  Die Vergabe ist nur über das Webfrontend möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich (z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain). Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
 
 :: 
 
@@ -53,8 +51,8 @@ Bei der Paketeinrichtung wird die Subdomain xyz00.hostsharing.net im Ordner "dom
 angelegt. Hierbei handelt es sich um eine nutzbare Subdomain, die alle Funktionen von Domains unterstützt
 mit folgenden Einschränkungen:
 
-- Die Paket-Subdomain kann nicht gelöscht oder einem anderen Benutzer zugeordnet werden.
-- Subsubdomains zu der Paketdomain können nicht aufgeschaltet werden.
+* Die Paket-Subdomain kann nicht gelöscht oder einem anderen Benutzer zugeordnet werden,
+* Subsubdomains zu der Paketdomain können nicht aufgeschaltet werden.
 
    .. note::
         Das Zonefile der Paket-Subdomain sollte auf keinen Fall geändert werden, da dies zur Funktionsunfähigkeit des gesamten Pakets führen kann.
