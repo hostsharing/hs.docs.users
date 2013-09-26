@@ -32,9 +32,13 @@ Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
   Die Einrichtung und Konfiguration ist mit unserem Verwaltungstool HSadmin auf der Konsole (http:// hsadmin-shell)
   oder alternativ im Webfrontend (http:// hsadmin webfrontend) möglich.
 
+  Diese Aufgaben werden vom :doc:`Paket-Admin <account/paket-admin>` oder vom :doc:`Mitglieds-Account <account/mitglied>` wahrgenommen. 
+
 * **Vergabe von Aufträgen an Domainregistrierungsstellen.**
 
   Die Vergabe ist nur über das Webfrontend des Domainbestellsystems möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich. Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
+
+Die Vergabe von Aufträgen an die Registrierungsstellen ist nur mit dem :doc:`Domain-Account <account/domainaccount>` möglich.
 
    .. warning::
 
@@ -43,7 +47,7 @@ Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
 Paket-Subdomain xyz00.hostsharing.net
 -------------------------------------
 
-Bei der Paketeinrichtung wird die Subdomain xyz00.hostsharing.net im Verzeichnis ``doms`` des :doc:`Paket-Admins <account/paketadmin>`
+Bei der Paketeinrichtung wird die Subdomain xyz00.hostsharing.net im Verzeichnis ``doms`` des :doc:`Paket-Admins <account/paket-admin>`
 angelegt. Hierbei handelt es sich um eine nutzbare Subdomain, die alle Funktionen von Domains unterstützt,
 mit folgenden Einschränkungen:
 
