@@ -3,21 +3,21 @@ User ohne Shell
 ===============
 
 :Authors: - Uwe Müller
-:Date:   2013-31-08
+:Date:   2013-26-09
 
 Allgemein
 =========
 
-- wird durch den Paket-Admin angelegt,
-- hat keine Shell (das Programm ``passwd`` wird an Stelle einer Shell gestartet).
+* wird durch den Paket-Admin angelegti,
+* hat keine Shell (das Programm ``passwd`` wird an Stelle einer Shell gestartet).
 
 Rolle
 -----
 
-- als E-Mail-Account.
+* als E-Mail-Account.
 
 Rechte
 ------
 
-- nur Passwortänderung möglich.
+* nur Passwortänderung möglich.
 
