@@ -3,14 +3,13 @@ Mitglied
 ========
 
 :Authors: - Uwe Müller
-:Date: 2013-31-08
+:Date: 2013-26-09
 
 Übersicht
 =========
 
-Die Rolle *Mitglied* ist abhängig von der Mitgliedschaft und wird bei beim Eintritt in die Genossenschaft angelegt. Die Rolle ist technisch unabhängig von anderen Rollen.
+Die Rolle *Mitglied* ist abhängig von der Mitgliedschaft und wird beim Eintritt in die Genossenschaft angelegt. Die Rolle ist technisch unabhängig von anderen Rollen.
 Nach Austritt aus der Genossenschaft wird die Rolle gelöscht. 
-
 
 * Initial vorhanden
 * der Name ist xyz
@@ -31,4 +30,3 @@ Rechte
 * kann die Rechte eines :doc:`Paket-Admins <paket-admin>` annehmen
 * Rechnungen herunterladen
 * Änderung der Mitgliederdaten
-
