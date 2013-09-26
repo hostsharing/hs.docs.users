@@ -8,10 +8,10 @@ Domain-Admin
 Allgemein
 ---------
 
-* wird durch den Paket-Admin angelegt
-* hat eine reguläre Shell (z.B. ``/bin/bash``)
-* hat eine Verzeichnisstruktur unterhalb ``~/doms/``
-* hat einen E-Mail-Account
+* wird durch den :doc:`Paket-Admin <paket-admin>` angelegt,
+* hat eine reguläre Shell (z.B. ``/bin/bash``),
+* hat eine Verzeichnisstruktur unterhalb ``~/doms/``,
+* hat einen E-Mail-Account.
 
 Rolle
 ----- 
@@ -21,8 +21,7 @@ Rolle
 Rechte
 ------
 
-* E-Mail-Adressen für eine Domain einrichten
-* Sub-Domains anlegen
-* Zonen-Daten einer Domain bearbeiten
-* Dateien und Verzeichnisse anlegen oder ändern
-
+* E-Mail-Adressen für eine Domain einrichten,
+* Sub-Domains anlegen,
+* Zonen-Daten einer Domain bearbeiten,
+* Dateien und Verzeichnisse anlegen oder ändern.
