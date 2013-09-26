@@ -36,12 +36,10 @@ Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
 
   Die Vergabe ist nur über das Webfrontend möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich (z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain). Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
 
-:: 
+  ..warning::
 
-  Hinweis
-  ```````
         Der Nutzer ist für sämtliche Aktivitäten im Domainbestellsystem juristisch eigenverantwortlich. 
-
+        ::
 
 
 Paket-Subdomain xyz00.hostsharing.net
@@ -54,8 +52,9 @@ mit folgenden Einschränkungen:
 * Die Paket-Subdomain kann nicht gelöscht oder einem anderen Benutzer zugeordnet werden,
 * Subsubdomains zu der Paketdomain können nicht aufgeschaltet werden.
 
-   .. note::
+   ..warning::
+
         Das Zonefile der Paket-Subdomain sollte auf keinen Fall geändert werden, da dies zur Funktionsunfähigkeit des gesamten Pakets führen kann.
-   ::  
+        ::  
 
 Die Paket-Subdomain ist dafür geeignet, Webpakete oder Web-Anwendungen zu testen ohne das hierfür eine Domain registriert werden muss. 
