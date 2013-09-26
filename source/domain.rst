@@ -34,7 +34,7 @@ Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
 
 * **Vergabe von Aufträgen an Domainregistrierungsstellen**
 
-  Die Vergabe ist nur über das Webfrontend des Domainbestellsystems möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich (z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain). Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
+  Die Vergabe ist nur über das Webfrontend des Domainbestellsystems möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich. Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
 
    .. warning::
 
