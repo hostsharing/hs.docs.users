@@ -16,10 +16,7 @@ Allgemein
 Rolle
 ----- 
 
-Verwalter seiner Domain(s) in einem Web-Paket.
-
-* Sub-Domains aufschalten
-* Dateien und Verzeichnisse anlegen oder ändern
+* Verwalter seiner Domain(s) in einem Web-Paket.
 
 Rechte
 ------
@@ -27,4 +24,5 @@ Rechte
 * E-Mail-Adressen für eine Domain einrichten
 * Sub-Domains anlegen
 * Zonen-Daten einer Domain bearbeiten
+* Dateien und Verzeichnisse anlegen oder ändern
 
