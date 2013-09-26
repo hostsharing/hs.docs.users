@@ -32,7 +32,7 @@ Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
   Die Einrichtung und Konfiguration ist mit unserem Verwaltungstool HSadmin auf der Konsole (http:// hsadmin-shell)
   oder alternativ im Webfrontend (http:// hsadmin webfrontend) möglich.
 
-* **Vergabe von Aufträgen an Domainregistrierungsstellen**
+* **Vergabe von Aufträgen an Domainregistrierungsstellen.**
 
   Die Vergabe ist nur über das Webfrontend des Domainbestellsystems möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich. Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
 
