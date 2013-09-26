@@ -9,7 +9,8 @@ Allgemein
 Übersicht
 =========
 
-Für unterschiedliche Aufgaben können unterschiedliche Rollen vergeben werden, die durch die Vergabe von Rechten auf Betriebssystemebene definiert werden. 
+Für unterschiedliche Aufgaben werden unterschiedliche Rollen vergeben, die durch die Vergabe von Rechten auf Betriebssystemebene definiert werden. 
+Die Hierarchie gliedert sich in absteigender Reihenfolge:
 
 * :doc:`Mitglieds-Account <mitglied>` zur Verwaltung der Mitgliedschaft und *aller* gebuchten Webpakete
 * :doc:`Paket-Admin <paket-admin>` zur Verwaltung eines Webpaketes
@@ -22,8 +23,6 @@ Die Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) erfolgt du
 
 im externen Verwaltungstool und ist unabhängig von den oben genannten Rollen. 
 
-Die folgende Hierarchie gliedert sich in absteigender Reihenfolge.
-[Bild]
 
 Datenbank-User
 ==============
