@@ -22,27 +22,34 @@ Zugriff PostgresSQL
 
 Webfrontend
 -----------
+Für die Verwaltung der angelegten Datenbanken stehen folgende Webfrontends für MySQL und PostgresSQL zur Verfügung: 
 
 MySQL      `PHPmyAdmin <https://phpmyadmin.hostsharing.net/current>`_ .
 PostgesSQL `PHPgAdmin <https://phppgadmin.hostsharing.net/current>`_ .
 
-Datenbankuser
--------------
+Datenbankbenutzer
+-----------------
 
-Datenbankuser haben eine eigene Userverwaltung und  sind unabhängig von den Usern des Paketes
-(http:// user, datenbankverwaltung).
-Präfix für Datenbankuser ist xyz00_ .
+Datenbankbenutzer haben eine eigene Benutzerverwaltung und sind unabhängig von den Nutzern des Web-Paketes.
+
+* Präfix für Datenbankbenutzer ist ``xyz00_`` .
 
 Datenbanken
 -----------
-Präfix für Datenbanknamen ist xyz00_ .
+
+* Präfix für Datenbanknamen ist ``xyz00_`` .
 
 Rechte vergeben
-Allen Benutzern, außer dem Paketadmin, müssen wir noch Rechte geben, sonst können sie gar
-nichts machen. Das erledigt man mit dem Befehl GRANT.
-mysql>GRANT SELECT, INSERT, DELETE, UPDATE ON xyz00_meinedatenbank.* TO xyz00_otto;
-Hinter der Datenbank verwenden wir .*, um alle Tabellen der Datenbank zu inkludieren.
-Mit GRANT ALL kann man einem User auch alle Kommandorechte zuweisen.
-Alle Aufgaben können wir jetzt in Zukunft vom User xyz00_otto erledigen lassen.
+---------------
+
+Datenbankbenutzern müssen initial Rechte vergeben werden:
+
+MySQL:
+
+.. code-block:: console
+        mysql>GRANT SELECT, INSERT, DELETE, UPDATE ON xyz00_meinedatenbank.* TO xyz00_abc;
+
+Alternativ können mit ``GRANT ALL`` einem Datenbankbenutzer alle Rechte zuweisen.
+
 
 Rechte -> postgresql
