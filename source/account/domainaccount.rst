@@ -11,9 +11,9 @@ Allgemein
 Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) im Domainbestellsystem.
 Der Account ist: 
 
-* ist Initial vorhanden
-* der Name ist hs-xyz
-* hat ein eigenes Passwort
+* ist Initial vorhanden,
+* der Name ist hs-xyz,
+* hat ein eigenes Passwort.
 
 Rolle
 -----
