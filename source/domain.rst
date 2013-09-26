@@ -32,17 +32,16 @@ Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
   Die Einrichtung und Konfiguration ist mit unserem Verwaltungstool HSadmin auf der Konsole (http:// hsadmin-shell)
   oder alternativ im Webfrontend (http:// hsadmin webfrontend) möglich.
 
-* **Domain-Bestellsystem (http:// doku-domainbestellsystem).**
+* **Vergabe von Aufträgen an Domainregistrierungsstellen**
 
   Zur Vergabe von Aufträgen an Domainregistrierungsstellen.
 
-  Die Vergabe ist nur über das Webfrontend möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich (z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain). Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
+  Die Vergabe ist nur über das Webfrontend des Domainbestellsystems möglich. Abhängig von der jeweiligen Domainregistrierungsstelle sind eine vielzahl von Aktionen möglich (z.B. Registrierung, Update von Benutzerdaten, Änderungen von DNS-Servern, CHPROV (change provider, KK), Kündigung und Transit einer Domain). Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen. Nach Rücksprache kann kann das Limit erhöht werden.
 
-  .. warning::
+   .. warning::
 
         Der Nutzer ist für sämtliche Aktivitäten im Domainbestellsystem juristisch eigenverantwortlich. 
         
-
 Paket-Subdomain xyz00.hostsharing.net
 -------------------------------------
 
