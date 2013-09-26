@@ -54,4 +54,4 @@ mit folgenden Einschränkungen:
 
         Das Zonefile der Paket-Subdomain sollte auf keinen Fall geändert werden, da dies zur Funktionsunfähigkeit des gesamten Pakets führen kann.
 
-Die Paket-Subdomain ist dafür geeignet, Webpakete oder Web-Anwendungen zu testen ohne das hierfür eine Domain registriert werden muss. 
+Die Paket-Subdomain ist dafür geeignet, Web-Pakete oder Web-Anwendungen zu testen ohne das hierfür eine Domain registriert werden muss. 
