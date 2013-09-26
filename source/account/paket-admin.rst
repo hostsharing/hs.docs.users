@@ -3,16 +3,15 @@ Paket-Admin
 ===========
 
 :Authors: - Uwe Müller
-:Date:  2013-31-08
+:Date:  2013-26-09
 
 Übersicht
 =========
 
-Die Rolle des Paket-Admin wird initial beim Anlegen eines Webpaketes automatisch angelegt. Die Rolle wird beim Löschen des Webpaketes ebenfalls entfernt. 
-
+Die Rolle des Paket-Admin wird initial beim Anlegen eines Webpaketes eingerichtet.  
 
 * der Name ist xyz00 (http:// pakete).
-* hat eine reguläre Shell (z.B. "/bin/bash")
+* hat eine reguläre Shell z.B. ``/bin/bash``
 * hat einen E-Mail-Account
 * hat ein eigenes Passwort
 
@@ -35,6 +34,4 @@ alle Rechte eines :doc:`Domain-Admin <domain-admin>` und folgende zusätzliche R
         Eine Domain kann auf den Account eines Paketadmins aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate User aufzuschalten.
 ::
 
-Domainbestellungen siehe Domainbestellungen
-
-
+Domainbestellungen siehe :doc:`Domainbestellungen <domain>`
