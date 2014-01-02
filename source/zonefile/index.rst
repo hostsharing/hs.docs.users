@@ -1,5 +1,5 @@
 ============================
-Benutzer
+Zonefile
 ============================
 
 :Authors: - Uwe Müller
@@ -8,7 +8,7 @@ Benutzer
 
 Inhalt: 
 
-.. toctree::zo
+.. toctree::
         :maxdepth: 1
         
         allgemein        
