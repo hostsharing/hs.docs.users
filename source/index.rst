@@ -18,10 +18,10 @@ technischen Dokumentation beteiligen. Weitere Information erhalten Sie unter
 Inhalt: 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 3 
 
+    account/index
     zonefile/index
-    user/index
     ssl
     paket/index
     hsadmin-cheetset
@@ -31,7 +31,6 @@ Inhalt:
     datenbanken/index
     backup
     anbindung
-    account/index
     networking-firewalls
     betriebssystem
     rechenzentren
