@@ -6,7 +6,7 @@ Paket-Admin
 :Date:  2014-08-02
 
 Allgemein
-=========
+---------
 
 Die Rolle des Paket-Admin wird initial beim Anlegen eines Webpaketes eingerichtet.  
 
