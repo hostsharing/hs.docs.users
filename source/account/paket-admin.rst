@@ -3,15 +3,15 @@ Paket-Admin
 ===========
 
 :Authors: - Uwe Müller
-:Date:  2013-26-09
+:Date:  2014-08-02
 
-Übersicht
+Allgemein
 =========
 
 Die Rolle des Paket-Admin wird initial beim Anlegen eines Webpaketes eingerichtet.  
 
-* der Name ist xyz00 (http:// pakete),
-* hat eine reguläre Shell z.B. ``/bin/bash``,
+* der Name ist :term:`xyz00` (http:// pakete),
+* hat eine reguläre :term:`Shell` z.B. ``/bin/bash``,
 * hat einen E-Mail-Account,
 * hat ein eigenes Passwort.
 
