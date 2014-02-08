@@ -3,16 +3,16 @@ Mitglied
 ========
 
 :Authors: - Uwe Müller
-:Date: 2013-26-09
+:Date: 2014-08-07
 
-Übersicht
+Allgemein
 =========
 
 Die Rolle *Mitglied* ist abhängig von der Mitgliedschaft und wird beim Eintritt in die Genossenschaft angelegt. Die Rolle ist technisch unabhängig von anderen Rollen.
 Nach Austritt aus der Genossenschaft wird die Rolle gelöscht. 
 
 * Initial vorhanden,
-* der Name ist xyz,
+* der Name ist :term:`xyz`,
 * hat keine Shell,
 * erlischt mit dem Ende der Mitgliedschaft,
 * eigenes Passwort.
