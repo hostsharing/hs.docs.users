@@ -41,4 +41,7 @@ Glossar
     Der Administrator eines Paketes.  
 
    xyz00
-    Synonym für ein beliebiges Webpaket.       
+    Synonym für ein beliebiges Webpaket.      
+
+   xyz
+    Synonym für einen Namen.
