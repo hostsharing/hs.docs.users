@@ -3,7 +3,9 @@ E-Mail
 ======
 
 :Authors: - Uwe Müller
-:Date: 2013-29-08
+:Date: 2014-01-02
+
+
 
 Allgemein
 ---------
@@ -21,7 +23,7 @@ Hostsharing bietet folgende Konfigurationsmöglichkeiten:
 - E-Mailkonten bei anderen Anbietern abfragen ( http://wiki.fetchmail).
 - Es können Mailinglisten eingerichtet werden.
 
-Der Zugriff auf das E-Mail-Konto erfolgt über einen beliebigen E-Mail-Client oder über die zentrale `Webmail-Installation <http://webmail.hostsharing.net>`_ . 
+Der Zugriff auf das E-Mail-Konto erfolgt über einen beliebigen E-Mail-Client oder über die zentrale `Webmail-Installation <https://webmail.hostsharing.net>`_ . 
 Informationen zur zentralen Webmail-Installation und zur Einrichtung ist im Wiki der Mitglieder unter `Webmail <https://wiki.hostsharing.net/index.php?title=Webmail>`_ zu finden. 
 
 Posteingangsserver
@@ -44,7 +46,7 @@ Postausgangsserver
 
 
 E-Mail-Alias und Paketuser
--------------------------
+--------------------------
 
 Ein E-Mail-Alias in der E-Mailkonfiguration gleichen Namens wie ein Paketuser mit Mailbox hat Vorrang vor einem Paketuser gleichen Namens. Implementiert der E-Mail-Alias eine Weiterleitung, gehen in diesem
 Fall in der Mailbox des Paketusers  keine E-Mails ein. 
@@ -54,7 +56,7 @@ Größenbeschränkung einer E-Mail
 --------------------------------
 
 Unsere Mail-Server akzeptieren E-Mails bis zu einer maximalen Größe von 128 MB, Dateianhänge sollten daher die Größe von ca. 90 MB nicht überschreiten. 
-(http:// wiki-größenbeschränkung email).
+`Allgemeine Informationen zur Größenbeschränkung vom E-Mails <https://wiki.hostsharing.net/index.php?title=Gr%C3%B6%C3%9Fenbeschr%C3%A4nkung_von_E-Mails>`_.
 
 
 Mailrouting
