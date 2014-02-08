@@ -5,7 +5,7 @@ Technische Dokumentation der Hostsharing eG
 :Authors: - Michael Hierweck
           - Uwe Müller
           - Veit Schiele
-:Date: 2013-07-12
+:Date: 2014-08-02
 
 Die technische Dokumentation ist auch als PDF verfügbar:  `hsdocs.pdf <hsdocs.pdf>`_
 
@@ -38,9 +38,9 @@ Inhalt:
     rechenzentren
     notfallplan
     infrastruktur
-    installation
-    impressum
-    glossar
     hardware
     monitoring/index
+    installation
+    glossar
+    impressum
 
