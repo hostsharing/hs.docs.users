@@ -40,6 +40,9 @@ Glossar
    Paket-Admin
     Der Administrator eines Paketes.  
 
+   Shell
+    Unix-Shell, Traditionelle Benutzerschnittstelle unter Unix oder unioxiden Betriebssystemen.
+    
    xyz00
     Synonym für ein beliebiges Webpaket.      
 
