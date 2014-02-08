@@ -3,7 +3,7 @@ Allgemein
 =========
 
 :Authors: - Uwe Müller
-:Date: 2013-26-09    
+:Date: 2014-08-02    
 
        
 Übersicht
@@ -24,10 +24,10 @@ Die Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) erfolgt du
 im externen Verwaltungstool und ist unabhängig von den oben genannten Rollen. 
 
 
-Datenbank-User
-==============
+Datenbank-Nutzer
+================
 
-Die Datenbank-Systeme haben jeweils ihre eigene User-Verwaltung und sind unabhängig von der Vergabe von Rechten auf Betriebssystemebene.
-(http:// Datenbankuser) 
-Verwaltung der User (http:// userverwaltung http:// hsadmin shell http:// hsadmin webfrontend)
+Die Datenbank-Systeme haben jeweils ihre eigene Nutzer-Verwaltung und sind unabhängig von der Vergabe von Rechten auf Betriebssystemebene.
+(http:// Datenbanknutzer) 
+Verwaltung der Nutzer (http:// nutzerverwaltung http:// hsadmin shell http:// hsadmin webfrontend)
 
