@@ -30,7 +30,6 @@ Inhalt:
     backup
     zonefile/index
     ssl
-    hsadmin-cheetset
     logging
     networking-firewalls
     betriebssystem
