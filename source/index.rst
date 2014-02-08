@@ -32,7 +32,6 @@ Inhalt:
     ssl
     hsadmin-cheetset
     logging
-    anbindung
     networking-firewalls
     betriebssystem
     rechenzentren
