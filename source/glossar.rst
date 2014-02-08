@@ -22,8 +22,9 @@ Glossar
    Domain-Admin
     Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domain-Admin.
 
-   E-Mail-Aliases
+   E-Mail-Alias
     Virtuelle E-Mailempfänger für spezielle Aufgaben.
+    Ein E-Mail-Alias ist eine E-Mailadresse zur Weiterleitung von E-Mails.
    
    Hive
     Bezeichnet eine virtuelle Maschine.
