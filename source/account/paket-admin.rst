@@ -32,6 +32,6 @@ alle Rechte eines :doc:`Domain-Admin <domain-admin>` und folgende zusätzliche R
 
    .. warning:: 
         Eine Domain kann auf den Account des :term:`Paket-Admin` aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.
-::
+
 
 Domainbestellungen siehe :doc:`Domainbestellungen <domain>`
