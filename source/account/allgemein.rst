@@ -9,7 +9,7 @@ Allgemein
 Übersicht
 =========
 
-Für unterschiedliche Aufgaben werden unterschiedliche Rollen vergeben, die durch die Vergabe von Rechten auf Betriebssystemebene definiert werden. 
+Für unterschiedliche Aufgaben werden Rollen vergeben, die durch die Vergabe von Rechten auf Betriebssystemebene definiert werden. 
 Die Hierarchie gliedert sich in absteigender Reihenfolge:
 
 * :doc:`Mitglieds-Account <mitglied>` zur Verwaltung der Mitgliedschaft und *aller* gebuchten Webpakete,
