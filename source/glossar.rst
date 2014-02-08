@@ -10,7 +10,7 @@ Glossar
 .. glossary:: :sorted:
    
    Benutzer
-    Benutzer sind Unix-, shell-, ftp-, E-Mail-User.
+    Benutzer sind Unix-, shell-, ftp-, E-Mail-Nutzer.
 
    Buildout
     `zc.buildout <http://pypi.python.org/pypi/zc.buildout/1.5.2/>`_ ist ein
