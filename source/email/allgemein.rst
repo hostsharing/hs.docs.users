@@ -6,8 +6,7 @@ Allgemein
 
 
 
-Übersicht 
-=========
+ 
 
 Jeder Benutzer im Webpaket besitzt ein E-Mail-Konto und kann E-Mail senden und empfangen. E-Mails werden unterhalb des Verzeichnisses ``~/Maildir`` abgelegt. Der Name des Ordners ``Maildir`` kann nicht   
 verändert werden.
