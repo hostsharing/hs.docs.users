@@ -25,13 +25,13 @@ Rechte
 
 alle Rechte eines :doc:`Domain-Admin <domain-admin>` und folgende zusätzliche Rechte:
 
-* Domains einem Benutzer Domain-Admin des Pakets zuordnen,
+* Domains einem Domain-Admin des Pakets zuordnen,
 * Domains des Paketes administrieren,
-* User und Datenbanken einrichten, löschen und ändern,
-* kann die Rechte eines Users seines Paketes annehmen.
+* Nutzer, Datenbanknutzer und Datenbanken einrichten, löschen und ändern,
+* kann die Rechte eines Nutzers seines Paketes annehmen.
 
    .. warning:: 
-        Eine Domain kann auf den Account eines Paketadmins aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate User aufzuschalten.
+        Eine Domain kann auf den Account des :term:`Paket-Admin` aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.
 ::
 
 Domainbestellungen siehe :doc:`Domainbestellungen <domain>`
