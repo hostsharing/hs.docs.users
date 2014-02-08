@@ -3,18 +3,18 @@ Postausgangsserver
 ==================
 
 :Authors: - Uwe Müller
-:Date: 2014-08-02
-
-Postausgangsserver
-------------------
+:Date:    2014-08-02
 
 
+E-Mail Protokolle und Ports 
+---------------------------
 
-
-::        Postausgangsserver
-
-        SSL   STARTTLS    ungesichert        xyz00.hostsharing.net  
-        POP3    465        25 ?                 25                                
-        IMAP    465        25 ?                 25 ?          
++------+----------+-------------+-----------------------+
+| SSL  | STARTTLS | ungesichert | xyz00.hostsharing.net |
++======+==========+=============+=======================+
+| POP3 |   465    |      25 ?   |             25        |
++------+----------+-------------+-----------------------+
+| IMAP |   465    |      25 ?   |             25 ?      |
++------+----------+-------------+-----------------------+
 
 
