@@ -1,5 +1,5 @@
 ===============
-User ohne Shell
+Nutzer ohne Shell
 ===============
 
 :Authors: - Uwe Müller
