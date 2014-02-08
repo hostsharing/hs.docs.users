@@ -33,5 +33,7 @@ in die nachfolgende Dateisystemsicherung ein.
 
 Die Rücksicherung von Datenbanken erfolgt durch den  :doc:`Paket-Admin<account/paket-admin>` auf Basis der im Verzeichnis ``/home/pacs/xyz00/.bak/`` abgelegten Datenbanksicherungen.
 
-Für ältere Datenbankbestände ist ein Rücksicherungsauftrag für die betroffene Sicherungsdatei in Auftrag zu geben.
+
+.. note::
+        Für ältere Datenbankbestände ist ein Rücksicherungsauftrag für die betroffene Sicherungsdatei in Auftrag zu geben.
 
