@@ -1,16 +1,18 @@
-=========
-Web-Paket
-=========
+===========
+Datenbanken
+===========
 
 :Authors: - Uwe Müller
 :Date:    2014-08-02          
           
           
-Inhalt: .. toctree::       
+Inhalt: 
 
- :maxdepth: 1                
+.. toctree::       
+
+        :maxdepth: 1                
          
-   allgemein        
+           allgemein        
 
 
 
