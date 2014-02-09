@@ -4,13 +4,16 @@ Monitoring
 
 :Authors: - Michael Hierweck
           - Veit Schiele
-:Date: 2013-07-21
+          - Uwe Müller
+
+:Date: 2014-09-02
 
 Inhalt: 
 
 .. toctree::
     :maxdepth: 1
 
+    analyse                   
     erfassung
     verarbeitung
     persistenz
