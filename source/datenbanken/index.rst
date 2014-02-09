@@ -9,10 +9,9 @@ Datenbanken
 Inhalt: 
 
 .. toctree::       
-
         :maxdepth: 1                
          
-           allgemein        
+        allgemein        
 
 
 
