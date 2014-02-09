@@ -5,6 +5,7 @@ Glossar
 :Authors: - Michael Hierweck
           - Veit Schiele
           - Uwe Müller
+
 :Date: 2014-08-02
 
 .. glossary:: :sorted:
@@ -46,6 +47,9 @@ Glossar
     
    xyz00
     Synonym für ein beliebiges Webpaket.      
+
+   xyz00_
+    Synonym: Präfix für einen Datenbanknamen oder einem Datenbanknutzer.
 
    xyz
     Synonym für einen Namen.
