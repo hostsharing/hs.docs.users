@@ -5,8 +5,6 @@ Allgemein
 :Authors: - Uwe Müller
 :Date: 2014-19-02
 
-Allgemein
----------
 
 Folgende Aufgaben sind in der Verwaltung einer Domain sind möglich:
  
