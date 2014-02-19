@@ -6,7 +6,7 @@ Glossar
           - Veit Schiele
           - Uwe Müller
 
-:Date: 2014-08-02
+:Date: 2014-19-02
 
 .. glossary:: :sorted:
    
@@ -21,12 +21,26 @@ Glossar
     Python-API für die Installation von Eggs und Scripts.
 
    Domain-Admin
-    Einem Benutzer, dem mindestens eine Domain zugeordnet ist, ist ein Domain-Admin.
+    Einem Benutzer, dem mindestens eine Domain zugeordnet ist.
+
+   Domain-Bestell-System
+    Webfrontend zur Registrierung von Domains
+
+   Domain-Registrierung
+    Ist der Vorgang um eine Domain zu registrieren.
+
+   Domain-Transfer
+    Umzug einer Domain zu einem anderen Registrar/Provider. Es wird der Eintrag in der Registry-Datenbank geändert, 
+    der definiert, welcher Registrar für diese Domain und deren Inhaber zuständig ist.
 
    E-Mail-Alias
     Virtuelle E-Mailempfänger für spezielle Aufgaben.
     Ein E-Mail-Alias ist eine E-Mailadresse zur Weiterleitung von E-Mails.
    
+   Extern resgistrierte Domain/Sub-Domain
+    Die Domain oder Sub-Domain ist bei einem anderen Registrar/Provider registriert. Die damit verbundenen Dienste
+    sollen von der Hostsharing eG erbracht werden.
+
    Hive
     Bezeichnet eine virtuelle Maschine.
 
@@ -45,6 +59,9 @@ Glossar
    Shell
     Unix-Shell, Traditionelle Benutzerschnittstelle unter Unix oder unioxiden Betriebssystemen.
     
+   Sub-Domain
+    Eine Sub-Domain ist eine Domain, die unterhalb einer anderen liegt (z.B. test.example.com, www.example.de)
+
    xyz00
     Synonym für ein beliebiges Webpaket.      
 
