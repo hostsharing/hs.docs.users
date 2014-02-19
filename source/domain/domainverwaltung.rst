@@ -7,7 +7,7 @@ Domainverwaltung
 
 
 
-Die Domainverwaltung ist in zwei Aufgabenbereiche geteilt:
+Die Domainverwaltung ist in zwei Aufgabenbereiche unterteilt:
 
 Domaineinrichtung und -konfiguration im Web-Paket
 -------------------------------------------------
@@ -21,7 +21,7 @@ Diese Aufgaben werden vom :doc:`Paket-Admin </account/paket-admin>` oder vom :do
 Registrierung von Domains bei der Registrierungsstelle
 ------------------------------------------------------
 
-Die Vergabe ist nur über das Webfrontend des :term:`Domain-Bestell-System` möglich. 
+Die Vergabe ist nur über das `Webfrontend <https://domain-bestellsystem.de>`_  des :term:`Domain-Bestell-System` möglich. 
 Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen.
 Nach Rücksprache kann kann das Limit erhöht werden.
 
