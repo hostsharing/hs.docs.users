@@ -6,11 +6,12 @@ Domain
 :Date:    2014-08-02          
           
           
-Inhalt: .. toctree::       
+Inhalt: 
 
- :maxdepth: 1                
+.. toctree::     
+    :maxdepth: 2                
          
-   allgemein        
-
-
+    allgemein        
+    domainverwaltung
+    paket-subdomain
 
