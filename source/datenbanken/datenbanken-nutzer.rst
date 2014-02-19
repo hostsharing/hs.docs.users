@@ -22,7 +22,7 @@ Die Verwaltung von Datenbanken und Nutzern erfolgt mit :term:`HSadmin` über ein
 Rechte
 ------
 
-Datenbanknutzern müssen initial die gewünschten Rechte an den entsprechenden Datenbanken vergeben werden.^
+Datenbanknutzern müssen initial die gewünschten Rechte an den entsprechenden Datenbanken vergeben werden.
 
 
 Namen
