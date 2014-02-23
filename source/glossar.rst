@@ -37,7 +37,7 @@ Glossar
     Virtuelle E-Mailempfänger für spezielle Aufgaben.
     Ein E-Mail-Alias ist eine E-Mailadresse zur Weiterleitung von E-Mails.
    
-   Extern registrierte Domain/Sub-Domain
+   extern registrierte Domain/Sub-Domain
     Die Domain oder Sub-Domain ist bei einem anderen Registrar/Provider registriert. Die damit verbundenen Dienste
     sollen von der Hostsharing eG erbracht werden.
 
