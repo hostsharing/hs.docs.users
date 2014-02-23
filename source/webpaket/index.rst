@@ -11,7 +11,6 @@ Web-Paket
 Inhalt: 
 
 .. toctree::     
-
         :maxdepth: 1                
          
         allgemein        
