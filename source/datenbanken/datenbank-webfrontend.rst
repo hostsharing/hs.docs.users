@@ -2,7 +2,7 @@
 Datenbank-Webfrontend
 =====================
 
-:Author: - Uwe Müller
+:Authors: - Uwe Müller
 :Date:   2014-02-23
 
 
