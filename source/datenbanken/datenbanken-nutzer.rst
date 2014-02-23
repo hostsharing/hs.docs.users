@@ -4,11 +4,10 @@ Datenbanken und Nutzer
 
 :Authors: - Uwe Müller
 
-:Date:     2014-19-02
+:Date:     2014-23-02
 
 
-Datenbanknutzer
-===============
+
 
 Datenbanknutzer haben eine eigene Nutzerverwaltung und sind unabhängig von der Vergabe von Rechten auf Betriebsystemebene.
 
