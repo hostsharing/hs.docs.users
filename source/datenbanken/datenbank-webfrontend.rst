@@ -6,7 +6,7 @@ Datenbank-Webfrontend
 :Date:   2014-02-23
 
 
-Für die angelegten Datenbanken stehen folgende Webfrontends für MySQL und PostgresSQL zur Verfügung: 
+Für angelegte Datenbanken stehen folgende Webfrontends zur Verfügung: 
 
 MySQL      `PHPmyAdmin <https://phpmyadmin.hostsharing.net/current>`_ .
 
