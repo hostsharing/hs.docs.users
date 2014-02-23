@@ -5,15 +5,16 @@ Web-Paket
 :Authors: - Uwe Müller
 
 
-:Date:    2014-08-02          
+:Date:    2014-23-02          
           
 
 Inhalt: 
 
-.. toctree::       
+.. toctree::     
+
         :maxdepth: 1                
          
         allgemein        
-
+        verzeichnisse
 
 
