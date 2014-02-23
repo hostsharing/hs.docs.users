@@ -13,7 +13,7 @@ Datenbanknutzer haben eine eigene Nutzerverwaltung und sind unabhängig von der 
 
 
 Verwaltung der Datenbanken und Datenbanknutzer
----------------------------------------------
+----------------------------------------------
 
 Die Verwaltung von Datenbanken und Nutzern erfolgt mit :term:`HSadmin` über ein Webfrontend oder über die :term:`Shell`.
 
