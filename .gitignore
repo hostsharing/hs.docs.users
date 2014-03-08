@@ -1,32 +1,76 @@
-# Python precompiled output
-*.py[co]
+*.py[cod]
+
+# C extensions
+*.so
 
 # Packages
 *.egg
 *.egg-info
 dist
 build
-sdist
-
-# Buildout
-bin
-develop-eggs
 eggs
-.installed.cfg
-.mr.developer.cfg
 parts
+bin
 var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
 
-#Translations
-*.mo
+# Installer logs
+pip-log.txt
 
-# Unit tests/coverage reports
+# Unit test / coverage reports
 .coverage
 .tox
 nosetests.xml
 
-# Installer logs
-pip-log.txt
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
+node_modules
+dist
 
 # Sphinx output
 docs/
