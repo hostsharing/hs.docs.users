@@ -44,8 +44,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Hostsharing'
-copyright = u'2012–2013, Hostsharing e.G.'
+project = u'Hostsharing Handbuch für Anwender'
+copyright = u'2012–2014, Hostsharing eG'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -189,7 +189,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'hsdocs.tex', u'hsdocs',
-   u'Hostsharing e.G.', 'hsdocs'),
+   u'Hostsharing eG', 'hsdocs'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -219,7 +219,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'hsdocs', u'hsdocs',
-     [u'Hostsharing e.G.'], 1)
+     [u'Hostsharing eG'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -233,7 +233,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'hsdocs', u'hsdocs',
-   u'Hostsharing e.G.', 'hsdocs', 'hsdocs',
+   u'Hostsharing eG', 'hsdocs', 'hsdocs',
    'Miscellaneous'),
 ]
 
