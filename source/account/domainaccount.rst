@@ -1,9 +1,13 @@
-===================
-Domainbestellsystem
-===================
+================
+Domain-Verwalter
+================
 
 :Authors: - Uwe Müller
-:Date:  2013-26-09
+
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
+
 
 
 Allgemein
@@ -20,5 +24,13 @@ Rolle
 
 * Verwaltung von Domains im externen Verwaltungstool.
 
-Weitere Informationen zur Domainverwaltung unter :doc:`Domain-Account <domainaccount>`.
+Rechte
+------
+
+* Domains bestellen, kündigen, transfer
+* Inhaberdaten ändern
+* Kontaktdaten ändern
+* Handle-Verwaltung
+  
+Weitere Informationen zum Domain-Bestell-System unter :doc:`Domainverwaltung<../../domain/domainverwaltung>`.
 
