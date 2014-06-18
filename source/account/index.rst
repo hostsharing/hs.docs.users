@@ -17,5 +17,5 @@ Inhalt:
         paket-admin
         domain-admin
         userohneshell
+        datenbanknutzer
         domainaccount
-
