@@ -1,6 +1,6 @@
-===========================================
-Technische Dokumentation der Hostsharing eG
-===========================================
+=====================
+Handbuch für Anwender
+=====================
 
 :Authors: - Michael Hierweck
           - Uwe Müller

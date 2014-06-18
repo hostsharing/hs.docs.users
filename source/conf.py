@@ -27,6 +27,7 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
+    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'edit_on_github',
     ]
@@ -44,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Hostsharing'
-copyright = u'2012–2013, Hostsharing e.G.'
+project = u'Hostsharing Handbuch für Anwender'
+copyright = u'2012–2014, Hostsharing eG'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -189,7 +190,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'hsdocs.tex', u'hsdocs',
-   u'Hostsharing e.G.', 'hsdocs'),
+   u'Hostsharing eG', 'hsdocs'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -219,7 +220,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'hsdocs', u'hsdocs',
-     [u'Hostsharing e.G.'], 1)
+     [u'Hostsharing eG'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -233,7 +234,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'hsdocs', u'hsdocs',
-   u'Hostsharing e.G.', 'hsdocs', 'hsdocs',
+   u'Hostsharing eG', 'hsdocs', 'hsdocs',
    'Miscellaneous'),
 ]
 
@@ -246,9 +247,14 @@ texinfo_documents = [
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
 
-
 # -- Options for Edit on github ------------------------------------------------
-
 edit_on_github_project = 'hostsharing/hsdocs'
 edit_on_github_branch = 'master/source'
 
+# -- Options for intersphinx
+intersphinx_mapping = {
+  'hsdocs': ('https://docs.hostsharing.net/hsdocs/', '../hsdocs/docs/html/objects.inv'),
+  'hssec':  ('https://docs.hostsharing.net/hssec/', '../hssec/docs/html/objects.inv'),
+  'hsops':  ('https://docs.hostsharing.net/hsops/', '../hsops/docs/html/objects.inv'),
+  'hsmgmt': ('https://docs.hostsharing.net/hsmgmt/', '../hsmgmt/docs/html/objects.inv'),
+}
