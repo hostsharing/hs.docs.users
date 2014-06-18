@@ -5,7 +5,10 @@ Technische Dokumentation der Hostsharing eG
 :Authors: - Michael Hierweck
           - Uwe Müller
           - Veit Schiele
-:Date: 2014-08-02
+
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 
 Die technische Dokumentation ist auch als PDF verfügbar:  `hsdocs.pdf <hsdocs.pdf>`_
 
@@ -29,7 +32,7 @@ Inhalt:
     webpaket/index
     backup
     zonefile/index
-    ssl
+    ssl/index
     logging
     networking-firewalls
     betriebssystem
