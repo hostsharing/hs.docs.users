@@ -10,7 +10,7 @@ Datenbank-Nutzer
 Allgemein
 ---------
 
-* wird durch den :doc:`Paket-Admin<../../account/paketadmin>` angelegt.
+* wird durch den :doc:`Paket-Admin<../../account/paket-admin>` angelegt.
 * Die Datenbank-Systeme haben jeweils ihre eigene :doc:`Nutzer-Verwaltung<../../datenbanken/datenbanken-nutzer>` und sind unabhängig von der Vergabe von Rechten auf Betriebssystemebene.
 
 
