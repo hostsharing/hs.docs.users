@@ -1,9 +1,13 @@
-===
-SSL
-===
+===================
+SSL/TLS Zertifikate
+===================
 
 :Authors: - Uwe Müller
-:Date: 2013-27-08
+
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
+
 
 Standardkonfiguration 
 =====================
