@@ -3,7 +3,8 @@ Benutzer
 ============================
 
 :Authors: - Uwe Müller
-:Date:    2013-31-08
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
           
 
 Inhalt: 
@@ -13,8 +14,8 @@ Inhalt:
         
         allgemein        
         mitglied
-        domainaccount
         paket-admin
         domain-admin
         userohneshell
+        domainaccount
 
