@@ -4,8 +4,9 @@ Web-Paket
 
 :Authors: - Uwe Müller
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
 
-:Date:    2014-23-02          
           
 
 Inhalt: 
