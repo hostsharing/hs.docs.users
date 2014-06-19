@@ -2,8 +2,13 @@
 Domain-Admin
 ============
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
+
 :Authors: - Uwe Müller
-:Date:  2013-26-09
+
+:Date: |date|, |time|
 
 Allgemein
 ---------

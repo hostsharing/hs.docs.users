@@ -2,8 +2,13 @@
 Paket-Admin
 ===========
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
-:Date:  2014-08-02
+
+:Date: |date|, |time|
+
 
 Allgemein
 ---------
@@ -18,17 +23,17 @@ Die Rolle des Paket-Admin wird initial beim Anlegen eines Webpaketes eingerichte
 Rolle
 -----
 
-* verwaltet ein Web-Paket, seine Benutzer, Dienste und Domains. 
+* verwaltet ein :doc:`Web-Paket<../../webpaket/index>`, seine :doc:`Benutzer<index>`, Dienste und :doc:`Domains<../../domain/index>`. 
 
 Rechte
 ------
 
 alle Rechte eines :doc:`Domain-Admin <domain-admin>` und folgende zusätzliche Rechte:
 
-* Domains einem Domain-Admin des Pakets zuordnen,
-* Domains des Paketes administrieren,
-* Nutzer, Datenbanknutzer und Datenbanken einrichten, löschen und ändern,
-* kann die Rechte eines Nutzers seines Paketes annehmen.
+* Domains einem :doc:`Domain-Admin <domain-admin>` des :doc:`Web-Paketes<./../webpaket/index>` zuordnen,
+* Domains des :doc:`Web-Paketes<./../webpaket/index>` administrieren,
+* Nutzer, :doc:`Datenbanknutzer<../../datenbanken/datenbanken-nutzer>` und :doc:`Datenbanken<../../datenbanken/index>` einrichten, löschen und ändern,
+* kann die Rechte eines Nutzers seines :doc:`Web-Paketes<./../webpaket/index>` annehmen.
 
    .. warning:: 
         Eine Domain kann auf den Account des :term:`Paket-Admin` aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.

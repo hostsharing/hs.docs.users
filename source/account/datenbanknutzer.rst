@@ -2,11 +2,13 @@
 Datenbank-Nutzer
 ================
 
-:Authors: - Uwe Müller
-
 .. |date| date:: %d. %m. %Y
 .. |time| date:: %H:%M
- 
+
+:Authors: - Uwe Müller
+
+:Date: |date|, |time|
+
 Allgemein
 ---------
 
@@ -17,11 +19,11 @@ Allgemein
 Rolle
 -----
 
-* Verwaltung einer oder mehrerer zugewiesener Datenbanken.
+* Verwaltung einer oder mehrerer zugewiesener :doc:`Datenbanken<../../datenbanken/index>`.
 
 Rechte
 ------
 
-* Die jeweils zugeweisenen Rechte an einer oder mehrerer Datenbanken.
+* Die jeweils zugeweisenen Rechte an einer oder mehrerer :doc:`Datenbanken<../../datenbanken/index>`.
 
 

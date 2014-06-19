@@ -2,8 +2,13 @@
 Mitglied
 ========
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
-:Date: 2014-08-07
+
+:Date: |date|, |time|       
+
 
 Allgemein
 =========
@@ -20,13 +25,13 @@ Nach Austritt aus der Genossenschaft wird die Rolle gelöscht.
 Rolle
 =====
 
-* Verwaltung *aller* dem Mitglied zugeordneten Webpakete, 
+* Verwaltung *aller* dem Mitglied zugeordneten :doc:`Webpakete<../../webpakete/index>`, 
 * Verwaltung der Mitgliederdaten (Anschrift etc.).
 
 Rechte
 ======
 
-* Verwaltung aller Webpakete die dem Mitglied zugeordnet sind,
+* Verwaltung aller :doc:`Webpakete<../../webpakete/index>` die dem Mitglied zugeordnet sind,
 * kann die Rechte eines :doc:`Paket-Admins <paket-admin>` annehmen,
 * Rechnungen herunterladen,
 * Änderung der Mitgliederdaten.

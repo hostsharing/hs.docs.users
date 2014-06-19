@@ -2,13 +2,19 @@
 Nutzer ohne Shell
 =================
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
+
 :Authors: - Uwe Müller
-:Date:   2014-08-02
+
+:Date: |date|, |time|
+
 
 Allgemein
 ---------
 
-* wird durch den Paket-Admin angelegti,
+* wird durch den :doc:`Paket-Admin<paket-admin>` angelegt,
 * hat keine Shell (das Programm ``passwd`` wird an Stelle einer Shell gestartet).
 
 Rolle
