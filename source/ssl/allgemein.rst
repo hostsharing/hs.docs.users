@@ -2,17 +2,18 @@
 Allgemein
 =========
 
-:Authors: - Uwe Müller
-
-
 .. |date| date:: %d. %m. %Y
 .. |time| date:: %H:%M
+
+:Authors: - Uwe Müller
+
+:Date: |date|, |time|
 
 
 Standardkonfiguration 
 =====================
 
-Pro Webpaket ist ein Zertifikat möglich.
+Pro :doc:`Webpaket</webpaket/index>` ist ein Zertifikat möglich.
 
 SSL-Inhalte werden durch die Verzeichnisse
 
