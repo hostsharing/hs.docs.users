@@ -7,14 +7,13 @@ Initial angelegte Verzeichnisse und Dateien
 
 :Authors: - Uwe Müller
 
-
-
+:Date: |date|, |time|
 
 
 Verzeichnisstruktur
 -------------------
 
-Jeder Nutzer eines Web-Paketes hat eine initial angelegete Verzeichnisstruktur.
+Jeder :doc:`Nutzer</account/index>` eines Web-Paketes hat eine initial angelegete Verzeichnisstruktur.
 Die Verzeichnisstruktur entspricht der dem jeweiligen Nutzer zugesprochenen Rolle. 
 
 * :doc:`Paket-Admin<verzeichnisebenen-paket-admin>`

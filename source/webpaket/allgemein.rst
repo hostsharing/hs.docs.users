@@ -2,12 +2,12 @@
 Allgemein
 =========
 
-
-:Authors: - Uwe Müller
-
 .. |date| date:: %d. %m. %Y
 .. |time| date:: %H:%M
 
+:Authors: - Uwe Müller
+
+:Date: |date|, |time|
 
 Ein Web-Paket ist technisch eine eigene UNIX-Nutzer-Gruppe. 
 Ein Web-Paket beinhaltet eine definierte Leistung und kann durch Optionen jederzeit erweitert werden.
@@ -23,5 +23,5 @@ Ein Web-Paket kann enthalten:
 
 * Nutzer mit unterschiedlichen Rollen (z.B. :doc:`E-Mail-<../../account/userohneshell>`, :doc:`Domain-<../../account/domain-admin>` oder :doc:`Datenbank-Nutzer<../../datenbanken/datenbanken-nutzer>`)
 * :doc:`Datenbanken<../../datenbanken/index>`
-* Domains
+* :doc:`Domains</domain/index>`
 

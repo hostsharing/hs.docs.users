@@ -2,14 +2,12 @@
 Verzeichnisebene Domain-Admin
 =============================
 
-:Authors: - Uwe Müller
-
-
 .. |date| date:: %d. %m. %Y
 .. |time| date:: %H:%M
 
+:Authors: - Uwe Müller
 
-
+:Date: |date|, |time|
 
 +-----------------+-----------+--------+---------+----------------------------------------------------------------+
 | Rechte Schleuse | Nutzer    | Gruppe | Ordner  | Erläuterung                                                    |

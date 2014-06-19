@@ -7,6 +7,8 @@ Initial angelegte Dateien
 
 :Authors: - Uwe Müller
 
+:date: |date|, |time|
+
 Weblog
 ------
 
