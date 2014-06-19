@@ -2,13 +2,15 @@
 Handbuch für Anwender
 =====================
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
+
 :Authors: - Michael Hierweck
           - Uwe Müller
           - Veit Schiele
 
-.. |date| date:: %d. %m. %Y
-.. |time| date:: %H:%M
-
+:Date: |date|, |time|
 
 Die technische Dokumentation ist auch als PDF verfügbar:  `hsdocs.pdf <hsdocs.pdf>`_
 
@@ -19,6 +21,7 @@ technischen Dokumentation beteiligen. Weitere Information erhalten Sie unter
 :doc:`installation`.
 
 Inhalt: 
+
 
 .. toctree::
     :maxdepth: 3 
@@ -34,7 +37,7 @@ Inhalt:
     backup
     zonefile/index
     ssl/index
-    logging
+    logging/index
     networking-firewalls
     betriebssystem
     rechenzentren
