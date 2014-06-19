@@ -25,7 +25,7 @@ Diese Aufgaben werden vom :doc:`Paket-Admin </account/paket-admin>` oder vom :do
 Vergabe von Aufträgen an eine Registrierungsstelle
 --------------------------------------------------
 
-Die Vergabe von Aufträgen (z.B. Registrierung, Transfer) an eine Registrierungsstelle ist nur über das `Webfrontend <https:www.domain-bestellsystem >`_  des :term:`Domain-Bestell-System` möglich und
+Die Vergabe von Aufträgen (z.B. Registrierung, Transfer) an eine Registrierungsstelle ist nur über das `Webfrontend <https://www.domain-bestellsystem.de/>`_  des :term:`Domain-Bestell-System` möglich und
 erfolgt über den :doc:`Domain-Account </account/domainaccount>`.
 
 .. note::
