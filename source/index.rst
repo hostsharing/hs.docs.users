@@ -38,6 +38,7 @@ Inhalt:
     zonefile/index
     ssl/index
     logging/index
+    hsadmin/index
     networking-firewalls
     betriebssystem
     rechenzentren
