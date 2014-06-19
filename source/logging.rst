@@ -36,3 +36,13 @@ gespeichert. Diese Dateien werden 48 Tage archiviert und nach Ablauf der Frist a
 
 Das Error-Logfile web.err des Webservers steht unter /home/pacs/xyz00/var/ dem Paketadmin zur Verfügung. 
 
+
+
+Traffic
+-------
+Der Traffic setzt sich aus HTTP-, FTP- und Mail-Traffic (POP3, IMAP) zusammen.Bei Überschreitung des gebuchten Traffics wird der Paketadmin automatisch per E-Mailinformiert (http
+:// leistungsbeschreibugen traffic/fair use).Der Traffic für einzelne Nutzer innerhalb eines Paketes kann nicht beschrängt werden.Logfiles werden unter ~/var/traffic-iptables-yyyy-mm.log des Paketadmins abgelegt.Eine technische Beschreibung der Logfiles findet sich hier (http://hs-
+kerndoku logging)
+
+
+
