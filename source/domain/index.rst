@@ -2,8 +2,12 @@
 Domain
 ======
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
-:Date:    2014-08-02          
+
+:Date: |date|, |time|         
           
           
 Inhalt: 

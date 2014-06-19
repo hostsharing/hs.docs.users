@@ -2,8 +2,12 @@
 Allgemein
 =========
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
-:Date: 2014-23-02
+
+:Date: |date|, |time| 
 
 
 Folgende Aufgaben sind in der Verwaltung einer Domain möglich:
@@ -12,12 +16,12 @@ Folgende Aufgaben sind in der Verwaltung einer Domain möglich:
 * :term:`Domain-Transfer` zur Hostsharing eG,
 * :term:`extern registrierte` Domain aufschalten,
 * Extern registrierte :term:`Sub-Domain` aufschalten,
-* Domain neu zuordnen (:doc:`Domain-Admin </account/domain-admin>` neu zuordnen oder Zuordnung zu einem Web-Paket ändern),
-* Sub-Domain neu zuordnen (Domain-Admin neu zuordnen oder Zuordnung zu einem Web-Paket ändern),
+* Domain neu zuordnen (:doc:`Domain-Admin </account/domain-admin>` neu zuordnen oder Zuordnung zu einem :doc:`Web-Paket<../../webpaket/index>` ändern),
+* Sub-Domain neu zuordnen (:doc:`Domain-Admin<../../account/domain-admin>` neu zuordnen oder Zuordnung zu einem :doc:`Web-Paket<../../webpaket/index>` ändern),
 * lokale Sub-Domain separat aufschalten,
-* Verwaltung des Zonefile,
+* Verwaltung des :doc:`Zonefile</zonefile/index>`,
 * Verwaltung der Domain-Daten (z.B. Domain-Handel, Kontaktdaten),
 * Transfer zu einem anderen Provider,
-* Domain löschen/kündigen.
+* :doc:`Domain</domain/index>` löschen/kündigen.
  
 
