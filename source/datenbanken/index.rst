@@ -2,8 +2,12 @@
 Datenbanken
 ===========
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
-:Date:    2014-19-02  
+
+:Date: |date|, |time|  
 
           
 Inhalt: 

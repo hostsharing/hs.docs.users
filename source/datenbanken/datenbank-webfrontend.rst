@@ -2,8 +2,12 @@
 Datenbank-Webfrontend
 =====================
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
-:Date:   2014-02-23
+
+:Date: |date| , |time| 
 
 
 Für angelegte Datenbanken stehen folgende Webfrontends zur Verfügung: 

@@ -1,8 +1,12 @@
 Datenbankzugriff
 ================
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Author: - Uwe Müller
-:Date:   2014-19-02         
+
+:Date: |date| ,|time|         
 
 
 Der Zugriff erfolgt über folgende Hosts und Ports:

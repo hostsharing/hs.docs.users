@@ -2,9 +2,12 @@
 Datenbanken und Nutzer
 ======================
 
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
 
-:Date:     2014-23-02
+:Date: |date| , |time|
 
 
 
@@ -15,7 +18,7 @@ Datenbanknutzer haben eine eigene Nutzerverwaltung und sind unabhängig von der 
 Verwaltung der Datenbanken und Datenbanknutzer
 ----------------------------------------------
 
-Die Verwaltung von Datenbanken und Nutzern erfolgt mit :term:`HSadmin` über ein Webfrontend oder über die :term:`Shell`.
+Die Verwaltung von Datenbanken und :doc:`Nutzern<../../account/index>` erfolgt mit :term:`HSadmin` über ein Webfrontend oder über die :term:`Shell`.
 
 
 Rechte
@@ -27,7 +30,6 @@ Datenbanknutzern müssen initial die gewünschten Rechte an den entsprechenden D
 Namen
 -----
 
-Datenbanknutzer haben immer den Präfix :term:`xyz00_` .
-  
-Datenbanken haben immer den Präfix :term:`xyz00_` .
+* Datenbanknutzer haben immer den Präfix :term:`xyz00_`.
+* Datenbanken haben immer den Präfix :term:`xyz00_`.
 
