@@ -2,16 +2,18 @@
 Expansion der Platzhalter
 =========================
 
-:Authors: - Uwe Müller
-
 .. |date| date:: %d. %m. %Y
 .. |time| date:: %H:%M
 
+:Authors: - Uwe Müller
+
+:Date: |date|, |time|
 
 
 
 Der Platzhalter für das Gesamtzonefile {DEFAULT_ZONFILE} wird in drei Schritten folgermaßen expandiert. Zunächst werden die komplexen Platzhalter ersetzt.
 ::
+
 
         {DOM_HOSTNAME}. IN SOA {SOA_HOSTNAME}. {SOA_EMAIL}. (
                 {SIO}           ; serial secs since Jan 1 1970
@@ -38,7 +40,8 @@ Der Platzhalter für das Gesamtzonefile {DEFAULT_ZONFILE} wird in drei Schritten
 
 Anschließend werden die atomaren Platzhalter ersetzt.
 ::
-        
+
+
         $TTL 6H
 
         <FQDN>. IN SOA <HIVE>.hostsharing.net. hostmaster.hostsharing.net. (
