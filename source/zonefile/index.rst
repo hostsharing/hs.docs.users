@@ -3,13 +3,22 @@ Zonefile
 ============================
 
 :Authors: - Uwe Müller
-:Date:    2014-01-02
-          
+
+.. |date| date:: %d. %m. %Y
+.. |time| date:: %H:%M
+
+
 
 Inhalt: 
+
 
 .. toctree::
         :maxdepth: 1
         
-        allgemein        
-        zonefile
+        allgemein
+        expandiertes-standard-zonefile
+        platzhalter
+        expansion-platzhalter
+        eigenes-zonefile
+        kontrolle-aenderungen
+        eigenes-zonefile-deaktivieren
