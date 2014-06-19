@@ -7,9 +7,7 @@ E-Mail
 
 :Authors: - Uwe Müller
 
-
 :Date:    |date|, |time|
-          
 
 Inhalt: 
 
