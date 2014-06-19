@@ -28,13 +28,13 @@ Vergabe von Aufträgen an eine Registrierungsstelle
 Die Vergabe von Aufträgen (z.B. Registrierung, Transfer) an eine Registrierungsstelle ist nur über das :doc:`Webfrontend <https:www.domain-bestellsystem >`_  des :term:`Domain-Bestell-System` möglich und
 erfolgt über den :doc:`Domain-Account </account/domainaccount>`.
 
-    ..note::
+.. note::
 
         Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen.
         Nach Rücksprache kann kann das Limit erhöht werden.
 
 
-   .. warning::
+.. warning::
 
         Der Nutzer ist für sämtliche Aktivitäten im Domainbestellsystem juristisch eigenverantwortlich. 
 
