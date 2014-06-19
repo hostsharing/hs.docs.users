@@ -7,5 +7,5 @@ HSadmin
 
 .. toctree::
     :maxdepth: 1
-          
-        webfrontend               
+
+    webfrontend               
