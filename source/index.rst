@@ -30,6 +30,7 @@ Inhalt:
     datenbanken/index
     domain/index
     webpaket/index
+    managed-server/index
     backup
     zonefile/index
     ssl/index
