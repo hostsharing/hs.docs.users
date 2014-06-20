@@ -12,19 +12,19 @@ Verzeichnisebene Paketadmin
 
 
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
-| Rechte Schleuse | Nutzer | Gruppe  | Ordner   | Erläuterung                                                    |
+| Berechtigungen  | Nutzer | Gruppe  | Ordner   |  Erläuterung                                                   |
 +=================+========+=========+==========+================================================================+
 | drwx-----       | xyz00  | xyz00   | .bak     |  Ablage komprimierter Backups der Datenbanken und Cronjobs.    |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
-| dr-xr-x--T      | httpd  |  xyz00  | doms     | Ablage der Paketdomain xyz00.hostsharing.net.                  |
+| dr-xr-x--T      | httpd  | xyz00   | doms     |  Ablage der Paketdomain xyz00.hostsharing.net.                 |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
-| drwx------      |  xyz00 |   xyz00 | etc      | Ablage für eigene Konfigurationsdateien.                       |
+| drwx------      | xyz00  | xyz00   | etc      |  Ablage für eigene Konfigurationsdateien.                      |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
-| drwxr-xr-x      |  xyz00 |   xyz00 | users    | Ablage der angelegten Nutzer                                   |
+| drwxr-xr-x      | xyz00  | xyz00   | users    |  Ablage der angelegten Nutzer                                  |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
-| drwxr-x---      |  xyz00 |   xyz00 |  var     |  Ablage von Logfiles (z.B. Web-Logs, Traffic-Logs http logging |
+| drwxr-x---      | xyz00  | xyz00   | var      |  Ablage von Logfiles (z.B. Web-Logs, Traffic-Logs)             |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
-| drwx------      |  xyz00 |  xyz00  |  Maildir |  Mailordner des :doc:`Paket-Admin<../../account/paket-admin>`. |
+| drwx------      | xyz00  | xyz00   | Maildir  |  Mailordner des :doc:`Paket-Admin<../../account/paket-admin>`. |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
 
 
