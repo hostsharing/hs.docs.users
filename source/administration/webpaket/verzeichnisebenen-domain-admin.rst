@@ -40,7 +40,7 @@ Unterhalb des Ordners *doms* und der Domain *example.de* befindet sich die Verze
 +-----------------+-----------+--------+-------------+-----------------------------------------------------------------------------------------------------------------+
 | drwxr-xr-x      | xyz00-abc |  xyz00 | subs-ssl    | Ablage für Subdomain aus htdocs-ssl, wenn diese verschlüsselt ausgeliefert werden soll.                         |
 +-----------------+-----------+--------+-------------+-----------------------------------------------------------------------------------------------------------------+
-| drwxr-xr-x      | xyz00-abc |  xyz00 | etc         | Ablage für Domaineigene Konfigurationsdateien (z.B. eigenes Zonefile ) http zonefile.                           |
+| drwxr-xr-x      | xyz00-abc |  xyz00 | etc         | Ablage für domaineigene Konfigurationsdateien (z.B. eigenes Zonefile ) http zonefile.                           |
 +-----------------+-----------+--------+-------------+-----------------------------------------------------------------------------------------------------------------+
 | drwxr-xr-x      | xyz00-abc |  xyz00 | var         | Ablage für Logfiles.                                                                                            |
 +-----------------+-----------+--------+-------------+-----------------------------------------------------------------------------------------------------------------+
