@@ -22,7 +22,7 @@ Verzeichnisebene Paketadmin
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
 | drwxr-xr-x      |  xyz00 |   xyz00 | users    | Ablage der angelegten Nutzer                                   |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
-| drwxr-x---      |  xyz00 |   xyz00 |  var     |  Ablage von Logfiles (z.B. Web-Logs, Traffic-Logs http logging |
+| drwxr-x---      |  xyz00 |   xyz00 |  var     |  Ablage von Logfiles (z.B. Web-Logs, Traffic-Logs) 		|
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
 | drwx------      |  xyz00 |  xyz00  |  Maildir |  Mailordner des :doc:`Paket-Admin<../../account/paket-admin>`. |
 +-----------------+--------+---------+----------+----------------------------------------------------------------+
