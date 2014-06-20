@@ -12,7 +12,7 @@ Allgemein
 Ein Web-Paket ist technisch eine eigene UNIX-Nutzer-Gruppe. 
 Ein Web-Paket beinhaltet eine definierte Leistung und kann durch Optionen jederzeit erweitert werden.
 
-Die Bezeichnung besteht aus einem frei wählbaren, drei stelligen Präfix und einem zweistelligen Zähler (z.B xyz00). 
+Die Bezeichnung besteht aus einem frei wählbaren, dreistelligen Präfix und einem zweistelligen Zähler (z.B xyz00). 
 Ableitend ergibt sich aus der Vergabe des Paket-Präfix:
 
 * der Name des :doc:`Paketadmins<../../account/paket-admin>` xyz00 
