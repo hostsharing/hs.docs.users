@@ -30,13 +30,33 @@ Rechte
 
 alle Rechte eines :doc:`Domain-Admin <domain-admin>` und folgende zusätzliche Rechte:
 
+* Nutzer, :doc:`Datenbanknutzer<../../datenbanken/datenbanken-nutzer>` und :doc:`Datenbanken<../../datenbanken/index>` einrichten, löschen und ändern,
 * Domains einem :doc:`Domain-Admin <domain-admin>` des :doc:`Web-Paketes<./../webpaket/index>` zuordnen,
 * Domains des :doc:`Web-Paketes<./../webpaket/index>` administrieren,
-* Nutzer, :doc:`Datenbanknutzer<../../datenbanken/datenbanken-nutzer>` und :doc:`Datenbanken<../../datenbanken/index>` einrichten, löschen und ändern,
 * kann die Rechte eines Nutzers seines :doc:`Web-Paketes<./../webpaket/index>` annehmen.
 
    .. warning:: 
         Eine Domain kann auf den Account des :term:`Paket-Admin` aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.
 
+
+Administration
+--------------
+
+Nutzer einrichten, löschen und ändern; Domain(s) einem Domain-Admin zuordnen, Domain(s) aministrieren: 
+
+* per Webfrontend, :doc:`siehe</administration/hsadmin/webfrontend>`
+* mit ``hsscript``, :doc:`siehe</administration/hsadmin/hsadmin-cheetseet>`
+
+Rechte eines Web-Paket-Nutzers annehmen:
+
+.. code-block:: console
+    
+    $ sudo -u xyz00-abc -i
+
+Bei Web-Paket-Nutzer ohne :term:`shell` :
+
+.. code-block:: console
+
+    $ sudo -u xyz00-abc -s
 
 
