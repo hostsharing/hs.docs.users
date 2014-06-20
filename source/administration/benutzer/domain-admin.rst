@@ -14,7 +14,7 @@ Allgemein
 ---------
 
 * wird durch den :doc:`Paket-Admin <paket-admin>` angelegt,
-* hat eine reguläre Shell (z.B. ``/bin/bash``),
+* hat eine reguläre :term:`Shell` (z.B. ``/bin/bash``),
 * hat eine Verzeichnisstruktur unterhalb ``~/doms/``,
 * hat einen E-Mail-Account.
 
