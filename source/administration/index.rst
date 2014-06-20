@@ -19,3 +19,6 @@ Administration
     domain/index
     ssl/index
     webpaket/index
+    zonefile/index
+    logging/index
+    email/index
