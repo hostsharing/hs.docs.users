@@ -13,10 +13,10 @@ Domain-Verwalter
 Allgemein
 ---------
 Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) im Domainbestellsystem.
-Der Account ist: 
+Der Account: 
 
 * ist Initial vorhanden,
-* der Name ist hs-xyz,
+* hat den Namen hs-xyz,
 * hat ein eigenes Passwort.
 
 Rolle
@@ -27,7 +27,7 @@ Rolle
 Rechte
 ------
 
-* Domains bestellen, kündigen, transfer
+* Domains bestellen, kündigen, transferieren
 * Inhaberdaten ändern
 * Kontaktdaten ändern
 * Handle-Verwaltung
