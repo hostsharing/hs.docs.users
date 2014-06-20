@@ -16,12 +16,12 @@ Allgemein
 * wird durch den :doc:`Paket-Admin <paket-admin>` angelegt,
 * hat eine reguläre Shell (z.B. ``/bin/bash``),
 * hat eine Verzeichnisstruktur unterhalb ``~/doms/``,
-* hat einen E-Mail-Account.
+* ist ein E-Mail-Account.
 
 Rolle
 ----- 
 
-* Verwalter seiner Domain(s) in einem Web-Paket.
+* Verwalter seiner Domain(s) in einem :doc:`Web-Paket</administration/webpaket/index>`.
 
 Rechte
 ------
