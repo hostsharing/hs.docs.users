@@ -30,7 +30,7 @@ erfolgt über den :doc:`Domain-Account </account/domainaccount>`.
 
 .. note::
 
-        Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt um Mißbrauch vorzubeugen.
+        Die Anzahl der pro Tag möglichen Registrierungen ist beschränkt, um Mißbrauch vorzubeugen.
         Nach Rücksprache kann das Limit erhöht werden.
 
 
