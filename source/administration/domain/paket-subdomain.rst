@@ -26,6 +26,6 @@ angelegt. Hierbei handelt es sich um eine nutzbare Sub-Domain, die alle Funktion
 Verwendung
 ----------
 
-Die Paket-Sub-Domain ist dafür geeignet, Web-Pakete oder Web-Anwendungen zu testen ohne das hierfür eine Domain registriert werden muss. 
+Die Paket-Sub-Domain ist dafür geeignet, Web-Pakete oder Web-Anwendungen zu testen, ohne dass hierfür eine Domain registriert werden muss. 
 
 
