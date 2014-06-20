@@ -21,4 +21,5 @@ Inhalt:
     anleitung/index
     administration/index
     glossar
+    sitemap
     impressum
