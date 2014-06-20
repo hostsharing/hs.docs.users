@@ -2,7 +2,7 @@
 Eigenes Zonefile
 ================ 
 
-.. |date| date:: %d. %m. %Y
+.. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
 
 
