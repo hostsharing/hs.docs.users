@@ -31,7 +31,6 @@ Inhalt:
 .. toctree::
         :maxdepth: 1
         
-        allgemein        
         mitglied
         paket-admin
         domain-admin
