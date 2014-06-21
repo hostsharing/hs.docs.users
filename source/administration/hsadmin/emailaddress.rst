@@ -27,4 +27,5 @@ Beispiel:
 
 .. code-block:: console
 
-    $ emailaddress.add ({set:{domain:'hostsharing.net',localpart:'xyz00',target:'ihre@emailadresse.de'}})
+    $ emailaddress.add ({set:{domain:'hs-example.de',localpart:'info',target:'ihre@emailadresse.de'}})
+
