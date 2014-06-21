@@ -30,7 +30,25 @@ Wir befinden uns jetzt hier:
 
 .. image:: benutzer-anlegen.jpg
 
-Weiter geht es mit dem Button *Benutzer anlegen* und füllen die folgende Maske wie folgt aus:
+Da die Domain aus Sicherheitsgünden nur einem Benutzer innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in userem Paket xyz00 an.
+
+Dafür vergeben wir nun ein Passwort für die Benutzerkennung des Paketes xyz00.
+
+Wir wechseln dazu in den Tab *Unix User*.
+
+.. image:: unix-user.jpg
+
+und klicken in der Zeile
+xyz00 rechts aussen auf das Icon bearbeiten (blauer Pfeil im Bild)
+
+Im folgendem Bild vergeben wir in den Zeilen Passwort ein entsprechendes Wort.
+
+.. image:: unix-user-bearbeiten.jpg
+
+Wir bestätigen mit dem *Speichern* Button.
+
+
+Weiter geht es mit dem Button *Benutzer anlegen* und wir füllen die folgende Maske wie folgt aus:
 
 .. image:: benutzer-anlegen-neu.jpg
 
@@ -42,19 +60,13 @@ Die Maske füllen wir mit folgenden Daten:
 
 .. image:: domain-konfig.jpg
 
-Bei Domain den neuen Domainnamen und als Adminstrator den Domain-Admin xyz00-doms.
+Bei Domain den neuen Domainnamen und als Adminstrator den Domain-Admin xyz00-doms eintragen.
 
-Aktion mit *speichern* ausführen.
-
-Damit ist die Domain auf dem HS Server aufgeschaltet / konfiguriert.
+Damit ist die Domain auf dem HS Server technisch angelegt.
 
 Die Domain im Domainbestellsystem bestellen
 -------------------------------------------
 
-Nun wird unter https://www.domainbestellsystem.de die domain hs-example.de
-bestellt.
-Die Login Daten dafür wurden Ihnen mit einer separaten Mail mitgeteilt.
-hs-xyz
-Das-geheime-Wort
-
+Anschliessend kann die Domain hs-example.de https://www.domainbestellsystem.de bestellt werden.
+Die Login-Daten dafür wurden Ihnen auf einem separatem Weg mitgeteilt.
 
