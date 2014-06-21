@@ -36,7 +36,7 @@ Weiter geht es mit dem Button *Benutzer anlegen* und wir füllen die folgende Ma
 
 .. image:: benutzer-anlegen-neu.jpg
 
-Damit kommen wir nun zur eigentlichen Aufgabe, eine :doc:`Domain<../administration/domain/index>` anzulegen.
+Damit kommen wir nun zur eigentlichen Aufgabe, eine Domain anzulegen.
 
 Hierzu aktivieren wir den Tab *Domains* und wählen dort *Domain konfigurieren*.
 
@@ -44,7 +44,7 @@ Die Maske füllen wir mit folgenden Daten:
 
 .. image:: domain-konfig.jpg
 
-Bei Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/domain/verzeichnisebenen-domain-admin>` xyz00-doms eintragen.
+Bei Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/benutzer/domain-admin>` xyz00-doms eintragen.
 
 Damit ist die Domain auf dem HS Server technisch angelegt.
 
