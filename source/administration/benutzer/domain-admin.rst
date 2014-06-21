@@ -26,7 +26,24 @@ Rolle
 Rechte
 ------
 
-* E-Mail-Adressen für eine Domain einrichten,
+* E-Mail-Adressen für eine Domain anlegen,
 * Sub-Domains anlegen,
 * Zonen-Daten einer Domain bearbeiten,
 * Dateien und Verzeichnisse anlegen oder ändern.
+
+
+Konfiguration
+-------------
+
+E-Mail-Adressen anlegen:
+
+* per Webfrontend, :doc:`siehe</administration/hsadmin/webfrontend>`
+* mit ``hsscript``, :doc:`siehe</administration/hsadmin/hsadmin-cheetseet>`
+
+Zonen-Daten einer Domain bearbeiten:
+
+* mit einem beliebigen Texteditor
+
+Sub-Domain(s) anlegen, Dateien und Verzeichnisse anlegen, ändern, löschen:
+
+* Mit dem :term:`shell`-Kommando ``mkdir`` oder einem Dateimanager.

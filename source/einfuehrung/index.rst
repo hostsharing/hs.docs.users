@@ -13,6 +13,5 @@ Einführung
 .. toctree::
     :maxdepth: 2
 
-    hosting
     web-pakete
     managed-server
