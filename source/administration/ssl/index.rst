@@ -32,7 +32,7 @@ von Nicht-SSL-Inhalten getrennt.
 Inhalt: 
 
 .. toctree::       
-        :maxdepth: 3                
+        :maxdepth: 1                
          
         allgemein        
         varianten 
