@@ -6,11 +6,12 @@ HSAdminmodul user
 .. |time| date:: %H:%M
 
 :Authors: - Uwe Müller
+          - Dominic Schlegel
 
 :Date: |date|, |time|
 
 
-Das HSAdminmodul user verfügt über folgende Optionen:
+Das HSAdminmodul ``user`` verfügt über folgende Optionen:
 
 +--------------------+---------------------------------------------+
 | Option             | Erläuterung                                 |

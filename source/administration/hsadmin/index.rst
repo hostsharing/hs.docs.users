@@ -68,7 +68,7 @@ Die HSAdminmodule verfügen über folgenden Funktionen:
     postgresqldb
     postgresqluser
     emailaddress
-    emailaliases
+    emailalias
     domain
     q
     webfrontend               

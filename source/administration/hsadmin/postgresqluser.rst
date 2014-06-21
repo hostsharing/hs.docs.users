@@ -6,6 +6,7 @@ HSAdminmodul postgresqluser
 .. |time| date:: %H:%M
 
 :Authors: - Uwe Müller
+          - Dominic Schlegel
 
 :Date: |date|, |time|
 

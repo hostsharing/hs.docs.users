@@ -1,16 +1,17 @@
-=========================
-HSAdminmodul emailaliases 
-=========================
+=======================
+HSAdminmodul emailalias 
+=======================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
 
 :Authors: - Uwe Müller
+          - Dominic Schlegel
 
 :Date: |date|, |time|
 
 
-Das HSAdminmodul ``emailaliases`` verfügt über folgende Optionen:
+Das HSAdminmodul ``emailalias`` verfügt über folgende Optionen:
 
 +---------------+----------------------------------------------------------------------+
 | Option        | Erläuterung                                                          |
