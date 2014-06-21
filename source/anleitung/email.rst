@@ -7,7 +7,6 @@ E-Mail einrichten
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
           - Christian Günter
 :Date: |date|, |time|
 
@@ -31,9 +30,11 @@ Mit dem Button *EMail-Adresse anlegen* erhalten wir die folgende Maske:
 Die Felder im einzelnen:
 
 lokaler Teil: info (der Name vor dem @ Zeichen)
+
 Sub-Domain:   bleibt hier leer da wir direkt für FQD eine E-Mail-Adresse anlegen
+
 Haupt-Domain: hs-example.de
-Ziel:         User (da die E-Mail-Adresse an ein Postfach gehen soll)
-              xyz00-doms
+
+Ziel:         User (da die E-Mail-Adresse an ein Postfach gehen soll)  xyz00-doms
 
 
