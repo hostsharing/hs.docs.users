@@ -36,7 +36,7 @@ Alle Rechte eines :doc:`Domain-Admins <domain-admin>` und folgende zusätzliche 
 * kann die Rechte eines Nutzers seines :doc:`Web-Pakets<./../webpaket/index>` annehmen.
 
    .. warning:: 
-        Eine Domain kann auf den Account des :term:`Paket-Admins` aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.
+        Eine Domain kann auf den Account des :term:`Paket-Admin`s aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.
 
 
 Administration
