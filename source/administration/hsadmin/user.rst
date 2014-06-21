@@ -30,5 +30,8 @@ Das HSAdminmodul user verfügt über folgende Optionen:
 | quota_hardlimit    | harte Speichergrenze             |
 +--------------------+----------------------------------+
 
+Beispiel:
 
-``user.add ({set:{name:'xyz00',comment:'your name',password:'!1?2-3abc',shell:'/bin/bash',quota:'100',quota_softlimit:'50',quota_hardlimit:'75'}})``
+.. code-block:: console
+
+    $ user.add ({set:{name:'xyz00',comment:'your name',password:'!1?2-3abc',shell:'/bin/bash',quota:'100',quota_softlimit:'50',quota_hardlimit:'75'}})
