@@ -16,17 +16,17 @@ Die Domainverwaltung ist in zwei Aufgabenbereiche unterteilt:
 Domaineinrichtung und -konfiguration in einem Web-Paket
 -------------------------------------------------------
 
-Die Einrichtung und Konfiguration in einen :doc:`Web-Paket</webpaket/index>` erfolgt mit dem Tool :term:`HSadmin` auf der Shell
-oder im :doc:`Webfrontend</hsadmin/webfrontend>`.
+Die Einrichtung und Konfiguration erfolgt mit dem Tool :term:`HSadmin` auf der Shell
+oder im :doc:`Webfrontend<../hsadmin/webfrontend>`.
 
-Diese Aufgaben werden vom :doc:`Paket-Admin </account/paket-admin>` oder vom :doc:`Mitglieds-Account </account/mitglied>` wahrgenommen. 
+Diese Aufgaben werden vom :doc:`Paket-Admin <../account/paket-admin>` oder vom :doc:`Mitglieds-Account <../account/mitglied>` wahrgenommen. 
 
 
 Vergabe von Aufträgen an eine Registrierungsstelle
 --------------------------------------------------
 
 Die Vergabe von Aufträgen (z.B. Registrierung, Transfer) an eine Registrierungsstelle ist nur über das `Webfrontend <https://www.domain-bestellsystem.de/>`_  des :term:`Domain-Bestell-System` möglich und
-erfolgt über den :doc:`Domain-Account </account/domainaccount>`.
+erfolgt über den :doc:`Domain-Account <../account/domainaccount>`.
 
 .. note::
 

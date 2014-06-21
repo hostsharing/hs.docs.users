@@ -13,7 +13,7 @@ Paket-Sub-Domain
 Paket-Sub-Domain xyz00.hostsharing.net
 --------------------------------------
 
-Bei der Paketeinrichtung wird die Sub-Domain xyz00.hostsharing.net im Verzeichnis ``doms`` des :doc:`Paket-Admins </account/paket-admin>`
+Bei der Paketeinrichtung wird die Sub-Domain xyz00.hostsharing.net im Verzeichnis ``doms`` des :doc:`Paket-Admins <../account/paket-admin>`
 angelegt. Hierbei handelt es sich um eine nutzbare Sub-Domain, die alle Funktionen von Domains mit folgenden Einschränkungen unterstützt:
 
 * Die Paket-Sub-Domain kann nicht gelöscht oder einem anderen Benutzer zugeordnet werden,
