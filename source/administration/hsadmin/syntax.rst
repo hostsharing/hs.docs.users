@@ -35,11 +35,14 @@ Befehlssyntax
 
 module.function({where:{field:'value',...}, set:{field:'value',...}}) 
 
-+-----------+---------------------------------------+
-| Parameter | Erläuterung                           |
-+===========+=======================================+
-| where     | selektiert nach einem Feld            |
-+-----------+---------------------------------------+
-| set       | setzt einen Wert                      |
-+-----------+---------------------------------------+
-
++-----------+-------------------------------------------------------------+
+| Parameter | Erläuterung                                                 |
++===========+=============================================================+
+| module    | Modul, dessen Funktion aufgerufen werden soll               |
++-----------+-------------------------------------------------------------+
+| function  | Funktion, welche aufgerufen werden soll                     |
++-----------+-------------------------------------------------------------+
+| where     | selektiert nach Wert eines oder mehrerer Felder             |
++-----------+-------------------------------------------------------------+
+| set       | setzt oder aktualisiert den Wert eines oder mehrerer Felder |
++-----------+-------------------------------------------------------------+
