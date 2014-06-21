@@ -28,7 +28,7 @@ Aufrufparameter
 | --expr <Befehl>    | Befehl, welcher ausgeführt werden soll                                          |
 | -e <Befehl>        |                                                                                 |
 +--------------------+---------------------------------------------------------------------------------+
-| --file <Datei>     | Datei, aus welcher Befehler gelesen und ausgeführt werden sollen                |
+| --file <Datei>     | Datei, aus welcher Befehle gelesen und ausgeführt werden sollen                 |
 | -f <Datei>         |                                                                                 |
 +--------------------+---------------------------------------------------------------------------------+
 | --interactive      | interaktiver Modus                                                              |
