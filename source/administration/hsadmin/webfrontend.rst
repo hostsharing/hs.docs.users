@@ -9,4 +9,4 @@ HSAdmin-Webfrontend
 
 :Date: |date|, |time| 
 
-HSAdmin verfügt über ein Webfrontend `https://admin.hostsharing.net`_.       
+HSAdmin verfügt über ein Webfrontend `https://admin.hostsharing.net`_ zur Verwaltung eines :doc:`Web-Paketes</administration/webpaket/index>`.       
