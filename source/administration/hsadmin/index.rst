@@ -19,7 +19,8 @@ Die Bedienung erfolgt über ein :doc:`Webfrontend<webfrontend>` oder mit dem HSA
 
 .. toctree::
     :maxdepth: 1
-
+    
+    syntax
     benutzerverwaltung
     datenbankverwaltung
     domainverwaltung
