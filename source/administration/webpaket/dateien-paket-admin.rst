@@ -23,7 +23,7 @@ Im Verzeichnis ``var`` werden folgende Dateien initial angelegt:
 | -rw-------      | xyz00  | xyz00  | web.err   | Fehlermeldungen bei Zugriffen auf Webseiten           |
 +-----------------+--------+--------+-----------+-------------------------------------------------------+
  
-Weitere Informationen siehe :doc:`Logging<../Logging>` 
+Weitere Informationen siehe :doc:`Logging</administration/logging/index>` 
 
 HSAdmin
 -------
