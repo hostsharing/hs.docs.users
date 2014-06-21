@@ -6,26 +6,40 @@ Syntax
 .. |time| date:: %H:%M
 
 :Authors: - Uwe Müller
+          - Michael Hierweck
 
 :Date: |date|, |time|
 
+Die Funktionen von HSAdmin können über das Kommandozeilenprogramm
+hsscript aufgerufen werden.
+
+Aufrufparameter
+---------------
+
++---------------+---------------------------------------+
+| Parameter     | Erläuterung                           |
++===============+=======================================+
+| -u <Benutzer> | Benutzer                              |
++---------------+---------------------------------------+
+| -r <Benutzer> | unter anderer Nutzerkennung ausführen |
++---------------+---------------------------------------+
+| -e <Befehl>   | Ausführen                             |
++---------------+---------------------------------------+
+| -i            | interaktiver Modus                    |
++---------------+---------------------------------------+
+| -v            | Version                               |
++---------------+---------------------------------------+
+
+Befehlssyntax
+-------------
+
+module.function({where:{field:'value',...}, set:{field:'value',...}}) 
 
 +-----------+---------------------------------------+
 | Parameter | Erläuterung                           |
 +===========+=======================================+
-| -i        | interaktiver Modus                    |
+| where     | selektiert nach einem Feld            |
 +-----------+---------------------------------------+
-| -e        | Ausführen                             |
+| set       | setzt einen Wert                      |
 +-----------+---------------------------------------+
-| -r        | unter anderer Nutzerkennung ausführen |
-+-----------+---------------------------------------+
-| -u        | Benutzer                              |
-+-----------+---------------------------------------+
-| where     | Wertabfrage eines Feldes              |
-+-----------+---------------------------------------+
-| set       | sezt einen Wert                       |
-+-----------+---------------------------------------+
- 
-
-
 
