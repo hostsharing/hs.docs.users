@@ -30,7 +30,7 @@ Wir befinden uns jetzt hier:
 
 .. image:: benutzer-anlegen.jpg
 
-Weiter geht es mit dem Button *Benutzer anlegen* und füllen die folgende Maske wie folgt aus:
+Weiter geht es mit dem Button *Benutzer anlegen* und wir füllen die folgende Maske wie folgt aus:
 
 .. image:: benutzer-anlegen-neu.jpg
 
@@ -42,19 +42,13 @@ Die Maske füllen wir mit folgenden Daten:
 
 .. image:: domain-konfig.jpg
 
-Bei Domain den neuen Domainnamen und als Adminstrator den Domain-Admin xyz00-doms.
+Bei Domain den neuen Domainnamen und als Adminstrator den Domain-Admin xyz00-doms eintragen.
 
-Aktion mit *speichern* ausführen.
-
-Damit ist die Domain auf dem HS Server aufgeschaltet / konfiguriert.
+Damit ist die Domain auf dem HS Server technisch angelegt.
 
 Die Domain im Domainbestellsystem bestellen
 -------------------------------------------
 
-Nun wird unter https://www.domainbestellsystem.de die domain hs-example.de
-bestellt.
+Anschliessend kann die Domain hs-example.de https://www.domainbestellsystem.de bestellt werden.
 Die Login Daten dafür wurden Ihnen mit einer separaten Mail mitgeteilt.
-hs-xyz
-Das-geheime-Wort
-
 
