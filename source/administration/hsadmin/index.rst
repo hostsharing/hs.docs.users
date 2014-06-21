@@ -16,6 +16,20 @@ Die Bedienung erfolgt über ein :doc:`Webfrontend<webfrontend>` oder mit dem HSA
 
     $ hsscript -u xyz00 -i 
 
+HSAdmin verfügt über mehrere :doc:`Module<module>` mit folgenden Funktionen:
+
++----------------+---------------+
+| Funktion       + Erläuterung   |
++================+===============+
+| search         | Suche         |
++----------------+---------------+
+| add            | Zufügen       |    
++----------------+---------------+
+| update         | Aktualisieren |
++----------------+---------------+
+| remove         | Löschen       |
++----------------+---------------+
+
 
 .. toctree::
     :maxdepth: 1
