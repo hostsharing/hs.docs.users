@@ -17,6 +17,12 @@ Das HSAdminmodul ``emailaliases`` verfügt über folgende Optionen:
 +===============+======================================================================+
 | name          | Name des E-Mailalias                                                 |
 +---------------+----------------------------------------------------------------------+
-| target        | Ziel einer E-Mail-Adresse, mehrere Ziele werden ducrh Komma getrannt |
+| target        | Ziel einer E-Mail-Adresse, mehrere Ziele werden durch Komma getrennt |
 +---------------+----------------------------------------------------------------------+
+
+Beispiel:
+
+.. code-block:: console
+
+    $ emailalias.add ({set:{name:'xyz00',target:'webmaster@hs-example.de'}})
 
