@@ -1,0 +1,23 @@
+digraph g { 
+	node [peripheries=0, style=filled, fillcolor="grey92", font=Helvetica, fontcolor=white ]
+
+	enquire_information [shape=box, label="<proto>://<fqdn>/<path>" ]
+
+
+    vh_check_fqdn [shape=diamond, label="Virtual Host, der fqdn am genauesten entspricht."]
+	root_htdocs_ok [shape=record, label="root = htdocs"]
+    root_search_in_subs [shape=diamond, label="Suche in subs nach passender Subdomain"]
+    root_subs_ok [shape=record, label="root = subs"]
+	htdocsfallback_subs [shape=diamond, label="Existiert eine Sub-Domain? " ]
+	404 [shape=record, label="404"] 
+        
+	exquire_information ->  vh_check_fqdn
+	vh_check_fqdn -> root_htdocs_ok [headlabel="Ja"]
+	vh_check_fqden -> root_search_in_subs [headlabel="Nein"]
+	root_search_in_subs -> root_subs_ok [headlabel="Ja"]
+	root_search_in_subs -> root_subs_ok [headlabel="Nein"]
+	root_subs_ok -> htdocsfallback_subs [headlabel="Nein"]
+	htdocsfallback_subs -> [haedlabel="404"] 
+}
+
+
