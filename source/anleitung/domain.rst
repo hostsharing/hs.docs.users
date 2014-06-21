@@ -44,7 +44,7 @@ Die Maske füllen wir mit folgenden Daten:
 
 .. image:: domain-konfig.jpg
 
-Bei Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/verzeichnisebenen-domain-admin>` xyz00-doms eintragen.
+Bei Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/domain/verzeichnisebenen-domain-admin>` xyz00-doms eintragen.
 
 Damit ist die Domain auf dem HS Server technisch angelegt.
 
