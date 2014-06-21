@@ -9,3 +9,7 @@ HSAdminmodul q
 
 :Date: |date|, |time|
 
+Das HSAdminmodul hat die Funkiion ``search``. Hiermit ist die Suche nach HSAdminaktionen möglich.
+
+
+
