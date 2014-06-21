@@ -28,5 +28,4 @@ in deren Nutzung sowie eine Beschreibung typischer Prozesse.
     anleitung/index
     administration/index
     glossar
-    sitemap
     impressum
