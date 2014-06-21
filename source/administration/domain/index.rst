@@ -15,7 +15,7 @@ Folgende Aufgaben sind in der Verwaltung einer Domain möglich:
  
 * :term:`Domain-Registrierung`,
 * :term:`Domain-Transfer` zur Hostsharing eG,
-* :term:`extern registrierte` Domain aufschalten,
+* extern registrierte Domain aufschalten,
 * Extern registrierte :term:`Sub-Domain` aufschalten,
 * Domain neu zuordnen (:doc:`Domain-Admin <../benutzer/domain-admin>` neu zuordnen oder Zuordnung zu einem :doc:`Web-Paket<../webpaket/index>` ändern),
 * Sub-Domain neu zuordnen (:doc:`Domain-Admin<../benutzer/domain-admin>` neu zuordnen oder Zuordnung zu einem :doc:`Web-Paket<../webpaket/index>` ändern),

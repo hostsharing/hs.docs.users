@@ -7,7 +7,7 @@ Administration
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
+
 :Date: |date|, |time|
 
 .. toctree::
