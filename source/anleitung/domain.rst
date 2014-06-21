@@ -33,24 +33,59 @@ Da Domain aus Sicherheitsgünden nur einem Benutzer innerhalb einer Benutzerkenn
 
 Dafür vergeben wir nun ein Passwort für die Benutzerkennung des Paketes xyz00.
 
-Wir wechseln dazu in den Tab 'Unix User'.
+Wir wechseln dazu in den Tab *Unix User*.
 
 .. image:: unix-user.jpg
 
 und klicken in der Zeile
-xyz00 rechts aus auf bearbeiten (blauer Pfeil im Bild)
+xyz00 rechts aussen auf das Icon bearbeiten (blauer Pfeil im Bild)
 
 Im folgendem Bild vergeben wir in den Zeilen Passwort ein entsprechendes Wort.
 
 .. image:: unix-user-bearbeiten.jpg
 
-Wir bestätigen mit dem Speichern Button.
+Wir bestätigen mit dem *Speichern* Button.
 
-Nun melden wir uns as dem Admin Breich mit unserer Mitgleiderkennung ab.
+Nun melden wir uns aus dem Admin Breich mit unserer Mitgliederkennung ab.
 
-Dazu einmal abmelden rechts aussen betätigen.
+Dazu einmal *abmelden* rechts aussen betätigen.
+
+Nun wählen wir oben *Admin* 
+und auf der Login Seite benutzen wir die Benutzerkennung xyz00 und das gerade vergeben Passwort.
+
+Wir befienden uns jetzt hier:
+
+.. image:: benutzer-anlegen.jpg
+
+Weiter geht es mit dem Button *Benuzter anlegen* und füllen die folgende Maske wie folgt aus:
+
+.. image:: benutzer-anlegen-neu.jpg
+
+Damit kommen wir nun zur eigendlich Aufgabe eine Domain an zu legen.
+
+Hierzu aktivieren wir den Tab *Domains* und wählen dort *Domain konfigurieren*.
+
+Die Maske füllen wir mit folgenden Daten:
+
+.. image:: domain-konfig.jpg
+
+Bei Domain halt den neuen Domainnamen und als Adminstrator den Domain-Admin xyz00-doms.
+
+Aktion mit *speichern* ausführen.
+
+Damit ist die Domain auf dem HS Server aufgeschaltet / konfiguriert.
+
+Nun wird unter https://www.domainbestellsystem.de die domain hs-example.de
+bestellt.
+Die Login Daten dafür wurden Ihnen mit einer separten Mail mitgeteilt.
+hs-xyz
+Das-geheime-Wort
 
 
-Auf der folgenden Seite wählen wir nun oben Admin und auf der Login Seite benutzen wir nun die Benutzerkennung xyz00 und das gerade vergeben Passwort.
+geschaft 
+
+folge Domains können nun direkt und schnell aufgeschaltet und anschließend im DomainbestellSystem bestellt werden.
+
+
 
 
