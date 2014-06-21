@@ -1,18 +1,18 @@
 digraph d  { 
 	node [peripheries=0, style=filled, fillcolor="grey92", font=Helvetica, fontcolor=black]
 
-	enquire_information [shape=box, label="http://www.example.com/<path>" ]
+	enquire_information [shape=box, label="https://www.example.com/<path>" ]
 
 
     vh_check_fqdn [shape=record, label="Virtual Host, der fqdn am genauesten entspricht."]
-	path_cgi_bin [shape=diamond, label="Start mit cgi_bin"]
-	path_fastcgi [shape=diamond, label="Start mit fastcgi"]
-	root_cgi_bin [shape=record, label="root = cgi-bin"]
-	root_fastcgi [shape=record, label="root = fastcgi"]
+	path_cgi_bin [shape=diamond, label="Start mit cgi_ssl"]
+	path_fastcgi [shape=diamond, label="Start mit fastcgi-ssl"]
+	root_cgi_bin [shape=record, label="root = cgi-ssl"]
+	root_fastcgi [shape=record, label="root = fastcgi-ssl"]
 	fqdn_matches [shape=diamond, label="FQND Treffer"]
-	root_htdocs_ok [shape=record, label="root = htdocs"]
+	root_htdocs_ok [shape=record, label="root = htdocs-ssl"]
 	root_search_in_subs [shape=diamond, label="Gibt es eine passende Sub-Domain?"]
-    root_subs_ok [shape=record, label="root = subs"]
+    root_subs_ok [shape=record, label="root = subs-ssl"]
 	htdocsfallback_subs [shape=diamond, label="Ist htdocs fallback aktiv?" ]
 	404 [shape=record, label="404"] 
         
