@@ -11,7 +11,7 @@ Verzeichnisebene E-Mail-Nutzer
 
 
 +-----------------+-------------+--------+---------+--------------------------------+
-| Rechte Schleuse | Nutzer      | Gruppe | Ordner  | Erläuterung                    |
+| Berechtigungen  |  Nutzer     | Gruppe | Ordner  | Erläuterung                    |
 +=================+=============+========+=========+================================+
 | drwxr-----      |  xyz00-mail |  xyz00 | Maildir | Mailordner des E-Mail-Nutzers. |
 +-----------------+-------------+--------+---------+--------------------------------+
