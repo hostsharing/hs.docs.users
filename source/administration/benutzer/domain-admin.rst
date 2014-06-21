@@ -38,7 +38,7 @@ Konfiguration
 E-Mail-Adressen anlegen:
 
 * per Webfrontend, :doc:`siehe</administration/hsadmin/webfrontend>`
-* mit ``hsscript``, :doc:`siehe</administration/hsadmin/hsadmin-cheetset>`
+* mit ``hsscript``, :doc:`siehe</administration/hsadmin/index>`
 
 Zonen-Daten einer Domain bearbeiten:
 
