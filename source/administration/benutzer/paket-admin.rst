@@ -45,7 +45,7 @@ Administration
 Nutzer einrichten, löschen und ändern; Domain(s) einem Domain-Admin zuordnen, Domain(s) administrieren: 
 
 * per Webfrontend, :doc:`siehe</administration/hsadmin/webfrontend>`
-* mit ``hsscript``, :doc:`siehe</administration/hsadmin/hsadmin-cheetset>`
+* mit ``hsscript``, :doc:`siehe</administration/hsadmin/index>`
 
 Rechte eines Web-Paket-Nutzers annehmen:
 
