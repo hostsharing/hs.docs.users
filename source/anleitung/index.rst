@@ -7,7 +7,7 @@ Anleitung
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
+          - Christian Günter
 :Date: |date|, |time|
 
 Für einen erfolgreichen Start mit Hostsharing wird hier schrittweise gezeigt, wie eine Domain mit E-Mail-Adresse und Datenbank in einem neuen Web-Paket angelegt wird.

@@ -7,7 +7,6 @@ Web-Paket in Betrieb nehmen
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
           - Christian Günter
 :Date: |date|, |time|
 
@@ -22,7 +21,7 @@ Wir sehen alle Pakete des Mitglieds.
 
 .. image:: mitglieder-login.jpg
 
-Da die Domain aus Sicherheitsgünden nur einem Benutzer innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in unserem Paket xyz00 an.
+Da die :doc:`Domain<../administration/domain/index>` aus Sicherheitsgünden nur einem :doc:`Benutzer<../administration/benutzer/index>` innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in unserem Paket xyz00 an.
 
 Dafür vergeben wir nun ein Passwort für die Benutzerkennung des Pakets xyz00.
 

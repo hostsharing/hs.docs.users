@@ -7,7 +7,6 @@ Domain bestellen
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
           - Christian Günter
 :Date: |date|, |time|
 
