@@ -17,8 +17,14 @@ Eine Domain wird in zwei Schritten bei HS bestellt.
 
 2. Die Domain im Domainbestellsystem bestellen
 
-Neue Domain example.de aufschalten
-----------------------------------
+Die Domain auf dem HS Server anlegen
+------------------------------------
+
+Wir rufen die Seite https://admin.hostsharing.net in einem Browser auf und werden auf die Login Seite https://login.hostsharing.net weitergeleitet.
+
+Es wird die Mitgliederkennung beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
+
+.. image:: admin.hostsharing.net.jpg
 
 Nun wählen wir oben *Admin* 
 und auf der Login Seite benutzen wir die Benutzerkennung xyz00 und das gerade vergeben Passwort.
