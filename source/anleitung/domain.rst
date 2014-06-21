@@ -50,5 +50,5 @@ Die Domain im Domainbestellsystem bestellen
 -------------------------------------------
 
 Anschliessend kann die Domain hs-example.de https://www.domainbestellsystem.de bestellt werden.
-Die Login Daten dafür wurden Ihnen auf einem separatem Weg mitgeteilt.
+Die Login-Daten dafür wurden Ihnen auf einem separatem Weg mitgeteilt.
 
