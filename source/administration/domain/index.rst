@@ -23,7 +23,7 @@ Folgende Aufgaben sind in der Verwaltung einer Domain möglich:
 * Verwaltung des :doc:`Zonefile<../zonefile/index>`,
 * Verwaltung der Domain-Daten (z.B. Domain-Handel, Kontaktdaten),
 * Transfer zu einem anderen Provider,
-* :doc:`Domain<../domain/index>` löschen/kündigen.
+* Domain löschen/kündigen.
  
          
           
