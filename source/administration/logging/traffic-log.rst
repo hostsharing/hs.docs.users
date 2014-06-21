@@ -10,7 +10,7 @@ Traffic-Log-File
 :Date: |date|, |time|
 
                
-Der im :doc:`Web-Paket</webpaket/index>` erzeugte Traffic wird dem :doc:`Paket-Admin</account/paket-admin>` unter ``/home/pacs/xyz00/var/traffic-iptables-YYYY-MM.log`` zugänglich gemacht.
+Der im :doc:`Web-Paket<../webpaket/index>` erzeugte Traffic wird dem :doc:`Paket-Admin<../benutzer/paket-admin>` unter ``/home/pacs/xyz00/var/traffic-iptables-YYYY-MM.log`` zugänglich gemacht.
 Das Logfile hat folgenden Aufbau:
 
 +----------+-------+-------------+------------+--------------+---------------+----------+--------------+----------+
@@ -23,10 +23,11 @@ Das Logfile hat folgenden Aufbau:
 Bedeutung der einzelnen Spalten:
 
 * Datum:        Datum der Messung
-* Paket:        Name des Webpaketes- Monatslimit:  Gebuchter Gesamttraffic pro Monat in Megabyte
+* Paket:        Name des Webpakets
+* Monatslimit:  Gebuchter Gesamttraffic pro Monat in Megabyte
 * Tageslimit:   Tägliches Traffic-Kontingent bei gleichmäßigem Verbrauch in Megabyte 
-* Trafficsumme: Gesamtsumme des angefallenen Traffic am angegebenen Tag in Megabyte
-* IP-Adresse 1: Primäre IP-Adresse des Webpaketes 
+* Trafficsumme: Gesamtsumme des angefallenen Traffic bis zum angegebenen Tag in Megabyte
+* IP-Adresse 1: Primäre IP-Adresse des Webpakets 
 * Traffic 1:    Über die primäre IP-Adresse angefallener Traffic in Megabyte
 * IP-Adresse 2: Sekundäre IP-Adresse des Pakets 
 * Traffic 2:    Über die sekundäre IP-Adresse angefallener Traffic in Megabyte
