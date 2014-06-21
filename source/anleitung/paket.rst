@@ -22,7 +22,7 @@ Wir sehen alle Pakete des Mitglieds.
 
 .. image:: mitglieder-login.jpg
 
-Da die Domain aus Sicherheitsgünden nur einem Benutzer innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in userem Paket xyz00 an.
+Da die Domain aus Sicherheitsgünden nur einem Benutzer innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in unserem Paket xyz00 an.
 
 Dafür vergeben wir nun ein Passwort für die Benutzerkennung des Pakets xyz00.
 
@@ -31,9 +31,9 @@ Wir wechseln dazu in den Tab *Unix User*.
 .. image:: unix-user.jpg
 
 und klicken in der Zeile
-xyz00 rechts aussen auf das Icon bearbeiten (blauer Pfeil im Bild)
+xyz00 rechts außen auf das Icon bearbeiten (blauer Pfeil im Bild)
 
-Im folgendem Bild vergeben wir in den Zeilen Passwort ein entsprechendes Wort.
+Im folgendem Bild vergeben wir für die Benutzerkennung ein Passwort..
 
 .. image:: unix-user-bearbeiten.jpg
 
