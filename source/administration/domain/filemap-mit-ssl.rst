@@ -1,6 +1,6 @@
-===================
-Filemapng  mit  SSL
-===================
+=====================
+Filemapping  mit  SSL
+=====================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
