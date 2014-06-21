@@ -31,7 +31,7 @@ HSAdmin verfügt über folgende Module:
 +--------------+------------------------------------------------------------------------------+
 | :doc:`postgresqldb<postgresqldb>`      | Modul zur Verwaltung von Postgresql-Datenbanken    |
 +--------------+------------------------------------------------------------------------------+
-| :doc:`postgresqluser<postgresqluser>`| Modul zur Verwaltung vpn Postgresql-Datenbanknutzern |
+| :doc:`postgresqluser<postgresqluser>` | Modul zur Verwaltung von Postgresql-Datenbanknutzer |
 +--------------+------------------------------------------------------------------------------+
 | :doc:`emailaddress<emailaddress>` | Modul zur Verwaltung von E-Mail-Adressen                |
 +--------------+------------------------------------------------------------------------------+
