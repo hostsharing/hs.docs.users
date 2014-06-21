@@ -6,10 +6,16 @@ HSAdminmodul q
 .. |time| date:: %H:%M
 
 :Authors: - Uwe Müller
+          - Dominic Schlegel
 
 :Date: |date|, |time|
 
-Das HSAdminmodul hat die Funkiion ``search``. Hiermit ist die Suche nach HSAdminaktionen möglich.
+Das HSAdminmodul hat die Funktion ``search``. Hiermit ist die Suche nach HSAdminaktionen möglich.
 
+Beispiel:
+
+.. code-block:: console
+
+    $  q.search ({set:{id:'Suchbegriff'}})
 
 
