@@ -1,6 +1,6 @@
-==========================
-Webpaket in Betrieb nehmen
-==========================
+===========================
+Web-Paket in Betrieb nehmen
+===========================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
