@@ -23,3 +23,10 @@ Das HSAdminmodul postgresqldb verfügt über folgende Optionen:
 | encoding      | Zeichensatz der Datenbank (Standard ist UTF-8) |
 +---------------+------------------------------------------------+
 
+
+Beispiel:
+
+.. code-block:: console
+
+    $ postgresqldb.add ({set:{name:'xyz00_abc',owner:'xyz00_abc',encoding:'latin1'}})
+
