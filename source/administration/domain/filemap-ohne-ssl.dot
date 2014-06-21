@@ -1,5 +1,5 @@
 digraph g { 
-	node [peripheries=0, style=filled, fillcolor="grey92", font=Helvetica, fontcolor=white ]
+	node [peripheries=0, style=filled, fillcolor="grey92", font=Helvetica, fontcolor=white]
 
 	enquire_information [shape=box, label="<proto>://<fqdn>/<path>" ]
 
@@ -17,7 +17,7 @@ digraph g {
 	root_search_in_subs -> root_subs_ok [headlabel="Ja"]
 	root_search_in_subs -> root_subs_ok [headlabel="Nein"]
 	root_subs_ok -> htdocsfallback_subs [headlabel="Nein"]
-	htdocsfallback_subs -> [haedlabel="404"] 
+	htdocsfallback_subs -> [headlabel="404"] 
 }
 
 
