@@ -21,4 +21,11 @@ Das HSAdminmodul ``postgresqluser`` verfügt über folgende Optionen:
 +---------------+------------------------------------------------+
 | password      | Password                                       |
 +---------------+------------------------------------------------+
+
+
+Beispiel::
+
+.. code-block:: console
+
+    $ postgresqluser.add ({set:{name:'xyz00_abc',password:'!1?2-3aBc'}})
  
