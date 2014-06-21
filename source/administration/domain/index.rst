@@ -32,7 +32,6 @@ Inhalt:
 .. toctree::     
     :maxdepth: 1                
          
-    allgemein        
     domainverwaltung
     paket-subdomain
 
