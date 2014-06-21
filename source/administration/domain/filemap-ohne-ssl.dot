@@ -5,7 +5,7 @@ digraph d  {
 
 
     vh_check_fqdn [shape=record, label="Virtual Host, der fqdn am genauesten entspricht."]
-	fqdn_matches [share=diamond, label="FQND Treffer"]
+	fqdn_matches [shape=diamond, label="FQND Treffer"]
 	root_htdocs_ok [shape=record, label="root = htdocs"]
 	root_search_in_subs [shape=diamond, label="Suche in subs nach passender Subdomain"]
     root_subs_ok [shape=record, label="root = subs"]
