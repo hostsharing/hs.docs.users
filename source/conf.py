@@ -29,6 +29,7 @@ sys.path.insert(0, os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
+    'sphinx.ext.graphviz',
     'edit_on_github',
     ]
 
