@@ -5,6 +5,10 @@ digraph d  {
 
 
     vh_check_fqdn [shape=record, label="Virtual Host, der fqdn am genauesten entspricht."]
+	path_cgi_bin [shape=diamond, label="Start mit cgi_bin"]
+	path_fastcgi [shape=diamond, label="Start mit fastcgi"]
+	root_cgi_bin [shape=record, label="root = cgi-bin"]
+	root_fastcgi [shape=record, label="root = fastcgi"]
 	fqdn_matches [shape=diamond, label="FQND Treffer"]
 	root_htdocs_ok [shape=record, label="root = htdocs"]
 	root_search_in_subs [shape=diamond, label="Gibt es eine passende Sub-Domain?"]
@@ -13,6 +17,10 @@ digraph d  {
 	404 [shape=record, label="404"] 
         
 	vh_check_fqdn -> fqdn_matches
+	path_cgi_bin -> root_cgi_bin [headlabel="Ja"]
+    path_cgi_bin -> path_fastcgi [headlabel="Nein"]   
+	path_fastcgi -> root_fastcgi [headlabel="Ja"]
+	path_fastcgi -> fqdn_matches [headlabel="Nein"] 
 	fqdn_matches -> root_htdocs_ok [headlabel="Ja"]
 	fqdn_matches -> root_search_in_subs [headlabel="Nein"]
 	root_search_in_subs -> root_subs_ok [headlabel="Ja"]
@@ -20,5 +28,4 @@ digraph d  {
 	htdocsfallback_subs -> root_subs_ok [headlabel="Ja"]
 	htdocsfallback_subs -> 404 [headlabel="Nein"]
 }
-
 
