@@ -1,4 +1,4 @@
-digraph g { 
+digraph d  { 
 	node [peripheries=0, style=filled, fillcolor="grey92", font=Helvetica, fontcolor=white]
 
 	enquire_information [shape=box, label="<proto>://<fqdn>/<path>" ]
