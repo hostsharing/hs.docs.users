@@ -11,7 +11,7 @@ Einführung
 :Date: |date|, |time|
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     web-pakete
     managed-server
