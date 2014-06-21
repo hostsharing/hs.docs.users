@@ -21,11 +21,20 @@ Es bietet einen Überblick über die Infrastruktur, eine Einführung
 in deren Nutzung sowie eine Beschreibung typischer Prozesse.
 
 .. toctree::
+    :maxdepth: 1
+
+    inhalt
+
+.. toctree::
     :maxdepth: 2
 
     einfuehrung/index
     sicherheit/index
     anleitung/index
     administration/index
+
+.. toctree::
+    :maxdepth: 1
+
     glossar
     impressum
