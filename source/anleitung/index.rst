@@ -15,6 +15,7 @@ Für einen erfolgreichen Start mit Hostsharing wird hier schrittweise gezeigt, w
 .. toctree::
     :maxdepth: 1
 
+    paket
     domain
     webspace
     email
