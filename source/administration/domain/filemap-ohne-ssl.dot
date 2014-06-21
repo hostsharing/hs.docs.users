@@ -7,9 +7,9 @@ digraph d  {
     vh_check_fqdn [shape=record, label="Virtual Host, der fqdn am genauesten entspricht."]
 	fqdn_matches [shape=diamond, label="FQND Treffer"]
 	root_htdocs_ok [shape=record, label="root = htdocs"]
-	root_search_in_subs [shape=diamond, label="Suche in subs nach passender Subdomain"]
+	root_search_in_subs [shape=diamond, label="Gibt es eine passende Sub-Domain?"]
     root_subs_ok [shape=record, label="root = subs"]
-	htdocsfallback_subs [shape=diamond, label="Existiert eine Sub-Domain? " ]
+	htdocsfallback_subs [shape=diamond, label="Ist htdocs fallback aktiv?" ]
 	404 [shape=record, label="404"] 
         
 	vh_check_fqdn -> fqdn_matches
