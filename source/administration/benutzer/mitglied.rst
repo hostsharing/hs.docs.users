@@ -31,7 +31,7 @@ Rolle
 Rechte
 ======
 
-* Verwaltung aller :doc:`Webpakete</administration/webpaket/index>` die dem Mitglied zugeordnet sind,
+* Verwaltung aller :doc:`Webpakete</administration/webpaket/index>`, die dem Mitglied zugeordnet sind,
 * kann die Rechte eines :doc:`Paket-Admins <paket-admin>` annehmen,
 * Rechnungen herunterladen,
 * Änderung der Mitgliederdaten.
