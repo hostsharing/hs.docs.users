@@ -22,7 +22,7 @@ Wir sehen alle Pakete des Mitglieds.
 
 .. image:: mitglieder-login.jpg
 
-Da die Domain aus Sicherheitsgünden nur einem Benutzer innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in unserem Paket xyz00 an.
+Da die :doc:`Domain<../administration/domain>` aus Sicherheitsgünden nur einem :doc:`E-Mail-Nutzer<../administration/benutzer>` innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in unserem Paket xyz00 an.
 
 Dafür vergeben wir nun ein Passwort für die Benutzerkennung des Pakets xyz00.
 
