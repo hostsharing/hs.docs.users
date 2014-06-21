@@ -13,7 +13,7 @@ Initial angelegte Verzeichnisse und Dateien
 Verzeichnisstruktur
 -------------------
 
-Jeder :doc:`Nutzer</account/index>` eines Web-Paketes hat eine initial angelegete Verzeichnisstruktur.
+Jeder :doc:`Nutzer<../benutzer/index>` eines Web-Paketes hat eine initial angelegete Verzeichnisstruktur.
 Die Verzeichnisstruktur entspricht der dem jeweiligen Nutzer zugesprochenen Rolle. 
 
 * :doc:`Paket-Admin<verzeichnisebenen-paket-admin>`
@@ -23,6 +23,6 @@ Die Verzeichnisstruktur entspricht der dem jeweiligen Nutzer zugesprochenen Roll
 Dateien
 -------
 
-Der Paket-Admin besitzt initial angelegte Konfigurationsdateien und Dateien für das Logging von Webseiten und dem Traffic des Web-Paketes und E-Mail. 
+Der Paket-Admin besitzt initial angelegte Konfigurationsdateien und Dateien für das Logging von Webseiten und dem Traffic des Web-Pakets und E-Mail. 
 
 * :doc:`initial angelegte Dateien<dateien-paket-admin>`

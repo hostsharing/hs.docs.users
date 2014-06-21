@@ -17,15 +17,60 @@ Die Bedienung erfolgt über ein :doc:`Webfrontend<webfrontend>` oder mit dem HSA
     $ hsscript -u xyz00 -i 
 
 
+ 
+HSAdmin verfügt über folgende Module:
+
++--------------+------------------------------------------------------------------------------+
+| Modul        | Erläuterung                                                                  |
++==============+==============================================================================+
+| :doc:`user<user>`                 | Modul zur Nutzerverwaltung                              |
++--------------+------------------------------------------------------------------------------+
+| :doc:`mysqldb<mysqldb>`           | Modul zur Verwaltung von Mysql-Datenbanken              |
++--------------+------------------------------------------------------------------------------+
+| :doc:`mysqluser<mysqluser>`       | Modul zur Verwaltung vom Mysql-Datenbanknutzern         |
++--------------+------------------------------------------------------------------------------+
+| :doc:`postgresqldb<postgresqldb>`      | Modul zur Verwaltung von Postgresql-Datenbanken    |
++--------------+------------------------------------------------------------------------------+
+| :doc:`postgresqluser<postgresqluser>`| Modul zur Verwaltung vpn Postgresql-Datenbanknutzern |
++--------------+------------------------------------------------------------------------------+
+| :doc:`emailaddress<emailaddress>` | Modul zur Verwaltung von E-Mail-Adressen                |
++--------------+------------------------------------------------------------------------------+
+| :doc:`emailalias<emailaliases>`     | Modul zur Verwaltung von E-Mailaliasen                |
++--------------+------------------------------------------------------------------------------+
+| :doc:`domain<domain>`             | Modul zur Verwaltung von Domains in eimem Web-Paket     |
++--------------+------------------------------------------------------------------------------+
+| :doc:`q<q>`                       | Modul zur Suche von Systemaufträgen von HSAdmin         |
++-----------------------------------+---------------------------------------------------------+
+
+
+Die HSAdminmodule verfügen über folgenden Funktionen:
+
++----------------+---------------+
+| Funktion       + Erläuterung   |
++================+===============+
+| search         | suchen        |
++----------------+---------------+
+| add            | hinzufügen    |    
++----------------+---------------+
+| update         | aktualisieren |
++----------------+---------------+
+| remove         | löschen       |
++----------------+---------------+
+
+
 .. toctree::
     :maxdepth: 1
     
     syntax
-    benutzerverwaltung
-    datenbankverwaltung
-    domainverwaltung
-    emailalias
-    emailalias-verwaltung
-    emailverwaltung
-    hsadmin-cheetset
+    user 
+    mysqldb
+    mysqluser
+    postgresqldb
+    postgresqluser
+    emailaddress
+    emailaliases
+    domain
+    q
     webfrontend               
+
+

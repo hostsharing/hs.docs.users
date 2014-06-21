@@ -13,7 +13,7 @@ Anleitung
 Für den ersten Start mit Hostsharing wird hier ein Weg Step by Step gezeigt wie eine Domain mit eMail Adresse und Datenbank in einem neuem Web-Paket angelegt wird.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     domain
     webspace
