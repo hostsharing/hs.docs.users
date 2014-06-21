@@ -16,6 +16,11 @@ Das HSAdminmodul ``domain`` verfügt über folgende Optionen:
 +===============+================================================+
 | name          | Name einer Domain                              |
 +---------------+------------------------------------------------+
-| user          | Name des Domain-Admin                          |
+| user          | Name des Domain-Admins                         |
 +---------------+------------------------------------------------+
  
+Beispiel:
+
+.. code-block:: console
+
+    $ domain.add ({set:{name:'hs-example.de',user:'xyz00'}})

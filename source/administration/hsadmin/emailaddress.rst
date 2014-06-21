@@ -20,7 +20,12 @@ Das HSAdminmodul ``emailaddress`` verfügt über folgende Optionen:
 +---------------+----------------------------------------------------------------------+
 | localpart     | bezeichnet den lokalen  Part einer Domain (Part vor '@')             |
 +---------------+----------------------------------------------------------------------+
-| target        | Ziel einer E-Mail-Adresse, mehrere Ziele werden ducrh Komma getrannt |
+| target        | Ziel einer E-Mail-Adresse, mehrere Ziele werden durch Komma getrennt |
 +---------------+----------------------------------------------------------------------+
 
+Beispiel:
+
+.. code-block:: console
+
+    $ emailaddress.add ({set:{domain:'hs-example.de',localpart:'info',target:'ihre@emailadresse.de'}})
 

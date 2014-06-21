@@ -20,6 +20,9 @@ Glossar
     Buildout bietet u.a. Download Cache, automatisierte Updates sowie eine
     Python-API für die Installation von Eggs und Scripts.
 
+   Paket-Admin
+    Ein Benutzer der Administrator eines Web-Paketes ist.
+
    Domain-Admin
     Einem Benutzer, dem mindestens eine Domain zugeordnet ist.
 
