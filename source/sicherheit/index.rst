@@ -11,7 +11,7 @@ Sicherheit
 :Date: |date|, |time|
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     rechenzentren
     netze

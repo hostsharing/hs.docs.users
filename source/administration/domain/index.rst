@@ -30,7 +30,7 @@ Folgende Aufgaben sind in der Verwaltung einer Domain möglich:
 Inhalt: 
 
 .. toctree::     
-    :maxdepth: 2                
+    :maxdepth: 1                
          
     allgemein        
     domainverwaltung

@@ -11,7 +11,7 @@ Administration
 :Date: |date|, |time|
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     benutzer/index
     webpaket/index

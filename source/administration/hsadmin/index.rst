@@ -48,13 +48,13 @@ Die HSAdminmodule verfügen über folgenden Funktionen:
 +----------------+---------------+
 | Funktion       + Erläuterung   |
 +================+===============+
-| search         | Suche         |
+| search         | suchen        |
 +----------------+---------------+
-| add            | Zufügen       |    
+| add            | hinzufügen    |    
 +----------------+---------------+
-| update         | Aktualisieren |
+| update         | aktualisieren |
 +----------------+---------------+
-| remove         | Löschen       |
+| remove         | löschen       |
 +----------------+---------------+
 
 
