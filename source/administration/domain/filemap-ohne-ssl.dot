@@ -16,7 +16,7 @@ digraph d  {
 	htdocsfallback_subs [shape=diamond, label="Ist htdocs fallback aktiv?" ]
 	404 [shape=record, label="404"] 
         
-	vh_check_fqdn -> fqdn_matches
+	vh_check_fqdn -> path_cgi_bin 
 	path_cgi_bin -> root_cgi_bin [headlabel="Ja"]
     path_cgi_bin -> path_fastcgi [headlabel="Nein"]   
 	path_fastcgi -> root_fastcgi [headlabel="Ja"]
