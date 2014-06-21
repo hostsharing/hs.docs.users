@@ -16,7 +16,7 @@ Im Verzeichnis ``var`` werden folgende Dateien initial angelegt:
 
 
 +-----------------+--------+--------+-----------+-------------------------------------------------------+
-| Rechte Schleuse | Nutzer | Gruppe | Datei     | Erläuterung                                           |
+| Berechtigungen  | Nutzer | Gruppe | Datei     | Erläuterung                                           |
 +=================+========+========+===========+=======================================================+
 | -rw-------      | xyz00  | xyz00  |   web.log |  Apache Weblog aller im Paket aufgeschaltenen Domains |
 +-----------------+--------+--------+-----------+-------------------------------------------------------+
@@ -31,7 +31,7 @@ HSAdmin
 Im Homeverzeichnis werden folgende Dateien initial angelegt:
 
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
-| Rechte Schleuse | Nutzer | Gruppe | Datei          | Erläuterung                                                                                        |
+| Berechtigungen  | Nutzer | Gruppe | Datei          | Erläuterung                                                                                        |
 +=================+========+========+================+====================================================================================================+
 | -rw-------      | xyz00  | xyz00  |  .hsadmin.conf |  Konfigurationsdatei für HSAdmin, initial leer. Beinhaltet den Namen des Paket-Admin und Passwort. |
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
