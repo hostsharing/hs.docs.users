@@ -34,7 +34,6 @@ Inhalt:
 .. toctree::       
         :maxdepth: 1                
          
-        allgemein        
         varianten 
         eigene-ssl-zertifikate
 
