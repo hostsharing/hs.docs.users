@@ -9,4 +9,4 @@ HSAdmin-Webfrontend
 
 :Date: |date|, |time| 
 
-HSAdmin verfügt über ein Webfrontend.       
+HSAdmin verfügt über ein Webfrontend `https://admin.hostsharing.net`_.       
