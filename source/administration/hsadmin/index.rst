@@ -71,7 +71,6 @@ Die HSAdminmodule verfügen über folgenden Funktionen:
     emailaliases
     domain
     q
-    f
     webfrontend               
 
 
