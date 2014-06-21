@@ -9,3 +9,17 @@ HSAdminmodul postgresqldb
 
 :Date: |date|, |time|
 
+
+
+Das HSAdminmodul postgresqldb verfügt über folgende Optionen:
+
++---------------+------------------------------------------------+
+| Option        | Erläuterung                                    |
++===============+================================================+
+| name          | Datenbankname (z.B. xyz00_abc)                 |
++---------------+------------------------------------------------+
+| owner         | Datenbanknutzer (z.B. xyz00_owner)             |
++---------------+------------------------------------------------+
+| encoding      | Zeichensatz der Datenbank (Standard ist UTF-8) |
++---------------+------------------------------------------------+
+
