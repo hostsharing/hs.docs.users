@@ -17,7 +17,7 @@ Die Hierarchie gliedert sich in absteigender Reihenfolge:
 * :doc:`Paket-Admin <paket-admin>` zur Verwaltung eines :doc:`Webpaketes</administration/webpaket/index>`,
 * :doc:`Domain-Admin <domain-admin>` zur Verwaltung einer oder mehrerer Domains *in* einem Webpaket,
 * :doc:`E-Mail-Account <userohneshell>` ohne die Zuweisung einer Shell.  
-* :doc:`Datenbank-Nutzer<datenbanknutzer>` zur Verwaltung einer oder mehrerer :doc:`Datenbanken</administration/watenbanken/index>`.
+* :doc:`Datenbank-Nutzer<datenbanknutzer>` zur Verwaltung einer oder mehrerer :doc:`Datenbanken<../datenbanken/index>`.
 
 Die Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) erfolgt durch den
 
