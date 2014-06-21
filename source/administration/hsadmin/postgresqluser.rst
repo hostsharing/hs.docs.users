@@ -23,7 +23,7 @@ Das HSAdminmodul ``postgresqluser`` verfügt über folgende Optionen:
 +---------------+------------------------------------------------+
 
 
-Beispiel::
+Beispiel:
 
 .. code-block:: console
 
