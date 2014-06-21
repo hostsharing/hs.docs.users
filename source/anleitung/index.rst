@@ -10,7 +10,7 @@ Anleitung
           - Veit Schiele
 :Date: |date|, |time|
 
-Für den ersten Start mit Hostsharing wird hier ein Weg Step by Step gezeigt wie eine Domain mit eMail Adresse und Datenbank in einem neuem Web-Paket angelegt wird.
+Für einen erfolgreichen Start mit Hostsharing wird hier schrittweise gezeigt, wie eine Domain mit E-Mail-Adresse und Datenbank in einem neuen Web-Paket angelegt wird.
 
 .. toctree::
     :maxdepth: 1

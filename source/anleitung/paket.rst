@@ -20,6 +20,37 @@ Eine Domain wird in zwei Schritten bei HS bestellt.
 Neue Domain example.de aufschalten
 ----------------------------------
 
+Wir rufen die Seite https://admin.hostsharing.net in einem Browser auf und werden auf die Login Seite https://login.hostsharing.net weitergeleitet.
+
+Es wird die Mitgliederkennung beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
+
+.. image:: admin.hostsharing.net.jpg
+
+Wir sehen alle Pakete des Mitglieds.
+
+.. image:: mitglieder-login.jpg
+
+Da Domain aus Sicherheitsgünden nur einem Benutzer innerhalb einer Benutzerkennung zu geordnet werden sollen, legen wir als nächstes einen neuen Benutzer in userem Paket xyz00 an.
+
+Dafür vergeben wir nun ein Passwort für die Benutzerkennung des Paketes xyz00.
+
+Wir wechseln dazu in den Tab *Unix User*.
+
+.. image:: unix-user.jpg
+
+und klicken in der Zeile
+xyz00 rechts aussen auf das Icon bearbeiten (blauer Pfeil im Bild)
+
+Im folgendem Bild vergeben wir in den Zeilen Passwort ein entsprechendes Wort.
+
+.. image:: unix-user-bearbeiten.jpg
+
+Wir bestätigen mit dem *Speichern* Button.
+
+Nun melden wir uns aus dem Admin Breich mit unserer Mitgliederkennung ab.
+
+Dazu einmal *abmelden* rechts aussen betätigen.
+
 Nun wählen wir oben *Admin* 
 und auf der Login Seite benutzen wir die Benutzerkennung xyz00 und das gerade vergeben Passwort.
 
