@@ -1,6 +1,6 @@
-=======
-HSAdmin
-=======
+======
+Syntax
+======
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -28,5 +28,4 @@ HSAdmin
  
 
 
-.. code-block:: console
 
