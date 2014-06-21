@@ -31,4 +31,4 @@ Das HSAdminmodul user verfügt über folgende Optionen:
 +--------------------+----------------------------------+
 
 
-
+``user.add ({set:{name:'xyz00',comment:'your name',password:'!1?2-3abc',shell:'/bin/bash',quota:'100',quota_softlimit:'50',quota_hardlimit:'75'}})``
