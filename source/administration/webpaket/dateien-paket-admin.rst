@@ -18,7 +18,7 @@ Im Verzeichnis ``var`` werden folgende Dateien initial angelegt:
 +-----------------+--------+--------+-----------+-------------------------------------------------------+
 | Rechte Schleuse | Nutzer | Gruppe | Datei     | Erläuterung                                           |
 +=================+========+========+===========+=======================================================+
-| -rw-------     | xyz00  | xyz00  |   web.log |  Apache Weblog aller im Paket aufgeschaltenen Domains |
+| -rw-------      | xyz00  | xyz00  |   web.log |  Apache Weblog aller im Paket aufgeschaltenen Domains |
 +-----------------+--------+--------+-----------+-------------------------------------------------------+
 | -rw-------      | xyz00  | xyz00  | web.err   | Fehlermeldungen bei Zugriffen auf Webseiten           |
 +-----------------+--------+--------+-----------+-------------------------------------------------------+
@@ -33,9 +33,9 @@ Im Homeverzeichnis werden folgende Dateien initial angelegt:
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
 | Rechte Schleuse | Nutzer | Gruppe | Datei          | Erläuterung                                                                                        |
 +=================+========+========+================+====================================================================================================+
-| -rw-------     | xyz00  | xyz00  |  .hsadmin.conf |  Konfigurationsdatei für HSAdmin, initial leer. Beinhaltet den Namen des Paket-Admin und Passwort. |
+| -rw-------      | xyz00  | xyz00  |  .hsadmin.conf |  Konfigurationsdatei für HSAdmin, initial leer. Beinhaltet den Namen des Paket-Admin und Passwort. |
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
-| -rw-------     | xyz00  | xyz00  | .hsadmin.tgt   | HSAdmin, speichert den Zugriff auf HSAdmin.                                                        |
+| -rw-------      | xyz00  | xyz00  | .hsadmin.tgt   | HSAdmin, speichert den Zugriff auf HSAdmin.                                                        |
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
 
 
