@@ -23,4 +23,4 @@ Beispiel:
 
 .. code-block:: console
 
-    $ domain.add ({set:{name:'hs-example.de',user:'edv43'}})
+    $ domain.add ({set:{name:'hs-example.de',user:'xyz00'}})
