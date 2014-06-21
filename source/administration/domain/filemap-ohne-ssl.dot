@@ -25,7 +25,7 @@ digraph d  {
 	fqdn_matches -> root_search_in_subs [headlabel="Nein"]
 	root_search_in_subs -> root_subs_ok [headlabel="Ja"]
 	root_search_in_subs -> htdocsfallback_subs [headlabel="Nein"]
-	htdocsfallback_subs -> root_subs_ok [headlabel="Ja"]
+	htdocsfallback_subs -> root_htdocs_ok [headlabel="Ja"]
 	htdocsfallback_subs -> 404 [headlabel="Nein"]
 }
 
