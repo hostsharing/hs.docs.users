@@ -21,13 +21,13 @@ HSAdmin verfügt über mehrere :doc:`Module<module>` mit folgenden Funktionen:
 +----------------+---------------+
 | Funktion       + Erläuterung   |
 +================+===============+
-| search         | Suche         |
+| search         | suchen        |
 +----------------+---------------+
-| add            | Zufügen       |    
+| add            | hinzufügen    |    
 +----------------+---------------+
-| update         | Aktualisieren |
+| update         | aktualisieren |
 +----------------+---------------+
-| remove         | Löschen       |
+| remove         | löschen       |
 +----------------+---------------+
 
 
