@@ -21,4 +21,10 @@ Das HSAdminmodul ``mysqluser`` verfügt über folgende Optionen:
 +---------------+------------------------------------------------+
 | password      | Password                                       |
 +---------------+------------------------------------------------+
+
+Beispiel:
+
+.. code-block:: console
+
+    $ mysqluser.add  ({set:{name:'xyz00_owner',password:'!1?2-3aBc'}})
  
