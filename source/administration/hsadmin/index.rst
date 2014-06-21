@@ -2,8 +2,13 @@
 HSadmin
 =======
 
+.. |date| date:: %d.%m.%Y
+.. |time| date:: %H:%M
+
 :Authors: - Uwe Müller
-:Date: 2013-13-07
+
+:Date: |date|, |time|
+
 
 .. toctree::
     :maxdepth: 1
@@ -16,3 +21,4 @@ HSadmin
     emailverwaltung
     hsadmin-cheetset
     webfrontend               
+
