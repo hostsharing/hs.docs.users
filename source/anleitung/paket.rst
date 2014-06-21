@@ -1,6 +1,6 @@
-================
-Domain bestellen
-================
+=================
+In Betrieb nehmen
+=================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -11,14 +11,6 @@ Domain bestellen
           - Christian Günter
 :Date: |date|, |time|
 
-Eine Domain wird in zwei Schritten bei HS bestellt.
-
-1. Die Domain auf dem HS Server anlegen
-
-2. Die Domain im Domainbestellsystem bestellen
-
-Neue Domain example.de aufschalten
-----------------------------------
 
 Wir rufen die Seite https://admin.hostsharing.net in einem Browser auf und werden auf die Login Seite https://login.hostsharing.net weitergeleitet.
 
