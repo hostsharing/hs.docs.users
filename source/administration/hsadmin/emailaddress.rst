@@ -23,4 +23,8 @@ Das HSAdminmodul ``emailaddress`` verfügt über folgende Optionen:
 | target        | Ziel einer E-Mail-Adresse, mehrere Ziele werden ducrh Komma getrannt |
 +---------------+----------------------------------------------------------------------+
 
+Beispiel:
 
+.. code-block:: console
+
+    $ emailaddress.add ({set:{domain:'hostsharing.net',localpart:'xyz00',target:'ihre@emailadresse.de'}})
