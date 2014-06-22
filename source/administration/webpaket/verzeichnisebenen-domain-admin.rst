@@ -9,6 +9,8 @@ Verzeichnisebene Domain-Admin
 
 :Date: |date|, |time|
 
+Das Home-Verzeichnis des :doc:`Domain-Admins<../benutzer/domain-admin>` umfasst folgende Verzeichnisse:
+
 +-----------------+-----------+--------+---------+----------------------------------------------------------------+
 | Berechtigungen  | Nutzer    | Gruppe | Ordner  | Erläuterung                                                    |
 +=================+===========+========+=========+================================================================+
