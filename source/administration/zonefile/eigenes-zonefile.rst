@@ -11,7 +11,7 @@ Eigenes Zonefile
 :Date: |date|, |time|
 
 
-Es können für :doc:`Domains<../domain/index>` oder Subdomains jeweils eigene Zonefiles angelegt werden. In der Regel ist dies bei folgenden Anforderungen notwendig:
+Es können für :doc:`Domains<../domain/index>` jeweils eigene Zonefiles angelegt werden. In der Regel ist dies bei folgenden Anforderungen notwendig:
 
 * Domain oder Subdomain extern aufschalten
 * Dienste extern aufschalten (z.B. E-Mail)
