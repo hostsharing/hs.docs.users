@@ -9,6 +9,7 @@ Verzeichnisebene E-Mail-Nutzer
 
 :Date: |date|, |time|          
 
+Das Home-Verzeichnis des :doc:`E-Mail-Nutzers<../benutzer/userohneshell>` umfasst folgende Verzeichnisse:
 
 +-----------------+-------------+--------+---------+--------------------------------+
 | Berechtigungen  |  Nutzer     | Gruppe | Ordner  | Erläuterung                    |
