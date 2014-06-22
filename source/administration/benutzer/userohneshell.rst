@@ -7,6 +7,7 @@ Nutzer ohne Shell
 
 
 :Authors: - Uwe Müller
+          - Dominic Schlegel
 
 :Date: |date|, |time|
 
