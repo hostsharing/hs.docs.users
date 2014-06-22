@@ -10,13 +10,13 @@ Domain bestellen
           - Christian Günter
 :Date: |date|, |time|
 
-Eine Domain wird in zwei Schritten bei HS bestellt.
+Eine Domain wird in zwei Schritten bei Hostsharing bestellt.
 
-1. Die Domain auf dem HS Server anlegen
+1. Die Domain auf dem Hostsharing Server anlegen
 
 2. Die Domain im Domainbestellsystem bestellen
 
-Die Domain auf dem HS Server anlegen
+Die Domain auf dem Hostsharing Server anlegen
 ------------------------------------
 
 Wir rufen die Seite https://admin.hostsharing.net in einem Browser auf und werden auf die Login Seite https://login.hostsharing.net weitergeleitet.
@@ -45,7 +45,7 @@ Die Maske füllen wir mit folgenden Daten:
 
 Bei Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/benutzer/domain-admin>` xyz00-doms eintragen.
 
-Damit ist die Domain auf dem HS Server technisch angelegt.
+Damit ist die Domain auf dem Hostsharing Server technisch angelegt.
 
 Die Domain im Domainbestellsystem bestellen
 -------------------------------------------
