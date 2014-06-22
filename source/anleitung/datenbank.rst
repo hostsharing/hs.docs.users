@@ -28,7 +28,7 @@ Die Felder werden wie folgt belegt:
 
 MySQL User: xyz00
 
-Benutzer-Prafix: dbuser (keine GROSS-Buchstaben nur a-z)
+Benutzer-Posfix: dbuser (Zulässige Zeichen: 0 bis 9 und a bis z Buchstaben)
 
 Passwort: PASSWORT
 
@@ -42,7 +42,7 @@ MySQL Datenbank
 
 Paket: xyz00
 
-Datenbank-Postfix: dbmysql (wieder nur a-z Buchstaben)
+Datenbank-Postfix: dbmysql (Zulässige Zeichen: 0 bis 9 und a bis z Buchstaben)
 
 Zeichensatz: utf8
 
