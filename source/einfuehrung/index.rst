@@ -29,9 +29,6 @@ Unternehmen und Organisationen mit gehobenen Ansprüchen an das Webhosting.
 Möglich sind der Betrieb von Application Servern,
 auch in Form verteilter Deployments über interne Netze.
 
-Leistungen
-----------
-
 Die Hostsharing eG erbingt ihre hochwertigen Leistungen entsprechend
 der nachfolgend schematisch dargestellten Prinzipien:
 
