@@ -6,13 +6,14 @@ Datenbank-Nutzer
 .. |time| date:: %H:%M
 
 :Authors: - Uwe Müller
+          - Dominic Schlegel
 
 :Date: |date|, |time|
 
 Allgemein
 ---------
 
-Die Rolle des Paket-Admins wird initial beim Anlegen eines :doc:`Web-Pakets</administration/webpaket/index>` eingerichtet und verwaltet eine oder mehrere zugewiesene :doc:`Datenbanken<../datenbanken/index>`.
+Die Rolle des Datenbank-Nutzers wird vom :doc:`Paket-Admin<../benutzer/paket-admin>` eingerichtet und verwaltet eine oder mehrere zugewiesene :doc:`Datenbanken<../datenbanken/index>`.
 
 * wird durch den :doc:`Paket-Admin<../benutzer/paket-admin>` angelegt.
 * Die Datenbank-Systeme haben jeweils ihre eigene :doc:`Nutzer-Verwaltung<../datenbanken/datenbanken-nutzer>` und sind unabhängig von der Vergabe von Rechten auf Betriebssystemebene.
