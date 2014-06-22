@@ -10,6 +10,7 @@ Verzeichnisebene Paketadmin
 
 :Date: |date|, |time|
 
+Das Home-Verzeichnis des :doc:`Paket-Admins</administration/benutzer/paket-admin>` umfasst folgende Verzeichnisse:
 
 +-----------------+--------+---------+----------+--------------------------------------------------------------------------+
 | Berechtigungen  | Nutzer | Gruppe  | Ordner   |  Erläuterung                                                             |
