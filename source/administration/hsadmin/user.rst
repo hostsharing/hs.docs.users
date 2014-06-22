@@ -22,7 +22,7 @@ Das HSAdminmodul ``user`` verfügt über folgende Optionen:
 +--------------------+---------------------------------------------+
 | password           | Passwort                                    |
 +--------------------+---------------------------------------------+
-| shell              | shell (z.B. ``/bin/bash)``                  | 
+| shell              | Shell (z.B. ``/bin/bash)``                  | 
 +--------------------+---------------------------------------------+
 | quota              | zugewiesener Speicherplatz in Megabyte      |
 +--------------------+---------------------------------------------+
@@ -35,4 +35,4 @@ Beispiel:
 
 .. code-block:: console
 
-    $ user.add ({set:{name:'xyz00-mustermann',comment:'Max Mustermann',password:'!1?2-3aBc',shell:'/bin/bash',quota:'100',quota_softlimit:'50',quota_hardlimit:'75'}})
+    xyz00@hsadmin> user.add ({set:{name:'xyz00-mustermann',comment:'Max Mustermann',password:'!1?2-3aBc',shell:'/bin/bash',quota:'100',quota_softlimit:'50',quota_hardlimit:'75'}})

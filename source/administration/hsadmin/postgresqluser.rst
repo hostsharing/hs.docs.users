@@ -11,16 +11,16 @@ HSAdminmodul postgresqluser
 :Date: |date|, |time|
 
 
-Das HSAdminmodul ``postgresqluser`` verfügt über folgende Optionen:
+Das HSAdmin-Modul ``postgresqluser`` verfügt über folgende Optionen:
 
 
 
 +---------------+------------------------------------------------+
 | Option        | Erläuterung                                    |
 +===============+================================================+
-| name          | Name des Datenbanknutzers (z.B. xyz00_abc)     |
+| name          | Name des Datenbank-Nutzers (z.B. xyz00_abc)    |
 +---------------+------------------------------------------------+
-| password      | Password                                       |
+| password      | Passwort                                       |
 +---------------+------------------------------------------------+
 
 
@@ -28,5 +28,5 @@ Beispiel:
 
 .. code-block:: console
 
-    $ postgresqluser.add ({set:{name:'xyz00_abc',password:'!1?2-3aBc'}})
+    xyz00@hsadmin> postgresqluser.add ({set:{name:'xyz00_abc',password:'!1?2-3aBc'}})
  

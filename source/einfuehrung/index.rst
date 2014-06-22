@@ -7,7 +7,6 @@ Einführung
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
 :Date: |date|, |time|
 
 Die Hostsharing eG bietet Ihren Mitgliedern Webhosting-Leistungen in Form

@@ -6,9 +6,12 @@ Handbuch für Anwender
 .. |time| date:: %H:%M
 
 
-:Authors: - Michael Hierweck
+:Authors: - Christian Günter
+          - Michael Hierweck
           - Uwe Müller
           - Veit Schiele
+          - Dominic Schlegel
+          - et al.
 :Date: |date|, |time|
 
 Die Hostsharing eG ist ein im Jahr 2000 gegründeter, genossenschaftlich

@@ -10,22 +10,20 @@ Domain
 :Date: |date|, |time|         
 
 
-
-Folgende Aufgaben sind in der Verwaltung einer Domain möglich:
+Die Verwaltung einer Domain umfasst:
  
 * :term:`Domain-Registrierung`,
 * :term:`Domain-Transfer` zur Hostsharing eG,
-* extern registrierte Domain aufschalten,
+* Extern registrierte Domain aufschalten,
 * Extern registrierte :term:`Sub-Domain` aufschalten,
 * Domain neu zuordnen (:doc:`Domain-Admin <../benutzer/domain-admin>` neu zuordnen oder Zuordnung zu einem :doc:`Web-Paket<../webpaket/index>` ändern),
 * Sub-Domain neu zuordnen (:doc:`Domain-Admin<../benutzer/domain-admin>` neu zuordnen oder Zuordnung zu einem :doc:`Web-Paket<../webpaket/index>` ändern),
-* lokale Sub-Domain separat aufschalten,
+* Lokale Sub-Domain separat aufschalten,
 * Verwaltung des :doc:`Zonefile<../zonefile/index>`,
 * Verwaltung der Domain-Daten (z.B. Domain-Handel, Kontaktdaten),
 * Transfer zu einem anderen Provider,
 * Domain löschen/kündigen.
- 
-         
+          
           
 Inhalt: 
 

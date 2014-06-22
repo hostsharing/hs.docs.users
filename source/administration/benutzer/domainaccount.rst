@@ -6,23 +6,20 @@ Domain-Verwalter
 .. |time| date:: %H:%M
 
 :Authors: - Uwe Müller
+          - Dominic Schlegel
 
 :Date: |date|, |time|
 
 
 Allgemein
 ---------
+
 Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) im Domainbestellsystem.
 Der Account: 
 
 * ist initial vorhanden,
 * hat den Namen hs-xyz,
 * hat ein eigenes Passwort.
-
-Rolle
------
-
-* Verwaltung von Domains im externen Verwaltungstool.
 
 Rechte
 ------

@@ -7,7 +7,6 @@ Managed Server
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
 :Date: |date|, |time|
 
 Managed Server werden mit dediziert zugewiesenen Ressourcen
