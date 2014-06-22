@@ -12,13 +12,6 @@ Glossar
    Benutzer
     Benutzer sind Unix-, shell-, ftp-, E-Mail-Nutzer.
 
-   Buildout
-    `zc.buildout <http://pypi.python.org/pypi/zc.buildout/1.5.2/>`_ ist ein
-    Werkzeug zur Konfigurationsverwaltung von Softwareumgebungen.
-
-    Buildout bietet u.a. Download Cache, automatisierte Updates sowie eine
-    Python-API für die Installation von Eggs und Scripts.
-
    Paket-Admin
     Ein Benutzer der Administrator eines Web-Paketes ist.
 
@@ -65,10 +58,10 @@ Glossar
     Eine Sub-Domain ist eine Domain, die unterhalb einer anderen liegt (z.B. test.example.com, www.example.de)
 
    xyz00
-    Synonym für ein beliebiges Webpaket.      
+    Synonym für ein Webpaket.      
 
    xyz00_
-    Synonym: Präfix für einen Datenbanknamen oder einem Datenbanknutzer.
+    Synonym: Präfix für einen Datenbanknamen oder einen Datenbanknutzer.
 
    xyz
-    Synonym für einen Namen.
+    Synonym für einen Mitgliedsnamen.
