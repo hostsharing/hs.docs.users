@@ -10,17 +10,13 @@ Nutzer ohne Shell
 
 :Date: |date|, |time|
 
-
 Allgemein
 ---------
 
+Die Rolle E-Mail-Postfach wird initial beim Anlegen eines :doc:`Web-Pakets</administration/webpaket/index>` eingerichtet und verwaltet die E-Mails.
+
 * wird durch den :doc:`Paket-Admin<paket-admin>` angelegt,
 * hat keine Shell (das Programm ``passwd`` wird an Stelle einer Shell gestartet).
-
-Rolle
------
-
-* E-Mail-Account.
 
 Rechte
 ------
