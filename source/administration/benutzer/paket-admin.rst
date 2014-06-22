@@ -13,17 +13,12 @@ Paket-Admin
 Allgemein
 ---------
 
-Die Rolle des Paket-Admins wird initial beim Anlegen eines :doc:`Web-Pakets</administration/webpaket/index>` eingerichtet.  
+Die Rolle des Paket-Admins wird initial beim Anlegen eines :doc:`Web-Pakets</administration/webpaket/index>` eingerichtet und verwaltet :doc:`Web-Paket<../webpaket/index>`, seine :doc:`Benutzer<index>`, Dienste und :doc:`Domains</administration/domain/index>`. 
 
 * der Name ist :term:`xyz00`,
 * hat eine reguläre :term:`Shell` z.B. ``/bin/bash``,
 * ist ein E-Mail-Account,
 * hat ein eigenes Passwort.
-
-Rolle
------
-
-* verwaltet ein :doc:`Web-Paket<../webpaket/index>`, seine :doc:`Benutzer<index>`, Dienste und :doc:`Domains</administration/domain/index>`. 
 
 Rechte
 ------
