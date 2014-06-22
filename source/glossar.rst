@@ -3,7 +3,6 @@ Glossar
 =======
 
 :Authors: - Michael Hierweck
-          - Veit Schiele
           - Uwe Müller
 
 :Date: 2014-19-02

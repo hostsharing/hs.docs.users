@@ -7,7 +7,6 @@ Web-Pakete
 
 :Authors: - Michael Hierweck
           - Uwe Müller
-          - Veit Schiele
 :Date: |date|, |time|
 
 Ein Web-Paket stellt einen Verbund von Benutzerkennungen, Domains,
