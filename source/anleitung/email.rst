@@ -13,6 +13,9 @@ E-Mail einrichten
 Wir legen nun zwei E-Mail-Adressen an.
 Die erste wird an ein Postfach bei Hostsharing zugestellt und die zweite wird an eine externe E-Mail-Adresse weiter geleitet.
 
+E-Mail-Adresse an Postfach bei HS
+---------------------------------
+
 Wir melden uns unter https://admin.hostsharing.net als Domain-Admin (xyz00-doms) an:
 
 .. image:: login-domainadmin.jpg
@@ -37,4 +40,14 @@ Haupt-Domain: hs-example.de
 
 Ziel:         User (da die E-Mail-Adresse an ein Postfach gehen soll)  xyz00-doms
 
+E-Mail-Adresse mit Weiterleitung an externe Mail-Adresse
+--------------------------------------------------------
 
+Um eine neue E-Mail-Adresse anzulegen die an eine andere (fremde) Mail-Adresse weiter geleitet wird, wird in der Maske bei:
+Ziele: *EMail* ausgewählt und dahinter dann die externe Mail-Adresse im Bsp webmaster@web-panel.com
+
+.. image:: email-adresse-extern-anlegen.jpg
+
+Unsere Liste der Mail Adressen sieht nun so aus:
+
+.. image:: email-adresse-liste.jpg
