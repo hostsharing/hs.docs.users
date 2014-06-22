@@ -20,5 +20,5 @@ Administration
     datenbanken/index
     ssl/index
     zonefile/index
-    hsadmin/index
+    HSAdmin/index
     logging/index

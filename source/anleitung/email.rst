@@ -11,7 +11,7 @@ E-Mail einrichten
 :Date: |date|, |time|
 
 Wir legen nun zwei E-Mail-Adressen an.
-Die erste wird an ein Postfach bei HS zugestellt und die zweite wird an eine externe E-Mail-Adresse weiter geleitet.
+Die erste wird an ein Postfach bei Hostsharing zugestellt und die zweite wird an eine externe E-Mail-Adresse weiter geleitet.
 
 Wir melden uns unter https://admin.hostsharing.net als Domain-Admin (xyz00-doms) an:
 

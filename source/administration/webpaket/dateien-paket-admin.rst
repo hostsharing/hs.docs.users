@@ -33,9 +33,9 @@ Im Homeverzeichnis werden folgende Dateien initial angelegt:
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
 | Berechtigungen  | Nutzer | Gruppe | Datei          | Erläuterung                                                                                        |
 +=================+========+========+================+====================================================================================================+
-| -rw-------      | xyz00  | xyz00  |  .hsadmin.conf |  Konfigurationsdatei für HSAdmin, initial leer. Beinhaltet den Namen des Paket-Admin und Passwort. |
+| -rw-------      | xyz00  | xyz00  |  .HSAdmin.conf |  Konfigurationsdatei für HSAdmin, initial leer. Beinhaltet den Namen des Paket-Admin und Passwort. |
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
-| -rw-------      | xyz00  | xyz00  | .hsadmin.tgt   | HSAdmin, speichert den Zugriff auf HSAdmin.                                                        |
+| -rw-------      | xyz00  | xyz00  | .HSAdmin.tgt   | HSAdmin, speichert den Zugriff auf HSAdmin.                                                        |
 +-----------------+--------+--------+----------------+----------------------------------------------------------------------------------------------------+
 
 

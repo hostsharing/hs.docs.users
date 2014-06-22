@@ -50,7 +50,7 @@ Glossar
    Host
     Bezeichnet eine physikalische Maschine.
 
-   HSadmin
+   HSAdmin
     Verwaltungstool der Hostsharing eG.
 
    Mitgliedsaccount
