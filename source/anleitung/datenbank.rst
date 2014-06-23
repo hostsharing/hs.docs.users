@@ -14,7 +14,7 @@ Beim Anlegen einer Datenbank ist die Reihenfolge entscheidend.
 
 Es muss erst der DB-User, also der Verwalter der jeweiligen DB erstellt werden, anschließend wird die DB selber angelegt.
 
-Wir melden uns mit der Paket Benutzerkennung xyz00 unter https://admin.hostsahring.net an.
+Wir melden uns mit der Paket Benutzerkennung xyz00 unter https://admin.hostsharing.net an.
 
 Wechsel auf dem Tab *MySQL User* und sehen den folgenden Bildschirm:
 
