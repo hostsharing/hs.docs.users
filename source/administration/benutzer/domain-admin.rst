@@ -16,7 +16,7 @@ Allgemein
 Die Rolle des Domain-Admins verwaltet seine Domain(s) in einem :doc:`Web-Paket</administration/webpaket/index>`.
 
 * wird durch den :doc:`Paket-Admin <paket-admin>` angelegt,
-* hat eine reguläre :term:`Shell` (z.B. ``/bin/bash``),
+* hat eine reguläre :term:`shell` (z.B. ``/bin/bash``),
 * hat eine Verzeichnisstruktur unterhalb ``~/doms/``,
 * ist ein E-Mail-Account.
 
