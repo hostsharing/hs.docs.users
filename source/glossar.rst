@@ -52,7 +52,7 @@ Glossar
     Der Administrator eines Paketes.  
 
    shell
-    Unix-Shell, Traditionelle Benutzerschnittstelle unter Unix oder unioxiden Betriebssystemen.
+    Unix-shell, Traditionelle Benutzerschnittstelle unter Unix oder unioxiden Betriebssystemen.
     
    Sub-Domain
     Eine Sub-Domain ist eine Domain, die unterhalb einer anderen liegt (z.B. test.example.com, www.example.de)

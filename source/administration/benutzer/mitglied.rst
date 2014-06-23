@@ -18,7 +18,7 @@ Nach Austritt aus der Genossenschaft wird die Rolle gelöscht.
 
 * Initial vorhanden,
 * der Name ist :term:`xyz`,
-* hat keine Shell,
+* hat keine shell,
 * erlischt mit dem Ende der Mitgliedschaft,
 * eigenes Passwort.
 
