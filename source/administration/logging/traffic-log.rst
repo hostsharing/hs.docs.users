@@ -24,7 +24,7 @@ Bedeutung der einzelnen Spalten:
 
 ``Datum:``        Datum der Messung
 
-``Paket:``        Name des Webpakets
+``Paket:``        Name des Web-Pakets
 
 ``Monatslimit:``  Gebuchter Gesamttraffic pro Monat in Megabyte
 
@@ -32,11 +32,11 @@ Bedeutung der einzelnen Spalten:
 
 ``Trafficsumme:`` Gesamtsumme des angefallenen Traffics am angegebenen Tag in Megabyte
 
-``IP-Adresse 1:`` Primäre IP-Adresse des Webpakets 
+``IP-Adresse 1:`` Primäre IP-Adresse des Web-Pakets 
 
 ``Traffic 1:``    Über die primäre IP-Adresse angefallener Traffic in Megabyte
 
-``IP-Adresse 2:`` Sekundäre IP-Adresse des Pakets 
+``IP-Adresse 2:`` Sekundäre IP-Adresse des Web-Pakets 
 
 ``Traffic 2:``    Über die sekundäre IP-Adresse angefallener Traffic in Megabyte
 
