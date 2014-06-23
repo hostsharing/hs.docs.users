@@ -10,7 +10,7 @@ Datenbank einrichten
           - Christian Günter
 :Date: |date|, |time|
 
-Beim anlegen einer Datenbank ist die Reihenfolge entscheident.
+Beim Anlegen einer Datenbank ist die Reihenfolge entscheidend.
 
 Es muss erst der DB-User, also der Verwalter der jeweiligen DB erstellt werden, anschließend wird die DB selber angelegt.
 
