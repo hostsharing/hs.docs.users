@@ -23,7 +23,6 @@ Die Rolle des Domain-Admins verwaltet seine Domain(s) in einem :doc:`Web-Paket</
 Rechte
 ------
 
-* E-Mail-Adressen für eine Domain anlegen,
 * Sub-Domains anlegen,
 * Zonen-Daten einer Domain bearbeiten,
 * Dateien und Verzeichnisse anlegen oder ändern.
@@ -31,11 +30,6 @@ Rechte
 
 Konfiguration
 -------------
-
-E-Mail-Adressen anlegen:
-
-* per Webfrontend, :doc:`siehe</administration/hsadmin/webfrontend>`
-* mit ``hsscript``, :doc:`siehe</administration/hsadmin/index>`
 
 Zonen-Daten einer Domain bearbeiten:
 
