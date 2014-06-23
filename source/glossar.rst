@@ -51,7 +51,7 @@ Glossar
    Paket-Admin
     Der Administrator eines Paketes.  
 
-   Shell
+   shell
     Unix-Shell, Traditionelle Benutzerschnittstelle unter Unix oder unioxiden Betriebssystemen.
     
    Sub-Domain
