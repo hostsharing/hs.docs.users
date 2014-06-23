@@ -13,9 +13,9 @@ Benutzer
 Für unterschiedliche Aufgaben werden Rollen vergeben, die durch die Vergabe von Rechten auf Betriebssystemebene definiert werden. 
 Die Hierarchie gliedert sich in absteigender Reihenfolge:
 
-* :doc:`Mitgliedskennung <mitglied>` zur Verwaltung der Mitgliedschaft und *aller* gebuchten :doc:`Webpakete</administration/webpaket/index>`,
-* :doc:`Paket-Admin <paket-admin>` zur Verwaltung eines :doc:`Webpaketes</administration/webpaket/index>`,
-* :doc:`Domain-Admin <domain-admin>` zur Verwaltung einer oder mehrerer Domains *in* einem Webpaket,
+* :doc:`Mitgliedskennung <mitglied>` zur Verwaltung der Mitgliedschaft und *aller* gebuchten :doc:`Web-Pakete</administration/webpaket/index>`,
+* :doc:`Paket-Admin <paket-admin>` zur Verwaltung eines :doc:`Web-Pakets</administration/webpaket/index>`,
+* :doc:`Domain-Admin <domain-admin>` zur Verwaltung einer oder mehrerer Domains *in* einem Web-Paket,
 * :doc:`E-Mail-Postfach <userohneshell>` ohne die Zuweisung einer Shell.  
 * :doc:`Datenbank-Nutzer<datenbanknutzer>` zur Verwaltung einer oder mehrerer :doc:`Datenbanken<../datenbanken/index>`.
 
