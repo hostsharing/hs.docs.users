@@ -24,7 +24,7 @@ Bedeutung der einzelnen Spalten:
 
 ``Datum:``        Datum der Messung
 
-`` Paket:``        Name des Webpakets
+``Paket:``        Name des Webpakets
 
 ``Monatslimit:``  Gebuchter Gesamttraffic pro Monat in Megabyte
 
