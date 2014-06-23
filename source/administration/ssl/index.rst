@@ -13,7 +13,7 @@ SSL/TLS Zertifikate
 Standardkonfiguration 
 ---------------------
 
-Pro :doc:`Webpaket<../webpaket/index>` ist ein Zertifikat möglich.
+Pro :doc:`Web-Paket<../webpaket/index>` ist ein Zertifikat möglich.
 
 SSL-Inhalte werden durch die Verzeichnisse
 
