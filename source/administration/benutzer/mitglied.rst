@@ -25,7 +25,7 @@ Nach Austritt aus der Genossenschaft wird die Rolle gelöscht.
 Rechte
 ======
 
-* Verwaltung aller :doc:`Webpakete</administration/webpaket/index>`, die dem Mitglied zugeordnet sind,
+* Verwaltung aller :doc:`Web-Pakete</administration/webpaket/index>`, die dem Mitglied zugeordnet sind,
 * kann die Rechte eines :doc:`Paket-Admins <paket-admin>` annehmen,
 * Rechnungen herunterladen,
 * Verwaltung der Mitgliederdaten (Anschrift etc.).
