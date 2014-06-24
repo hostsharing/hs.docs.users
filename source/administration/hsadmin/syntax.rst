@@ -17,9 +17,9 @@ Dateiübergabe oder interaktiv entgegen nimmt.
 Aufruf
 ------
 
-::
+.. code-block:: console
 
-  hsscript -u <Benutzer> -e <Befehl>...
+   $ hsscript -u <Benutzer> -e <Befehl>...
 
 +----------------------+---------------------------------------------------------------------------------+
 | Parameter            | Erläuterung                                                                     |

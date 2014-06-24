@@ -20,6 +20,7 @@ Das HSAdminmodul ``domain`` verfügt über folgende Optionen:
 | user   | Name des Domain-Admins |
 +--------+------------------------+
 
+
 +----------------+----------------------------------------+
 | Option         | Erläuterung                            |
 +================+========================================+
@@ -33,8 +34,10 @@ Das HSAdminmodul ``domain`` verfügt über folgende Optionen:
 +----------------+----------------------------------------+
 | includes       | Includes aktivieren/deaktivieren       |
 +----------------+----------------------------------------+
+
 Beispiel:
+
 
 .. code-block:: console
 
-    $ domain.add ({set:{name:'hs-example.de',user:'xyz00'}})
+    xyz00@hsadmin> domain.add ({set:{name:'hs-example.de',user:'xyz00'}})

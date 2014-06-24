@@ -28,4 +28,4 @@ Beispiel:
 
 .. code-block:: console
 
-    $ mysqldb.add ({set:{name:'xyz00_abc',owner:'xyz00_owner',encoding:'latin1'}})
+    xyz00@hsadmin> mysqldb.add ({set:{name:'xyz00_abc',owner:'xyz00_owner',encoding:'latin1'}})

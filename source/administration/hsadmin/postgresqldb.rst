@@ -29,5 +29,5 @@ Beispiel:
 
 .. code-block:: console
 
-    $ postgresqldb.add ({set:{name:'xyz00_abc',owner:'xyz00_abc',encoding:'latin1'}})
+    xyz00@hsadmin> postgresqldb.add ({set:{name:'xyz00_abc',owner:'xyz00_abc',encoding:'latin1'}})
 
