@@ -24,7 +24,7 @@ Der Traffic für einzelne :doc:`Nutzer<../benutzer/index>` innerhalb eines Paket
 HTTP-Log
 --------
 Das in kurzen Abständen aktualisierte Logfile ``web.log`` des Webservers steht im Paketverzeichnis ``/home/pacs/xyz00/var/`` dem :doc:`Paket-Admin<../benutzer/paket-admin>` zur Verfügung. 
-Aus dem Logfile werden nach Ablauf des Tages einzelne Logfiles für alle abgerufenen :doc:`Domain- und Subdomains<../domain/index>` generiert und unter  ``/home/pacs/xyz00/var/web-www.example.org-YYYYMMDD-HHMI.log.gz`` gespeichert. 
+Aus dem Logfile werden nach Ablauf des Tages einzelne Logfiles für alle abgerufenen :doc:`Domain- und Sub-Domains<../domain/index>` generiert und unter  ``/home/pacs/xyz00/var/web-www.example.org-YYYYMMDD-HHMI.log.gz`` gespeichert. 
 Diese Dateien werden 48 Tage archiviert und nach Ablauf dieser Frist automatisch gelöscht.  Das Error-Logfile ``web.err`` des Webservers steht unter ``/home/pacs/xyz00/var`` dem :doc:`Paket-Admin<../benutzer/paket-admin>` zur Verfügung. 
 
 Inhalt: 

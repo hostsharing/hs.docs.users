@@ -8,7 +8,7 @@
 
   b) Virtual Host != fqdn
 
-  Suche in subs (subs-ssl falls proto == https) nach passender Subdomain
+  Suche in subs (subs-ssl falls proto == https) nach passender Sub-Domain
 
     a) gefunden
     

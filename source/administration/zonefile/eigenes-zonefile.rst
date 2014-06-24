@@ -13,7 +13,7 @@ Eigenes Zonefile
 
 Es können für :doc:`Domains<../domain/index>` jeweils eigene Zonefiles angelegt werden. In der Regel ist dies bei folgenden Anforderungen notwendig:
 
-* Domain oder Subdomain extern aufschalten
+* Domain oder Sub-Domain extern aufschalten
 * Dienste extern aufschalten (z.B. E-Mail)
 
 In eigenen Zonefiles müssen Platzhalter verwendet werden. Diese Platzhalter ermöglichen das Ändern der DNS-Konfiguration seitens Hostsharing, ohne dass der Domain-Admin sein
