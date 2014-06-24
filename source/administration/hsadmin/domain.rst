@@ -12,23 +12,27 @@ HSAdminmodul domain
 
 Das HSAdminmodul ``domain`` verfügt über folgende Optionen:
 
-+----------------+------------------------------------------------+
-| Option         | Erläuterung                                    |
-+================+================================================+
-| name           | Name einer Domain                              |
-+----------------+------------------------------------------------+
-| user           | Name des Domain-Admins                         |
-+----------------+------------------------------------------------+
-| greylisting    | Greylisting aktvieren/deaktivieren             |
-+----------------+------------------------------------------------+
-| multiviews     | Multiviews aktivieren/deaktiveren              |
-+----------------+------------------------------------------------+
-| indexes        | Indexes aktiveren/deaktivieren                 |
-+----------------+------------------------------------------------+
-| htdocsfallback | htdocsfallback  aktivieren/deaktiveren         |
-+----------------+------------------------------------------------+
-| includes       | Includes aktivieren/deaktivieren               |
-+----------------+------------------------------------------------+
++--------+------------------------+
+| Option | Erläuterung            |
++========+========================+
+| name   | Name einer Domain      |
++--------+------------------------+
+| user   | Name des Domain-Admins |
++--------+------------------------+
+
++----------------+----------------------------------------+
+| Option         | Erläuterung                            |
++================+========================================+
+| greylisting    | Greylisting aktvieren/deaktivieren     |
++----------------+----------------------------------------+
+| multiviews     | Multiviews aktivieren/deaktiveren      |
++----------------+----------------------------------------+
+| indexes        | Indexes aktiveren/deaktivieren         |
++----------------+----------------------------------------+
+| htdocsfallback | htdocsfallback  aktivieren/deaktiveren |
++----------------+----------------------------------------+
+| includes       | Includes aktivieren/deaktivieren       |
++----------------+----------------------------------------+
 Beispiel:
 
 .. code-block:: console
