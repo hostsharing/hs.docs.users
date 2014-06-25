@@ -6,7 +6,7 @@ Datenbankzugriff
 
 :Author: - Uwe Müller
 
-:Date: |date| ,|time|         
+:Date: |date|, |time|         
 
 
 Der Zugriff erfolgt über folgende Hosts und Ports:
