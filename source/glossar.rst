@@ -36,6 +36,10 @@ Glossar
     Die Domain oder Sub-Domain ist bei einem anderen Registrar/Provider registriert. Die damit verbundenen Dienste
     sollen von der Hostsharing eG erbracht werden.
 
+   Greylisting
+    Greylisting ist eine Form der Spam-Bekämpfung bei E-Mails, bei der die erste E-Mail von unbekannten Absendern zunächst abgewiesen 
+    und erst nach einem weiteren Zustellversuch angenommen wird.
+
    Hive
     Bezeichnet eine virtuelle Maschine.
 
