@@ -50,6 +50,6 @@ Damit ist die Domain auf dem Hostsharing Server technisch angelegt.
 Die Domain im Domainbestellsystem bestellen
 -------------------------------------------
 
-Anschliessend kann die Domain hs-example.de https://www.domainbestellsystem.de bestellt werden.
+Anschliessend kann die Domain hs-example.de https://www.domain-bestellsystem.de bestellt werden.
 Die Login-Daten dafür wurden Ihnen auf einem separatem Weg mitgeteilt.
 
