@@ -2,10 +2,14 @@
 Glossar
 =======
 
+.. |date| date:: %d.%m.%Y
+.. |time| date:: %H:%M:
+   
 :Authors: - Michael Hierweck
           - Uwe Müller
 
-:Date: 2014-19-02
+:Date: |date|, |time|
+
 
 .. glossary:: :sorted:
    
@@ -16,7 +20,7 @@ Glossar
     Ein Benutzer der Administrator eines Web-Paketes ist.
 
    Domain-Admin
-    Einem Benutzer, dem mindestens eine Domain zugeordnet ist.
+    Ein Benutzer, dem mindestens eine Domain zugeordnet ist.
 
    Domain-Bestell-System
     Webfrontend zur Registrierung von Domains
@@ -51,9 +55,6 @@ Glossar
 
    Mitgliedsaccount
     Account zur Verwaltung der Mitgliedschaft in der Genossenschaft.     
-
-   Paket-Admin
-    Der Administrator eines Paketes.  
 
    shell
     Unix-shell, Traditionelle Benutzerschnittstelle unter Unix oder unioxiden Betriebssystemen.
