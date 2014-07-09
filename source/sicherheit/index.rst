@@ -18,3 +18,4 @@ Sicherheit
     redundanz
     replikation
     backup
+    hostkeys
