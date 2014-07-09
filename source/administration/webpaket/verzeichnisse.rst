@@ -23,6 +23,6 @@ Die Verzeichnisstruktur entspricht der dem jeweiligen Nutzer zugesprochenen Roll
 Dateien
 -------
 
-Der Paket-Admin besitzt initial angelegte Konfigurationsdateien und Dateien für das Logging von Webseiten und dem Traffic des Web-Pakets und E-Mail. 
+Der Paket-Admin besitzt initial angelegte Konfigurationsdateien und Dateien für das Logging von Webseiten, Traffic des Web-Pakets und E-Mail-Traffic. 
 
 * :doc:`initial angelegte Dateien<dateien-paket-admin>`
