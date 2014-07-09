@@ -37,7 +37,7 @@ Glossar
     sollen von der Hostsharing eG erbracht werden.
 
    Greylisting
-    Greylisting ist eine Form der Spam-Bekämpfung bei E-Mails, bei der die erste E-Mail von unbekannten Absendern zunächst abgewiesen 
+    Greylisting ist eine Form der Spam-Bekämpfung, bei der die erste E-Mail von unbekannten Absendern zunächst abgewiesen 
     und erst nach einem weiteren Zustellversuch angenommen wird.
 
    Hive
