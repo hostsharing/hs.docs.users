@@ -61,8 +61,11 @@ Glossar
    Sub-Domain
     Eine Sub-Domain ist eine Domain, die unterhalb einer anderen liegt (z.B. test.example.com, www.example.de)
 
+   SSI
+    Server Side Includes sind in Dokumente eingebettete Skript-Befehle, die auf dem Webserver ausgeführt werden, bevor das Dokument an den Client ausgeliefert wird. 
+
    xyz00
-    Synonym für ein Webpaket.      
+    Synonym für ein Web-Paket.      
 
    xyz00_
     Synonym: Präfix für einen Datenbanknamen oder einen Datenbanknutzer.
