@@ -13,6 +13,9 @@ Glossar
 
 .. glossary:: :sorted:
    
+   .htaccess
+    Die Datei ist eine Konfigurationsdatei auf Webserver, in der verzeichnisbezogene Regeln aufgestellt werden können.
+
    Benutzer
     Benutzer sind Unix-, shell-, ftp-, E-Mail-Nutzer.
 
