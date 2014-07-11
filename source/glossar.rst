@@ -12,7 +12,13 @@ Glossar
 
 
 .. glossary:: :sorted:
-   
+
+   Grace Period
+    Frist nach Überschreitung des Softlimit bis das Hardlimit der Quota erreicht ist.
+
+   Quota
+    Begrenzung des Speicherplatzes für einen Nutzer oder einer Gruppe.
+
    .htaccess
     Die Datei ist eine Konfigurationsdatei auf Webserver, in der verzeichnisbezogene Regeln aufgestellt werden können.
 
