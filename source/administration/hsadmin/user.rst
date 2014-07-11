@@ -13,26 +13,24 @@ HSAdminmodul user
 
 Das HSAdminmodul ``user`` verfügt über folgende Optionen:
 
-+-----------------+----------------------------------------+
-| Option          | Erläuterung                            |
-+=================+========================================+
-| name            | Benutzerkennung (z.B. xyz00-abc)       |
-+-----------------+----------------------------------------+
-| comment         | Kommentar                              |
-+-----------------+----------------------------------------+
-| password        | Passwort                               |
-+-----------------+----------------------------------------+
-| shell           | shell (z.B. ``/bin/bash)``             |
-+-----------------+----------------------------------------+
-| quota           | zugewiesener Speicherplatz in Megabyte |
-+-----------------+----------------------------------------+
-| quota_softlimit | tolerierte Speichergrenze in Megabyte  |
-+-----------------+----------------------------------------+
-| quota_hardlimit | harte Speichergrenze in Megabyte       |
-+-----------------+----------------------------------------+
++-----------------+---------------------------------------------------------------------------------------------------+
+| Option          | Erläuterung                                                                                       |
++=================+===================================================================================================+
+| name            | Benutzerkennung (z.B. xyz00-abc)                                                                  |
++-----------------+---------------------------------------------------------------------------------------------------+
+| comment         | Kommentar                                                                                         |
++-----------------+---------------------------------------------------------------------------------------------------+
+| password        | Passwort                                                                                          |
++-----------------+---------------------------------------------------------------------------------------------------+
+| shell           | shell (z.B. ``/bin/bash``)                                                                        |
++-----------------+---------------------------------------------------------------------------------------------------+
+| quota_softlimit | zugewiesene :term:`Quota` in Megabyte                                                             |
++-----------------+---------------------------------------------------------------------------------------------------+
+| quota_hardlimit | Grenze der :term:`Grace Period`, bis zu der Überschreitungen toleriert werden. Angabe in Megabyte |
++-----------------+---------------------------------------------------------------------------------------------------+
 
 Beispiel:
 
 .. code-block:: console
 
-    xyz00@hsadmin> user.add ({set:{name:'xyz00-mustermann',comment:'Max Mustermann',password:'!1?2-3aBc',shell:'/bin/bash',quota:'100',quota_softlimit:'50',quota_hardlimit:'75'}})
+    xyz00@hsadmin> user.add ({set:{name:'xyz00-mustermann',comment:'Max Mustermann',password:'!1?2-3aBc',shell:'/bin/bash',quota_softlimit:'50',quota_hardlimit:'75'}})
