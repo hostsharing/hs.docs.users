@@ -11,9 +11,7 @@ Backup
 :Date: |date|, |time|
 
 
-Hostsharing führt nächtliche Sicherungen der Daten durch. Die Sicherungen werden auf separaten Servern in einem separaten Rechenzentrum aufbewahrt. In der Regel können jeweils
-mindestens die letzten 14 nächtlichen Datensicherungen wiederhergestellt werden. 
-
+Hostsharing führt nächtliche Sicherungen der Daten durch. In der Regel können jeweils mindestens die letzten 14 nächtlichen Datensicherungen wiederhergestellt werden. 
 
 In der Datensicherung enthalten sind: 
 
@@ -25,7 +23,7 @@ In der Datensicherung enthalten sind:
 
 
 
-In der Datensicherung sind nicht enthalten:
+In der Datensicherung sind ``nicht`` enthalten:
 
 * ausgehende, aber noch ``nicht`` versandte E-Mails.
 * eingehende, aber noch ``nicht`` im Postfach abgelegte E-Mails
@@ -53,6 +51,5 @@ Die Rücksicherung von Datenbanken erfolgt durch den Paket-Admin auf Basis der i
 
 .. note::
 
-        Bemerkung
         Für ältere Datenbankbestände ist ein Rücksicherungsauftrag für die betroffene Sicherungsdatei in Auftrag zu geben.
 
