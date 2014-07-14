@@ -22,3 +22,4 @@ Administration
     zonefile/index
     hsadmin/index
     logging/index
+    backup/index
