@@ -11,30 +11,27 @@ Web-Paket in Betrieb nehmen
 :Date: |date|, |time|
 
 
-Wir rufen die Seite https://admin.hostsharing.net in einem Browser auf und werden auf die Login Seite https://login.hostsharing.net weitergeleitet.
+Um die Konfiguration mit dem Webfrondend durchzuführen, wird der Link https://admin.hostsharing.net in einem Browser aufgerufen, es erfolgt eine Weiterleitung zur Login Seite https://login.hostsharing.net.
 
 Es wird die Mitgliederkennung beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
 
 .. image:: admin.hostsharing.net.jpg
 
-Wir sehen alle Pakete des Mitglieds.
+Nach erfolgreichem Login werden alle Web-Pakete des Mitglieds angezeigt.
 
 .. image:: mitglieder-login.jpg
 
-Da die :doc:`Domain<../administration/domain/index>` aus Sicherheitsgünden nur einem :doc:`Benutzer<../administration/benutzer/index>` innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in unserem Paket xyz00 an.
+Es wird ein Passwort für den :doc:`Paket-Admin<../administration/benutzer/paket-admin>` des Web-Pakets xyz00 vergeben:
 
-Dafür vergeben wir nun ein Passwort für die Benutzerkennung des Pakets xyz00.
-
-Wir wechseln dazu in den Tab *Unix User*.
+Wechsel in den Tab *Unix User*.
 
 .. image:: unix-user.jpg
 
-und klicken in der Zeile
-xyz00 rechts außen auf das Icon bearbeiten (blauer Pfeil im Bild)
+Zeile xyz00 rechts außen auf das Icon "bearbeiten" (blauer Pfeil im Bild) klicken.
 
-Im folgendem Bild vergeben wir für die Benutzerkennung ein Passwort..
+Nun kann ein Passwort für den Paket-Admin vergeben werden. Ein Kommentar zum Paket-Admin kann hinterlegt werden, alle weiteren Einträge werden unverändert übernommen.
 
 .. image:: unix-user-bearbeiten.jpg
 
-Wir bestätigen mit dem *Speichern* Button.
+Bestätigung mit dem *Speichern* Button.
 
