@@ -10,17 +10,18 @@ Datenbank einrichten
           - Christian Günter
 :Date: |date|, |time|
 
-Beim Anlegen einer Datenbank ist die Reihenfolge entscheidend.
+Beim Anlegen einer Datenbank ist die Reihenfolge entscheidend:
 
-Es muss erst der DB-User, also der Verwalter der jeweiligen DB erstellt werden, anschließend wird die DB selber angelegt.
+* Zunächst den Datenbanknutzer anlegen, den Verwalter der jeweiligen Datenbank
+* Anlegen der Datenbank angelegt.
 
-Wir melden uns mit der Paket Benutzerkennung xyz00 unter https://admin.hostsharing.net an.
+Anmeldung mit dem Paket-Admin xyz00 unter https://admin.hostsharing.net.
 
-Wechsel auf dem Tab *MySQL User* und sehen den folgenden Bildschirm:
+Wechsel auf dem Tab *MySQL User*:
 
 .. image:: db-user.jpg
 
-Nach Button *User anlegen* erscheint diese Maske:
+Nach Button *User anlegen* erscheint folgende Eingabemaske:
 
 .. image:: db-user-anlegen.jpg
 
@@ -32,7 +33,7 @@ Benutzer-Posfix: dbuser (Zulässige Zeichen: 0 bis 9 und a bis z Buchstaben)
 
 Passwort: PASSWORT
 
-Mit dem Tab *MySQL DB* und dort der Button *Datenbank anlegen* wird nun diese Maske sichtbar:
+Mit dem Tab *MySQL DB* und dort der Button *Datenbank anlegen* wird diese Eingabemaske sichtbar:
 
 .. image:: db-anlegen.jpg
 
