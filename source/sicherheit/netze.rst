@@ -15,7 +15,7 @@ Separierte Netzwerke
 Die Aufteilung in private, abgeschottete Netze (VLANs) zwischen den
 Managed Servern eines Nutzers erlaubt effiziente und sichere Verbindungen. 
 
-Dabei wird unterscheiden zwischen den folgenden Netzen unterschieden, die nicht
+Dabei wird zwischen den folgenden Netzen unterschieden, die nicht
 nur durch VLANs, sondern zusätzlich durch Verkabelung und separate Switches oder
 Router getrennt sind:
 
