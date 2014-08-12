@@ -13,6 +13,9 @@ Glossar
 
 .. glossary:: :sorted:
 
+   SCP
+    Secure CoPy (Abk. SCP) ist ein ein Programm zur verschlüsselten Übertragung von Daten.
+
    Grace Period
     Frist nach Überschreitung des Softlimit bis das Hardlimit der Quota erreicht ist.
 
