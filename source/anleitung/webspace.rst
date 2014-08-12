@@ -10,7 +10,7 @@ Webspace einrichten
           - Christian Günter
 :Date: |date|, |time|
 
-Um Dateien in Webspace kopieren zu können, benötigen Sie eine Client-Software um Dateien auf einen WebServer zu laden. (z.b. FileZilla oder WinSCP)
+Um Dateien in das Webpaket kopieren zu können, wird eine Client-Software benötigt (z.b. FileZilla, WinSCP oder :term:`SCP`). 
 
 Zugangsdaten und Einstellungen
 ------------------------------
@@ -25,7 +25,7 @@ z.b.: FTP FileZilla Client Software
 
 .. image:: ftp-filezilla.jpg
 
-Nun wird in das www Verzeichnis gewechselt:
+Wechsel in den Ordner *www*:
 
 .. image:: ftp-filezilla-www.jpg
 
