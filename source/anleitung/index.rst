@@ -16,6 +16,7 @@ Für einen erfolgreichen Start mit Hostsharing wird hier schrittweise gezeigt, w
     :maxdepth: 1
 
     paket
+    benutzer-anlegen
     domain
     webspace
     email
