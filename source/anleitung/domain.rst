@@ -10,46 +10,38 @@ Domain bestellen
           - Christian Günter
 :Date: |date|, |time|
 
-Eine Domain wird in zwei Schritten bei Hostsharing bestellt.
+Eine Domain wird in zwei Schritten angelegt:
 
-1. Die Domain auf dem Hostsharing Server anlegen
+#. Die Domain im Web-Paket xyz00 aufschalten
+#. Die Domain im Domainbestellsystem bestellen
 
-2. Die Domain im Domainbestellsystem bestellen
 
 Die Domain auf dem Hostsharing Server anlegen
-------------------------------------
+---------------------------------------------
 
-Wir rufen die Seite https://admin.hostsharing.net in einem Browser auf und werden auf die Login Seite https://login.hostsharing.net weitergeleitet.
+Aufruf des Webfrontends über den Link https://admin.hostsharing.net.
 
-Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/paket-admin>` beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
+Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/paket-admin>` (xyz00) beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
 
 .. image:: admin.hostsharing.net.jpg
 
-Wir befinden uns jetzt hier:
 
-.. image:: benutzer-anlegen.jpg
+Für das Anlegen einer Domain wird der Tab *Domains* aktiviert und dort *Domain konfigurieren* gewählt.
 
-Da die :doc:`Domain<../administration/domain/index>` aus Sicherheitsgünden nur einem :doc:`Benutzer<../administration/benutzer/index>` innerhalb einer Benutzerkennung zugeordnet werden soll, legen wir als nächstes einen neuen Benutzer in unserem Paket xyz00 an.
-        
-Weiter geht es mit dem Button *Benutzer anlegen* und wir füllen die folgende Maske wie folgt aus:
+Die Eingabemaske wird mit folgenden Daten gefüllt:
 
-.. image:: benutzer-anlegen-neu.jpg
+Im Feld Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/benutzer/domain-admin>` xyz00-doms eintragen.
 
-Damit kommen wir nun zur eigentlichen Aufgabe, eine Domain anzulegen.
+.. image:
+   : domain-konfig.jpg
 
-Hierzu aktivieren wir den Tab *Domains* und wählen dort *Domain konfigurieren*.
+Mit dem Button *speichern* bestätigen.
 
-Die Maske füllen wir mit folgenden Daten:
-
-.. image:: domain-konfig.jpg
-
-Bei Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/benutzer/domain-admin>` xyz00-doms eintragen.
-
-Damit ist die Domain auf dem Hostsharing Server technisch angelegt.
+Damit ist die Domain in dem Web-Paket xyz00 technisch angelegt.
 
 Die Domain im Domainbestellsystem bestellen
 -------------------------------------------
 
-Anschliessend kann die Domain hs-example.de https://www.domain-bestellsystem.de bestellt werden.
+Anschliessend kann die Domain hs-example.de unter dem Link https://www.domain-bestellsystem.de bestellt werden.
 Die Login-Daten dafür wurden Ihnen auf einem separatem Weg mitgeteilt.
 
