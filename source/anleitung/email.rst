@@ -10,23 +10,27 @@ E-Mail einrichten
           - Christian Günter
 :Date: |date|, |time|
 
-Wir legen nun zwei E-Mail-Adressen an.
-Die erste wird an ein Postfach bei Hostsharing zugestellt und die zweite wird an eine externe E-Mail-Adresse weiter geleitet.
+Es werden zwei E-Mail-Adressen angelegt:
 
-E-Mail-Adresse an Postfach bei HS
----------------------------------
+* Die erste E-Mail-Adresse wird an einem Postfach im Webpaket zugeordnet
+* Die zweite E-Mail-Adresse wird an einer externen E-Mail-Adresse zugeordnet.
 
-Wir melden uns unter https://admin.hostsharing.net als Domain-Admin (xyz00-doms) an:
+E-Mail-Adresse an Postfach im Webpaket
+--------------------------------------
+
+Anmeldung unter https://admin.hostsharing.net als Domain-Admin (xyz00-doms) an:
 
 .. image:: login-domainadmin.jpg
 
-Anschließend aktivieren wir den Tab *EMail Adressen* und sehen folgende Abbildung.
+Anschließend wird der Tab *EMail Adressen* aktiviert: 
 
 .. image:: email-domainadmin.jpg
 
-Beim Domain bestellen werden per default die drei sichtbaren E-Mail-Adressen automatisch angelegt. (abuse@ postmaster@ und webmaster@)
 
-Mit dem Button *EMail-Adresse anlegen* erhalten wir die folgende Maske:
+Ist eine Domain angelegt, werden die drei E-Mail-Adressen (abuse@ postmaster@ und webmaster@) automatisch eingerichtet.
+
+Der Button *EMail-Adresse anlegen* öffnet folgende Eingabemaske:
+
 
 .. image:: email-adresse-anlegen.jpg
 
@@ -34,20 +38,22 @@ Die Felder im einzelnen:
 
 lokaler Teil: info (der Name vor dem @ Zeichen)
 
-Sub-Domain:   bleibt hier leer da wir direkt für FQD eine E-Mail-Adresse anlegen
+Sub-Domain:   bleibt *hier* leer, es wird eine E-Mail-Adresse für die Hauptdomain angelegt.
 
 Haupt-Domain: hs-example.de
 
-Ziel:         User (da die E-Mail-Adresse an ein Postfach gehen soll)  xyz00-doms
+Ziel:         User  xyz00-doms  (E-Mails sollen an ein Postfach gehen)
+
+Bestätigen mit dem Button *speichen* 
 
 E-Mail-Adresse mit Weiterleitung an externe Mail-Adresse
 --------------------------------------------------------
 
-Um eine neue E-Mail-Adresse anzulegen die an eine andere (fremde) Mail-Adresse weiter geleitet wird, wird in der Maske bei:
-Ziele: *EMail* ausgewählt und dahinter dann die externe Mail-Adresse im Bsp webmaster@web-panel.com
+Um eine weitere E-Mail-Adresse anzulegen die E-Mails an eine *externe* E-Mail-Adresse leitet, wird in der Eingabemaske bei:
+Ziele: *E-Mail* ausgewählt und dahinter dann die externe Mail-Adresse, hier webmaster@web-panel.com, eingetragen.
 
 .. image:: email-adresse-extern-anlegen.jpg
 
-Unsere Liste der Mail Adressen sieht nun so aus:
+Liste der angelegten E-Mail-Adressen:
 
 .. image:: email-adresse-liste.jpg
