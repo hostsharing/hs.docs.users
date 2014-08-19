@@ -25,7 +25,7 @@ Nach erfolgreichem Login werden die angelegten Benutzer des Web-Pakets angezeigt
 .. image:: benutzer-anlegen.jpg
 
 
-Da die :doc:`Domain<../administration/domain/index>` aus Sicherheitsgünden nur einem :doc:`Benutzer<../administration/benutzer/index>` innerhalb einer Benutzerkennung zugeordnet werden soll, wird ein neuer Benutzer,:doc:`Domain-Admin<../administration/benutzer/domain-admin`, in dem Web-Paket xyz00 angelegt.
+Da die :doc:`Domain<../administration/domain/index>` aus Sicherheitsgünden nur einem :doc:`Benutzer<../administration/benutzer/index>` innerhalb einer Benutzerkennung zugeordnet werden soll, wird ein neuer Benutzer,:doc:`Domain-Admin<../administration/benutzer/domain-admin>`, in dem Web-Paket xyz00 angelegt.
         
 Auf den Button *Benutzer anlegen* klicken und folgende Eingabemaske wie folgt ausfüllen:
 
