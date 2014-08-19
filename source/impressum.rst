@@ -37,7 +37,7 @@ Umsatzsteueridentifikationsnummer
 Verantwortlich im Sinne des Mediendienste-Staatsvertrags
 --------------------------------------------------------
 
-| Uwe Müller
+| Uwe Müller, Michael Hierweck
 | Hostsharing eG
 | Glockengießerwall 17
 | 20095 Hamburg
