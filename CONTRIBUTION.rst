@@ -6,7 +6,7 @@ Pull-Requests übernehmen wir dann gerne wieder in das Hostsharing-Repository
 sofern sie sich in die allgemeine technische Dokumentation von Hostsharing
 einfügen und die unten folgenden Hinweise beachtet werden.
 
-Installationsanleitungen, Tipps und Tricks etc. gehören *nicht* in diese Dokumentation. Hierfür bieten wir zur Zeit das `Mitglieder-Wiki https://wiki.hostshaing.net`_ an.
+Installationsanleitungen, Tipps und Tricks etc. gehören *nicht* in diese Dokumentation. Hierfür bieten wir zur Zeit das Wiki der Mitglieder `https://wiki.hostshaing.net`_ an.
 
 Allgemeine Hinweise
 -------------------
@@ -30,7 +30,7 @@ Die Dateigröße von Bildern sollte klein gehalten und die Bilder selbst nicht �
 Syntax-Regeln
 -------------
 
-Die einheitliche Verwendung der Syntax-Regeln ist sehr wichtig für die Lesbarkeit der Dokumentation, die korrekte Verwendung ist unter ..... erläutert.
+Die einheitliche Verwendung der Syntax-Regeln ist sehr wichtig für die Lesbarkeit der Dokumentation.
 
 Hervorhebungen
 --------------
