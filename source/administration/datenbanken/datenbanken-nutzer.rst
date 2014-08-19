@@ -24,10 +24,10 @@ Die Verwaltung von Datenbanken und :doc:`Nutzern<../benutzer/index>` erfolgt mit
 Rechte
 ------
 
-Datenbanknutzern müssen initial die gewünschten Rechte an den entsprechenden Datenbanken vergeben werden.
+Datenbanknutzer müssen initial die gewünschten Rechte an den entsprechenden Datenbanken vergeben werden.
 
 
-Namen
+Name
 -----
 
 * Datenbanknutzer haben immer den Präfix :term:`xyz00_`.
