@@ -46,4 +46,4 @@ Beispiel:
 
 .. note::
 
-        Die Option ``backupmxforexternalmx`` erfordert Änderungen am Zonefile einer Domain.
+        Die Option ``backupmxforexternalmx`` erfordert Änderungen am :doc:`Zonefile<../zonefile/index>` einer Domain.
