@@ -17,6 +17,7 @@ Jeder :term:`Hive` hat einen eigenen MySQL- und PostgresSQL-Datenbankserver. Dar
 der jeweilige MySQL- und PostgresSQL-Server von allen auf einem Hive eingerichteten :doc:`Web-Paketen<../webpaket/index>` gemeinsam genutzt wird.
 
 Der externe Zugriff auf die Datenbanken ist über einen SSH-Tunnel möglich.
+
 Inhalt: 
 
 .. toctree::       
