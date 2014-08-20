@@ -4,7 +4,7 @@ digraph d  {
 	enquire_information [shape=box, label="http://www.example.com/<path>" ]
 
 
-    vh_check_fqdn [shape=record, label="Virtual Host, der fqdn am genauesten entspricht."]
+    vh_check_fqdn [shape=record, label="Virtual Host, der FQND am genauesten entspricht."]
 	path_cgi_bin [shape=diamond, label="Start mit cgi_bin"]
 	path_fastcgi [shape=diamond, label="Start mit fastcgi"]
 	root_cgi_bin [shape=record, label="root = cgi-bin"]
