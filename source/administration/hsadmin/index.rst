@@ -10,7 +10,7 @@ HSAdmin
 :Date: |date|, |time|
 
 HSAdmin ist ein Werkzeug zur Verwaltung von Nutzern, E-Mail-Adressen, E-Mail-Aliases, Domains, Datenbanken und Datenbank-Nutzern.
-Die Bedienung erfolgt über ein :doc:`Webfrontend<webfrontend>` oder mit dem HSAdmin-Clienten ``hsscript`` in der Konsole:
+Die Bedienung erfolgt über ein :doc:`Webfrontend<webfrontend>` oder mit dem HSAdmin-Client ``hsscript`` in der Konsole:
 
 .. code-block:: console
 
