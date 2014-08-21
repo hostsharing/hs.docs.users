@@ -17,7 +17,7 @@ Jedes E-Mail-Konto ist POP3 und IMAP fähig.
 Hostsharing bietet folgende Konfigurationsmöglichkeiten:
 
 * Anlegen und Löschen von E-Mail-Adressen
-* Anlegen und Löschen von E-Mail-Aliasen
+* Anlegen und Löschen von :term:`E-Mail-Alias`en
 * Einrichtung von E-Mail-Weiterleitungen 
 * Automatisches Versenden einer E-Mail-Bestätigung (:term:`Vacation`)
 * Automatisches Filtern und Bearbeiten von E-Mails über `Managesieve <https://wiki.hostsharing.net/index.php?title=Sieve>`_ oder `Procmail <https://wiki.hostsharing.net/index.php?title=Procmail>`_
