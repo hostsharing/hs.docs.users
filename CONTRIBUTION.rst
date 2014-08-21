@@ -129,6 +129,7 @@ Auch verschiedenartige Hervorhebungen lassen sich realisieren:
                          
 
 
+
 RestructuredText-Markierungen
 -----------------------------
 
@@ -157,24 +158,28 @@ RestructuredText-Markierungen
     * Erster Punkt
     * Zweiter Punkt
 
+
 Bilder
 ------
 
-..image:: bild.png
+Einbindung von Bilder::
+
+        ..image:: bild.png
 
 Diagramme
 ---------
 
-Diagramme sollten mit `graphviz http://www.graphviz.org`_ erstellt werden.
+Diagramme werden mit `graphviz http://www.graphviz.org`_ erstellt::
+
+        .. graphviz:: filemap-mit-ssl.dot
 
 Glossar
 -------
 
-Begriffe oder Abkürzungen im Text, die eine Erläuterung erhalten, werden so angegeben:
+Begriffe oder Abkürzungen im Text, die eine Erläuterung erhalten, werden so angegeben::
 
-:term:`Quota`
+        :term:`Quota`
     
-
 Informationsboxen
 -----------------
 
