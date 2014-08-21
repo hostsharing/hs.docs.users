@@ -20,3 +20,14 @@ Im Ordner ``fastcgi`` oder ``fastcgi-ssl`` wird die Datei php.ini angelegt.
 In dieser Datei werden die Änderungen gegenüber den  Standardwerten eingetragen.
 
 Eine Übersicht über die Standardwerte von PHP können unter ``/etc/php5/cgi/php.ini`` eingesehen werden.
+
+PHP Prozesse stoppen
+--------------------
+
+Nach Änderungen an der php.ini müssen alle PHP Prozesse gestopt werden:
+
+.. code-block:: console
+
+            $ killall php -u $USER
+
+            
