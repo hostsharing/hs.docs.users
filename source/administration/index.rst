@@ -22,5 +22,6 @@ Administration
     zonefile/index
     hsadmin/index
     htaccess/index
+    php/index
     logging/index
     backup/index
