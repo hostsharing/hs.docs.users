@@ -48,5 +48,5 @@ Redundante Router und Switches
 
 Sowohl die öffentlich erreichbaren Router wie auch die internen Router 
 und Switches sind redundant ausgelegt. So wird die Aufrechterhaltung der
-Datenkommunikation auf für den Fall gewährleistet, dass eine aktive oder 
+Datenkommunikation auch für den Fall gewährleistet, dass eine aktive oder 
 eine passive Netzwerkkomponente ausfällt.
