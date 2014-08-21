@@ -62,23 +62,19 @@ Seitenstruktur
 Die Hauptüberschrift, die auch im Inhaltsverzeichnis erscheint, sollte so
 geschrieben werden::
 
-        ..code-block:: console
-
         =======================
         Installation von hsdocs
         =======================
 
-danach folgen Angaben zu den Autoren, Datums- und Zeitangaben:
+danach folgen Angaben zu den Autoren, Datums- und Zeitangaben::
 
+   .. |date| date:: %d.%m.%Y
+   .. |time| date:: %H:%M
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
+   :Authors: - Max Mustermann 
+             - Michaela Mustermann
 
-
-:Authors: - Max Mustermann 
-          - Michaela Mustermann
-
-:Date: |date|, |time|
+   :Date: |date|, |time|
 
 
 
