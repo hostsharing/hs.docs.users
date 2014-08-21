@@ -17,7 +17,7 @@ Domaineinrichtung und -konfiguration in einem Web-Paket
 -------------------------------------------------------
 
 Die Einrichtung und Konfiguration erfolgt mit dem Werkzeug :term:`HSAdmin` auf der shell. Syntax und Optionen finden sich im `Kapitel HSAdmin <../hsadmin/index>`_.
-Alternativ steht ein :doc:`Webfrontend<../HSAdmin/webfrontend>` zur Verfügung.
+Alternativ steht ein :doc:`Webfrontend<../hsadmin/webfrontend>` zur Verfügung.
 
 Diese Aufgaben werden vom :doc:`Paket-Admin <../benutzer/paket-admin>` oder vom :doc:`Mitglieds-Account <../benutzer/mitglied>` wahrgenommen. 
 
