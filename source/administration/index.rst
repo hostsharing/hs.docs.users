@@ -21,5 +21,6 @@ Administration
     ssl/index
     zonefile/index
     hsadmin/index
+    htaccess/index
     logging/index
     backup/index
