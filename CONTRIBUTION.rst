@@ -62,6 +62,7 @@ Seitenstruktur
 Die Hauptüberschrift, die auch im Inhaltsverzeichnis erscheint, sollte so
 geschrieben werden::
 
+        ..code-block:: console
 
         =======================
         Installation von hsdocs
