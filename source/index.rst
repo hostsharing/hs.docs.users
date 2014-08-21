@@ -35,5 +35,4 @@ in deren Nutzung sowie eine Beschreibung typischer Prozesse.
     :maxdepth: 1
 
     glossar
-    Sitemap
     impressum
