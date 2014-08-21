@@ -14,7 +14,7 @@ digraph d  {
 	root_search_in_subs [shape=diamond, label="Gibt es eine passende Sub-Domain?"]
     root_subs_ok [shape=record, label="root = subs-ssl"]
 	htdocsfallback_subs [shape=diamond, label="Ist htdocs fallback aktiv?" ]
-	404 [shape=record, label="404"] 
+	404 [shape=record, label="Error 404"] 
         
 	vh_check_fqdn -> path_cgi_bin 
 	path_cgi_bin -> root_cgi_bin [headlabel="Ja"]
