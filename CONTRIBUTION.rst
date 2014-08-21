@@ -21,7 +21,7 @@ Allgemeine Hinweise
 Anrede
 ------
 
-Die direkte Anrede ist zu vermeiden. 
+Die direkte Anrede ist zu vermeiden, auch ``man`` soll nicht verwendet werden. 
 
 Bilder
 ------
