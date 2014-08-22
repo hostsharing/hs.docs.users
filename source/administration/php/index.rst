@@ -30,4 +30,7 @@ Nach Änderungen an der php.ini müssen alle PHP Prozesse gestopt werden:
 
             $ killall php -u $USER
 
-            
+phpstub
+-------
+
+Die Datei ``phpstub`` ist standardmäßig vorhanden, alternativ kann sie aus dem Ordner ``/usr/local/src/phpstub`` wiederhergestellt werden. 
