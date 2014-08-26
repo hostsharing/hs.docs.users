@@ -25,3 +25,4 @@ Administration
     php/index
     logging/index
     backup/index
+    monitoring/index
