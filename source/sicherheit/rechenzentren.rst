@@ -7,6 +7,8 @@ Rechenzentren
 
 :Authors: - Michael Hierweck
           - Veit Schiele
+          - Uwe Müller
+
 :Date: |date|, |time|
 
 Berlin
