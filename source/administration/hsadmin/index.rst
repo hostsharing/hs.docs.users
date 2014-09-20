@@ -46,7 +46,7 @@ HSAdmin verfügt über folgende Module:
 Die HSAdmin-Module verfügen über folgenden Funktionen:
 
 +----------------+---------------+
-| Funktion       + Erläuterung   |
+| Funktion       | Erläuterung   |
 +================+===============+
 | search         | suchen        |
 +----------------+---------------+
