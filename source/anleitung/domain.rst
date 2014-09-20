@@ -23,7 +23,7 @@ Aufruf des Webfrontends über den Link https://admin.hostsharing.net.
 
 Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/paket-admin>` (xyz00) beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
 
-.. image:: admin.hostsharing.net.jpg
+.. image:: hsadmin.jpg
 
 
 Für das Anlegen einer Domain wird der Tab *Domains* aktiviert und dort *Domain konfigurieren* gewählt.

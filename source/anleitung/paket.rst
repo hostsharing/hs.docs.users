@@ -17,7 +17,7 @@ Um ein Web-Paket in Betrieb zu nehmen, wird ein Passwort für den :doc:`Paket-Ad
 
 Es wird die Mitgliederkennung beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
 
-.. image:: admin.hostsharing.net.jpg
+.. image:: hsadmin.jpg
 
 Nach erfolgreichem Login werden alle angelegten Paket-Admins des Mitglieds angezeigt.
 

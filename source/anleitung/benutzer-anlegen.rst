@@ -17,7 +17,7 @@ Aufruf des Webfrontends über den Link https://admin.hostsharing.net.
 
 Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/paket-admin>` beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
 
-.. image:: admin.hostsharing.net.jpg
+.. image:: hsadmin.jpg
 
 
 Nach erfolgreichem Login werden die angelegten Benutzer des Web-Pakets angezeigt:
