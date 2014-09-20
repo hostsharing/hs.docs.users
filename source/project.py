@@ -7,9 +7,9 @@ from datetime import date
 
 # General information about the project.
 code = 'hsdocs'
-project = u'Hostsharing Handbuch für Anwender'
+project = u'Benutzerhandbuch'
 author = u'Hostsharing eG'
-copyright = u'2010-{year}, {author}'.format(year=date.today().year, author=author)
+copyright = u'2000-{year}, {author}'.format(year=date.today().year, author=author)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
