@@ -6,7 +6,7 @@
 from datetime import date
 
 # General information about the project.
-code = 'hsdocs'
+code = 'hsusers'
 project = u'Benutzerhandbuch'
 author = u'Hostsharing eG'
 copyright = u'2000-{year}, {author}'.format(year=date.today().year, author=author)
