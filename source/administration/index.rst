@@ -22,7 +22,7 @@ Administration
     zonefile/index
     hsadmin/index
     htaccess/index
-    php/index
+    php
     logging/index
-    backup/index
+    backup
     monitoring/index

@@ -17,5 +17,6 @@ Sicherheit
     netze
     redundanz
     replikation
+    monitoring
     backup
     hostkeys
