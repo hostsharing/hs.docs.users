@@ -43,10 +43,3 @@ Management-Netzwerk
     Adressen, die von außen nicht erreichbar sind. Es wird auch noch verfügbar
     sein, wenn Probleme in den anderen Netzen auftauchen.
 
-Redundante Router und Switches
-------------------------------
-
-Sowohl die öffentlich erreichbaren Router wie auch die internen Router 
-und Switches sind redundant ausgelegt. So wird die Aufrechterhaltung der
-Datenkommunikation auch für den Fall gewährleistet, dass eine aktive oder 
-eine passive Netzwerkkomponente ausfällt.
