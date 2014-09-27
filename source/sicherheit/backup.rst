@@ -32,5 +32,5 @@ In der Datensicherung sind ``nicht`` enthalten:
 Datenbanken
 -----------
 
-Unmittelbar vor Beginn der Sicherung der Daten des Dateisystems werden MySQL- und PostgreSQL-Datenbanken in das Verzeichnis ``/home/pacs/xyz00/.bak/``  gesichert. Diese Sicherungen fließen in die nachfolgende Dateisystemsicherung ein.
+Unmittelbar vor Beginn der Sicherung der Daten des Dateisystems werden MySQL- und PostgreSQL-Datenbanken und ``crontab``s in das Verzeichnis ``/home/pacs/xyz00/.bak/`` gesichert. Diese Sicherungen fließen in die nachfolgende Dateisystemsicherung ein.
 Die Rücksicherung von Datenbanken erfolgt durch den Paket-Admin auf Basis der im Verzeichnis ``/home/pacs/xyz00/.bak/`` abgelegten Datenbanksicherungen.
