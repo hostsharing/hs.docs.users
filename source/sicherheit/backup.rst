@@ -15,7 +15,7 @@ Hostsharing führt täglich Sicherungen der Daten durch. In der Regel können je
 
 In der Datensicherung enthalten sind: 
 
-* die Paket-Konfiguration.
+* die Paket-Konfiguration
 * die Dateien im Paket selbst, insofern diese nicht vom Paket-Admin explizit ausgeschlossen wurden
 * die zum Paket gehörigen Datenbanken 
 * die zum Paket gehörigen eingegangenen E-Mails
