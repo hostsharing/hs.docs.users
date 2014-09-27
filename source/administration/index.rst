@@ -25,3 +25,4 @@ Administration
     php
     logging/index
     backup
+    hostkeys
