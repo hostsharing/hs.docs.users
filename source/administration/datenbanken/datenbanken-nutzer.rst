@@ -24,7 +24,7 @@ Die Verwaltung von Datenbanken und :doc:`Nutzern<../benutzer/index>` erfolgt mit
 Rechte
 ------
 
-Datenbanknutzer müssen initial die gewünschten Rechte an den entsprechenden Datenbanken vergeben werden.
+Datenbanknutzern müssen initial die gewünschten Rechte an den entsprechenden Datenbanken vergeben werden.
 
 
 Name
