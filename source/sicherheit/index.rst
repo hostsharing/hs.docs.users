@@ -19,4 +19,3 @@ Sicherheit
     replikation
     monitoring
     backup
-    hostkeys
