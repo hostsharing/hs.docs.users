@@ -9,7 +9,7 @@ Anlegen einer Python-Umgebung mit virtualenv::
 
 Auschecken des Projekts::
 
-        $ git clone https://github.com/hostsharing/hsdocs.git buildout
+        $ git clone https://github.com/hostsharing/hsusers.git buildout
 
 Wechseln in das Verzeichnis::
 
