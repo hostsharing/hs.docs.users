@@ -12,7 +12,7 @@ Syntax
 
 Die Funktionen von HSAdmin können über das Kommandozeilenprogramm
 hsscript aufgerufen werden, welches Befehle per Parameter,
-Dateiübergabe oder interaktiv entgegen nimmt.
+Dateiübergabe oder interaktiv entgegennimmt.
 
 Aufruf
 ------

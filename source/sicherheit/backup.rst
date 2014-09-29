@@ -19,6 +19,6 @@ verschlüsselten SSH-Tunnel.
 Die Backups jedes Produktivsystems werden separat archiviert und können
 nur von diesem System zur Rücksicherung angefordert werden.
 Ferner wird gewährleistet, dass Backups nicht nachträglich kompromittiert
- werden können.
+werden können.
 
 In der Regel werden mindestens 15 Backups vorgehalten. 

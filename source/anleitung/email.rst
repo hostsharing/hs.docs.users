@@ -10,10 +10,10 @@ E-Mail einrichten
           - Christian Günter
 :Date: |date|, |time|
 
-Es werden zwei E-Mail-Adressen angelegt:
+In diesem Beispiel werden zwei E-Mail-Adressen angelegt:
 
-* Die erste E-Mail-Adresse wird an einem Postfach im Webpaket zugeordnet
-* Die zweite E-Mail-Adresse wird an einer externen E-Mail-Adresse zugeordnet.
+* Die erste E-Mail-Adresse wird einem Postfach im Webpaket zugeordnet
+* Die zweite E-Mail-Adresse wird einer externen E-Mail-Adresse zugeordnet.
 
 E-Mail-Adresse an Postfach im Webpaket
 --------------------------------------
@@ -44,7 +44,7 @@ Haupt-Domain: hs-example.de
 
 Ziel:         User  xyz00-doms  (E-Mails sollen an ein Postfach gehen)
 
-Bestätigen mit dem Button *speichen* 
+Bestätigen mit dem Button *speichern*
 
 E-Mail-Adresse mit Weiterleitung an externe Mail-Adresse
 --------------------------------------------------------

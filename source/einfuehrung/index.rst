@@ -9,13 +9,13 @@ Einführung
           - Uwe Müller
 :Date: |date|, |time|
 
-Die Hostsharing eG bietet Ihren Mitgliedern Webhosting-Leistungen in Form
+Die Hostsharing eG bietet ihren Mitgliedern Webhosting-Leistungen in Form
 von Web-Paketen oder Managed Servern an.
 Dieses Angebot wird durch passende Beratungs- und Unterstützungsleistungen
 vervollständigt.
 
-Die gesamte bereitgestellte Infrastruktur von der Hardware über Netze
-bis zur Softwareumgebung mit ihren administrativen Tools,
+Die gesamte bereitgestellte Infrastruktur – von der Hardware über Netze
+bis zur Softwareumgebung mit ihren administrativen Tools –
 wird von der Hostsharing eG bereitgestellt, gewartet, aktualisiert und
 überwacht, so dass sich die Mitglieder auf den Betrieb ihrer
 indviduellen Internetangebote konzentrieren können.
@@ -29,7 +29,7 @@ Unternehmen und Organisationen mit gehobenen Ansprüchen an das Webhosting.
 Möglich sind der Betrieb von Application Servern,
 auch in Form verteilter Deployments über interne Netze.
 
-Die Hostsharing eG erbingt ihre hochwertigen Leistungen entsprechend
+Die Hostsharing eG erbringt ihre hochwertigen Leistungen entsprechend
 der nachfolgend schematisch dargestellten Prinzipien:
 
 +----------------+------------------------------------------------------------------------------+

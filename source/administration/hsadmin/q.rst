@@ -1,6 +1,6 @@
-==============
-HSAdminmodul q 
-==============
+===============
+HSAdmin-Modul q
+===============
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -10,7 +10,7 @@ HSAdminmodul q
 
 :Date: |date|, |time|
 
-Das HSAdminmodul hat die Funktion ``search``. Hiermit ist die Suche nach HSAdminaktionen möglich.
+Das HSAdmin-Modul hat die Funktion ``search``. Hiermit ist die Suche nach HSAdmin-Aktionen möglich.
 
 Beispiel:
 

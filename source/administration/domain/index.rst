@@ -20,7 +20,7 @@ Die Verwaltung einer Domain umfasst:
 * Sub-Domain neu zuordnen (:doc:`Domain-Admin<../benutzer/domain-admin>` neu zuordnen oder Zuordnung zu einem :doc:`Web-Paket<../webpaket/index>` ändern),
 * Lokale Sub-Domain separat aufschalten,
 * Verwaltung des :doc:`Zonefile<../zonefile/index>`,
-* Verwaltung der Domain-Daten (z.B. Domain-Handel, Kontaktdaten),
+* Verwaltung der Domain-Daten (z.B. Domain-Handle, Kontaktdaten),
 * Transfer zu einem anderen Provider,
 * Domain löschen/kündigen.
           

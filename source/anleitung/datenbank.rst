@@ -29,11 +29,11 @@ Die Felder werden wie folgt belegt:
 
 MySQL User: xyz00
 
-Benutzer-Posfix: dbuser (Zulässige Zeichen: 0 bis 9 und a bis z Buchstaben)
+Benutzer-Postfix: dbuser (Zulässige Zeichen: 0 bis 9 und a bis z Buchstaben)
 
 Passwort: PASSWORT
 
-Mit dem Tab *MySQL DB* und dort der Button *Datenbank anlegen* wird diese Eingabemaske sichtbar:
+Mit dem Tab *MySQL DB* und dort dem Button *Datenbank anlegen* wird diese Eingabemaske sichtbar:
 
 .. image:: db-anlegen.jpg
 

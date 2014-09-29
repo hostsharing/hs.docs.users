@@ -21,7 +21,7 @@ Die Hierarchie gliedert sich in absteigender Reihenfolge:
 
 Die Verwaltung von Domains (Registrierung, Transfer, DNS-Server etc.) erfolgt durch den
 
-* :doc:`Domain-Verwalter <domainaccount>`.
+* :doc:`Domain-Verwalter <domainaccount>`
 
 im externen Verwaltungstool und ist unabhängig von den oben genannten Rollen. 
 

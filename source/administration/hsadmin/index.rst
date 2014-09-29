@@ -25,13 +25,13 @@ HSAdmin verfügt über folgende Module:
 +=======================================+=====================================================+
 | :doc:`user<user>`                     | Modul zur Nutzerverwaltung                          |
 +---------------------------------------+-----------------------------------------------------+
-| :doc:`mysqldb<mysqldb>`               | Modul zur Verwaltung von Mysql-Datenbanken          |
+| :doc:`mysqldb<mysqldb>`               | Modul zur Verwaltung von MySQL-Datenbanken          |
 +---------------------------------------+-----------------------------------------------------+
-| :doc:`mysqluser<mysqluser>`           | Modul zur Verwaltung vom Mysql-Datenbanknutzern     |
+| :doc:`mysqluser<mysqluser>`           | Modul zur Verwaltung vom MySQL-Datenbanknutzern     |
 +---------------------------------------+-----------------------------------------------------+
-| :doc:`postgresqldb<postgresqldb>`     | Modul zur Verwaltung von Postgresql-Datenbanken     |
+| :doc:`postgresqldb<postgresqldb>`     | Modul zur Verwaltung von PostgreSQL-Datenbanken     |
 +---------------------------------------+-----------------------------------------------------+
-| :doc:`postgresqluser<postgresqluser>` | Modul zur Verwaltung von Postgresql-Datenbanknutzer |
+| :doc:`postgresqluser<postgresqluser>` | Modul zur Verwaltung von PostgreSQL-Datenbanknutzer |
 +---------------------------------------+-----------------------------------------------------+
 | :doc:`emailaddress<emailaddress>`     | Modul zur Verwaltung von E-Mail-Adressen            |
 +---------------------------------------+-----------------------------------------------------+

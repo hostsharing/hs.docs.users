@@ -32,14 +32,14 @@ Server-Netzwerk
     von derjenigen zu einem Cache oder Load-Balancer.
 Speichernetzwerk
     Dieses Netzwerk wird verwendet für Storage-Traffic. Es basiert auf dedizierten
-    Punkt-zu-Punkt Verkabelungen, die von außen nicht erreichbar sind. Das
+    Punkt-zu-Punkt-Verkabelungen, die von außen nicht erreichbar sind. Das
     Netzwerk nutzt private IPv4-Adressen und ist nicht nur von außen nicht
-    erreichbar sondern auch nur zugänglich für die Backup-Server, nicht jedoch
+    erreichbar, sondern auch nur zugänglich für die Backup-Server, nicht jedoch
     für die Managed Server.
 Management-Netzwerk
-    Dieses physikalische Netzwerk wird verwendet für den Zugang zu IPMI-
-    Controllern (Intelligent Platform Management Interface-Controller), RAC
-    (Remote Access Controller), Switches und Routern. Es verwendet private IPv4-
-    Adressen, die von außen nicht erreichbar sind. Es wird auch noch verfügbar
+    Dieses physikalische Netzwerk wird verwendet für den Zugang zu IPMI-Controllern
+    (Intelligent Platform Management Interface Controller), RAC
+    (Remote Access Controller), Switches und Routern. Es verwendet private
+    IPv4-Adressen, die von außen nicht erreichbar sind. Es wird auch noch verfügbar
     sein, wenn Probleme in den anderen Netzen auftauchen.
 

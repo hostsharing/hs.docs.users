@@ -10,7 +10,7 @@ Monitoring
 :Date: |date|, |time|          
 
 
-Es werden folgende Dienst/Services überwacht:
+Es werden folgende Dienste/Services/Kenngrößen überwacht:
 
 * HTTP (Webserver) 
 * Mailsystem (SMTP, POP3, IMAP)

@@ -1,6 +1,6 @@
-=======================
-HSAdminmodul emailalias 
-=======================
+========================
+HSAdmin-Modul emailalias
+========================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -16,9 +16,9 @@ Das HSAdmin-Modul ``emailalias`` verfügt über folgende Optionen:
 +---------------+------------------------------------------------------------------------+
 | Option        | Erläuterung                                                            |
 +===============+========================================================================+
-| name          | Name des E-Mailalias                                                   |
+| name          | Name des E-Mail-Alias                                                  |
 +---------------+------------------------------------------------------------------------+
-| target        | Ziel einer E-Mail-Adresse, mehrere Ziele werden durch Kommata getrennt |
+| target        | Ziel einer E-Mail-Adresse; mehrere Ziele werden durch Kommata getrennt |
 +---------------+------------------------------------------------------------------------+
 
 Beispiel:

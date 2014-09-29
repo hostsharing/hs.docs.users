@@ -18,10 +18,10 @@ Ein Web-Paket ermöglicht die Nutzung von:
 * Web-Anwendungen
 * Daemons
 * E-Mail-Infrastruktur
-* Domains- und Subdomains
+* Domains und Subdomains
 * SSL-Verschlüsselung
 * Datenbanken
-* verschiedene Programmiersprachen
+* verschiedenen Programmiersprachen
 
 Web-Pakete eignen sich zum Betrieb eines oder mehrerer Internetangebote.
 Jedes Mitglied kann beliebig viele Web-Pakete bestellen und verwalten.

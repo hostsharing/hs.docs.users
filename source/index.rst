@@ -18,7 +18,7 @@ Die Hostsharing eG ist ein im Jahr 2000 gegründeter, genossenschaftlich
 organisierter Webhoster, dessen Schwerpunkte auf Sicherheit, Transparenz
 und Flexibilität liegen.
 
-Dieses Handbuch richtet sich an Anwender, welche Ihre Internetprojekte
+Dieses Handbuch richtet sich an Anwender, welche ihre Internetprojekte
 bei der Hostsharing eG betreiben möchten.
 Es bietet einen Überblick über die Infrastruktur, eine Einführung
 in deren Nutzung sowie eine Beschreibung typischer Prozesse.

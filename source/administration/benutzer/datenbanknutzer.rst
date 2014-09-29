@@ -21,6 +21,6 @@ Die Rolle des Datenbank-Nutzers wird vom :doc:`Paket-Admin<../benutzer/paket-adm
 Rechte
 ------
 
-* Die jeweils zugewiesenen Rechte an einer oder mehrerer :doc:`Datenbanken<../datenbanken/index>`.
+* Die jeweils zugewiesenen Rechte an einer oder mehreren :doc:`Datenbanken<../datenbanken/index>`.
 
 

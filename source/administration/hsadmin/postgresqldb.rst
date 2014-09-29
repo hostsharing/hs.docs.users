@@ -1,6 +1,6 @@
-=========================
-HSAdminmodul postgresqldb 
-=========================
+==========================
+HSAdmin-Modul postgresqldb
+==========================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -12,7 +12,7 @@ HSAdminmodul postgresqldb
 
 
 
-Das HSAdminmodul postgresqldb verfügt über folgende Optionen:
+Das HSAdmin-Modul postgresqldb verfügt über folgende Optionen:
 
 +---------------+------------------------------------------------+
 | Option        | Erläuterung                                    |

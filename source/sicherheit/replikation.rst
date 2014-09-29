@@ -15,5 +15,5 @@ das Netzwerk).
 Auf diese Weise stellt Hostsharing sicher, dass im Fall eines Hardwareschadens
 der Betrieb mit allen persistent gespeicherten Daten unverzüglich fortgesetzt
 werden kann, ohne das durch das Einspielen des Backups Datenänderungen,
-die sich in der Zwischenzeit ergeben haben - etwa eingegangene
-E-Mails oder Datenbanktransaktionen - verloren gehen.
+die sich in der Zwischenzeit ergeben haben – etwa eingegangene
+E-Mails oder Datenbanktransaktionen – verloren gehen.

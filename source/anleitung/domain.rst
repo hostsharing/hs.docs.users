@@ -16,12 +16,12 @@ Eine Domain wird in zwei Schritten angelegt:
 #. Die Domain im Domainbestellsystem bestellen
 
 
-Die Domain auf dem Hostsharing Server anlegen
+Die Domain auf dem Hostsharing-Server anlegen
 ---------------------------------------------
 
 Aufruf des Webfrontends über den Link https://admin.hostsharing.net.
 
-Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/paket-admin>` (xyz00) beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
+Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/paket-admin>` (xyz00) beim Benutzernamen und im Passwortfeld das entsprechende Passwort eingetragen.
 
 .. image:: hsadmin.jpg
 
@@ -42,6 +42,6 @@ Damit ist die Domain in dem Web-Paket xyz00 technisch angelegt.
 Die Domain im Domainbestellsystem bestellen
 -------------------------------------------
 
-Anschliessend kann die Domain hs-example.de unter dem Link https://www.domain-bestellsystem.de bestellt werden.
+Anschließend kann die Domain hs-example.de unter dem Link https://www.domain-bestellsystem.de bestellt werden.
 Die Login-Daten dafür wurden Ihnen auf einem separatem Weg mitgeteilt.
 

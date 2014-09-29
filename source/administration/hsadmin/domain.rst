@@ -1,6 +1,6 @@
-===================
-HSAdminmodul domain 
-===================
+====================
+HSAdmin-Modul domain
+====================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -10,7 +10,7 @@ HSAdminmodul domain
 
 :Date: |date|, |time|
 
-Das HSAdminmodul ``domain`` verfügt über folgende Optionen:
+Das HSAdmin-Modul ``domain`` verfügt über folgende Optionen:
 
 +--------+------------------------+
 | Option | Erläuterung            |
@@ -35,13 +35,13 @@ Beispiel:
 +-----------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | multiviews            | on      | Der Webserver berücksichtigt Einstellungen im Browser beim Abruf einer Domain (z.B. eine bevorzugte Sprache).  Die Option kann mit einer :term:`.htaccess`-Datei für jedes Verzeichnis konfiguriert werden.                                                                                     |
 +-----------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| indexes               | on      | Der Webserver erzeugt für Verzeichnisse, die keine eigene Index-Datei enthalten, eine Liste mit den im Verzeichnis enthaltenen Dateien. Ist die Option deaktiviert, wird ein Fehler 303 ausgegeben Die Option kann mit einer .htaccess-Datei für jedes Verzeichnis konfiguriert werden.         |
+| indexes               | on      | Der Webserver erzeugt für Verzeichnisse, die keine eigene Index-Datei enthalten, eine Liste mit den im Verzeichnis enthaltenen Dateien. Ist die Option deaktiviert, wird ein Fehler 303 ausgegeben. Die Option kann mit einer .htaccess-Datei für jedes Verzeichnis konfiguriert werden.        |
 +-----------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | htdocsfallback        | on      | Der Webserver leitet auf die Hauptdomain, wenn keine Sub-Domain angelegt ist. Ist die Option deaktivert, wird ein Fehler 404 ausgegeben: Seite nicht gefunden.                                                                                                                                  |
 +-----------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | includes              | on      | Der Webserver erkennt  :term:`SSI`-Komandos und -Dateien. Die Option kann mit einer .htaccess-Datei für jedes Verzeichnis konfiguriert werden.                                                                                                                                                  |
 +-----------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| backupmxforexternalmx | off     | Der Paket-Hive wird als Weiterleitung (transport) beim Mail-In-Server eingetragen. Ist die Option aktiv, ist der Hostsharing Mail-In-Server Backup-MX. Der eigentliche Mailserver befindet sich außerhalb der Infrastruktur von Hostsharing (z.B. anderer Provider, DSL-Anschluß mit fester IP) |
+| backupmxforexternalmx | off     | Der Paket-Hive wird als Weiterleitung (transport) beim Mail-In-Server eingetragen. Ist die Option aktiv, ist der Hostsharing-Mail-In-Server Backup-MX. Der eigentliche Mailserver befindet sich außerhalb der Infrastruktur von Hostsharing (z.B. anderer Provider, DSL-Anschluß mit fester IP) |
 +-----------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. note::

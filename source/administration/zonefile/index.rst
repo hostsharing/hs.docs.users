@@ -10,7 +10,7 @@ Zonefile
 
 :Date: |date|, |time|
 
-Das Zonefile enthält die Konfiguration des Domain-Name-Service (DNS) einer :doc:`Domain<../domain/index>`. Im Zonefile wird hinterlegt welche Hostnamen innerhalb einer Domain existieren, auf welche IP-Adressen 
+Das Zonefile enthält die Konfiguration des Domain Name Service (DNS) einer :doc:`Domain<../domain/index>`. Im Zonefile wird hinterlegt, welche Hostnamen innerhalb einer Domain existieren, auf welche IP-Adressen
 diese zeigen und welches Mailsystem für eine Domain zuständig ist. 
 Das Standardzonefile ist für jede Domain unter ``/etc/bind/pri.example.de`` zu finden. 
 

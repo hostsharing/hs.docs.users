@@ -2,11 +2,11 @@ Beitragen
 =========
 
 Gerne können Sie unser Repository clonen und anschließend Änderungen vornehmen.
-Pull-Requests übernehmen wir dann gerne wieder in das Hostsharing-Repository
+Pull-Requests übernehmen wir dann gerne wieder in das Hostsharing-Repository,
 sofern sie sich in die allgemeine technische Dokumentation von Hostsharing
 einfügen und die unten folgenden Hinweise beachtet werden.
 
-Installationsanleitungen, Tipps und Tricks etc. gehören *nicht* in diese Dokumentation. Hierfür bieten wir zur Zeit das Wiki der Mitglieder `<https://wiki.hostshaing.net>`_ an.
+Installationsanleitungen, Tipps und Tricks etc. gehören *nicht* in diese Dokumentation. Hierfür bieten wir zur Zeit das Wiki der Mitglieder `<https://wiki.hostsharing.net>`_ an.
 
 Allgemeine Hinweise
 -------------------
