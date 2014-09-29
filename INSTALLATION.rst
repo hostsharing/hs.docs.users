@@ -5,15 +5,15 @@ Dieses Projekt nutzt den `Sphinx Documentation Generator <http://sphinx.pocoo.or
 
 Anlegen einer Python-Umgebung mit virtualenv::
 
-        $ virtualenv virtual
+        $ virtualenv virtualenv
 
 Auschecken des Projekts::
 
-        $ git clone https://github.com/hostsharing/hsusers.git buildout
+        $ git clone https://github.com/hostsharing/hsusers.git
 
 Wechseln in das Verzeichnis::
 
-        $ cd buildout
+        $ cd hsusers
 
 Installation des Sphinx Documentation Generator::
 
