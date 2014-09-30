@@ -9,7 +9,7 @@ htaccess
 
 :Date: |date|, |time|
 
-Konfigurationen, die es ermöglichen das der Webserver Rechte anderer User erhalten kann, sind nicht erlaubt.
+Konfigurationen, die es ermöglichen, dass der Webserver Rechte anderer User erhalten kann, sind nicht erlaubt.
 Dies betrifft folgende Funktionen: 
 
 

@@ -10,7 +10,7 @@ Webspace einrichten
           - Christian Günter
 :Date: |date|, |time|
 
-Um Dateien in das Webpaket kopieren zu können, wird eine Client-Software benötigt (z.b. FileZilla, WinSCP oder :term:`SCP`). 
+Um Dateien in das Webpaket kopieren zu können, wird eine Client-Software benötigt (z.B. FileZilla, WinSCP oder :term:`SCP`).
 
 Zugangsdaten und Einstellungen
 ------------------------------
@@ -21,7 +21,7 @@ Benutzer: xyz00-doms
 
 Passwort: PASSWORT
 
-z.b.: FTP FileZilla Client Software
+z.B.: FTP FileZilla Client Software
 
 .. image:: ftp-filezilla.jpg
 

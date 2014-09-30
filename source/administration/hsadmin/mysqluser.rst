@@ -1,6 +1,6 @@
-======================
-HSAdminmodul mysqluser 
-======================
+=======================
+HSAdmin-Modul mysqluser
+=======================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -11,7 +11,7 @@ HSAdminmodul mysqluser
 :Date: |date|, |time|
 
 
-Das HSAdminmodul ``mysqluser`` verfügt über folgende Optionen:
+Das HSAdmin-Modul ``mysqluser`` verfügt über folgende Optionen:
 
 
 

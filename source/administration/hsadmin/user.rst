@@ -1,6 +1,6 @@
-=================
-HSAdminmodul user
-=================
+==================
+HSAdmin-Modul user
+==================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -11,7 +11,7 @@ HSAdminmodul user
 :Date: |date|, |time|
 
 
-Das HSAdminmodul ``user`` verfügt über folgende Optionen:
+Das HSAdmin-Modul ``user`` verfügt über folgende Optionen:
 
 +-----------------+-----------------------------------------------------------------------------------------------------------------+
 | Option          | Erläuterung                                                                                                     |

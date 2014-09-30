@@ -1,6 +1,6 @@
-====================
-HSAdminmodul mysqldb 
-====================
+=====================
+HSAdmin-Modul mysqldb
+=====================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -12,7 +12,7 @@ HSAdminmodul mysqldb
 
 
 
-Das HSAdminmodul mysqldb verfügt über folgende Optionen:
+Das HSAdmin-Modul mysqldb verfügt über folgende Optionen:
 
 +---------------+------------------------------------------------+
 | Option        | Erläuterung                                    |

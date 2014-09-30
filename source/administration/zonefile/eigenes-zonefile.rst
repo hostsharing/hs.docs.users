@@ -23,8 +23,8 @@ Zonefile anpassen muss. Das Zonefile wird im Verzeichnis ``~/doms/example.com/et
  
 
 
-                Das nicht sachgemäße Erstellen oder Fehler im eigenen Zonefile können zur Nichterreichbarkeit der Domain und zum Verlust von E-Mails führen!
+                Das unsachgemäße Erstellen oder Fehler im eigenen Zonefile können zur Nichterreichbarkeit der Domain und zum Verlust von E-Mails führen!
 
-Im Wiki der Mitglieder finden sich `Beispiele für eigene Zonefiles <https://wiki.hostsharing.net/index.php?title=Simple_Zonefile_Howto>`_ .
+Im Wiki der Mitglieder finden sich `Beispiele für eigene Zonefiles <https://wiki.hostsharing.net/index.php?title=Simple_Zonefile_Howto>`_.
 
 

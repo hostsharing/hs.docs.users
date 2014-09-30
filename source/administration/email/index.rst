@@ -12,7 +12,7 @@ E-Mail
 
 Jeder :doc:`Benutzer<../benutzer/index>` im :doc:`Web-Paket<../webpaket/index>` besitzt ein E-Mail-Konto und kann E-Mail senden und empfangen. E-Mails werden unterhalb des Verzeichnisses ``~/Maildir`` abgelegt. Der Name des Ordners ``Maildir`` kann nicht verändert werden.
 
-Jedes E-Mail-Konto ist POP3 und IMAP fähig.
+Jedes E-Mail-Konto ist POP3- und IMAP-fähig.
 
 Hostsharing bietet folgende Konfigurationsmöglichkeiten:
 

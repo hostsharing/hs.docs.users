@@ -1,6 +1,6 @@
-===========================
-HSAdminmodul postgresqluser 
-===========================
+============================
+HSAdmin-Modul postgresqluser
+============================
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M

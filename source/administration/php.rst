@@ -10,7 +10,7 @@ PHP
 :Date: |date|, |time|
 
 
-PHP ist standardmäßig über FastCGI konfiguriert. Es findet sich in den Ordnern  ``fastcgi`` und ``fastcgi-ssl`` unterhalb des Domainordners eine phpstub-Datei, der Webserver liefert php-Dateien mit den
+PHP ist standardmäßig über FastCGI konfiguriert. In den Ordnern ``fastcgi`` und ``fastcgi-ssl`` unterhalb des Domainordners findet sich eine phpstub-Datei; der Webserver liefert php-Dateien mit den
 Rechten des Users aus.
 
 Eigene PHP Konfiguration
@@ -24,7 +24,7 @@ Eine Übersicht über die Standardwerte von PHP können unter ``/etc/php5/cgi/ph
 PHP Prozesse stoppen
 --------------------
 
-Nach Änderungen an der php.ini müssen alle PHP Prozesse gestopt werden:
+Nach Änderungen an der php.ini müssen alle PHP-Prozesse gestoppt werden:
 
 .. code-block:: console
 

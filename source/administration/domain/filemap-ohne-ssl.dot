@@ -4,12 +4,12 @@ digraph d  {
 	enquire_information [shape=box, label="http://www.example.com/<path>" ]
 
 
-    vh_check_fqdn [shape=record, label="Virtual Host, der FQND am genauesten entspricht."]
+    vh_check_fqdn [shape=record, label="Virtual Host, der FQDN am genauesten entspricht"]
 	path_cgi_bin [shape=diamond, label="Start mit cgi_bin"]
 	path_fastcgi [shape=diamond, label="Start mit fastcgi"]
 	root_cgi_bin [shape=record, label="root = cgi-bin"]
 	root_fastcgi [shape=record, label="root = fastcgi"]
-	fqdn_matches [shape=diamond, label="FQND Treffer"]
+	fqdn_matches [shape=diamond, label="FQDN-Treffer"]
 	root_htdocs_ok [shape=record, label="root = htdocs"]
 	root_search_in_subs [shape=diamond, label="Gibt es eine passende Sub-Domain?"]
     root_subs_ok [shape=record, label="root = subs"]
