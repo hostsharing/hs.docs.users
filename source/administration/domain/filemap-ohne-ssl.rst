@@ -1,5 +1,5 @@
 ====================
-Filemapping ohne SSL
+Filemapping ohne TLS
 ====================
 
 .. |date| date:: %d.%m.%Y
@@ -11,5 +11,5 @@ Filemapping ohne SSL
 
 
 
-.. graphviz:: filemap-ohne-ssl.dot
+.. graphviz:: filemap-ohne-tls.dot
 
