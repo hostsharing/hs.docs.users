@@ -16,6 +16,6 @@ Beispiel:
 
 .. code-block:: console
 
-    $  q.search ({set:{id:'Suchbegriff'}})
+    $  q.search ({where:{user:'xyz00'}})
 
 
