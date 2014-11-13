@@ -18,7 +18,7 @@ Administration
     domain/index
     email/index   
     datenbanken/index
-    ssl/index
+    tls/index
     zonefile/index
     hsadmin/index
     htaccess

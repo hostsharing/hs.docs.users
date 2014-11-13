@@ -1,5 +1,5 @@
 =====================
-Filemapping  mit  SSL
+Filemapping  mit  TLS
 =====================
 
 .. |date| date:: %d.%m.%Y
@@ -11,5 +11,5 @@ Filemapping  mit  SSL
 
 
 
-.. graphviz:: filemap-mit-ssl.dot
+.. graphviz:: filemap-mit-tls.dot
 

@@ -19,7 +19,7 @@ Ein Web-Paket ermöglicht die Nutzung von:
 * Daemons
 * E-Mail-Infrastruktur
 * Domains und Subdomains
-* SSL-Verschlüsselung
+* TLS-Verschlüsselung
 * Datenbanken
 * verschiedenen Programmiersprachen
 

@@ -12,7 +12,7 @@ Posteingangsserver
 Angaben für den Posteingangsserver:
 
 +-----------------------+-----------+----------+---------------+
-| Posteingangsserver    | Protokoll | Port SSL | Port STARTTLS | 
+| Posteingangsserver    | Protokoll | Port TLS | Port STARTTLS | 
 +=======================+===========+==========+===============+
 | xyz00.hostsharing.net | POP3      | 995      | 110           | 
 +-----------------------+-----------+----------+---------------+

@@ -1,5 +1,5 @@
 ======================
-Eigene SSL Zertifikate 
+Eigene TLS-Zertifikate 
 ======================
 
 .. |date| date:: %d.%m.%Y

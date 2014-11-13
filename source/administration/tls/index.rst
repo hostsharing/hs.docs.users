@@ -1,6 +1,6 @@
-===================
-SSL/TLS Zertifikate
-===================
+===============
+TLS Zertifikate
+===============
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
@@ -15,17 +15,17 @@ Standardkonfiguration
 
 Pro :doc:`Web-Paket<../webpaket/index>` ist ein Zertifikat möglich.
 
-SSL-Inhalte werden durch die Verzeichnisse
+TLS-Inhalte werden durch die Verzeichnisse
 
 * cgi-ssl
 * fastcgi-ssl
 * htdocs-ssl
 
-von Nicht-SSL-Inhalten getrennt.
+von Nicht-TLS-Inhalten getrennt.
 
 .. note::
 
-        Hostsharing stellt ein SSL-Zertifikat für die Domain \*.hostsharing.net zur Verfügung, welches mit der Paketdomain xyz00.hostsharing.net genutzt werden kann. 
+        Hostsharing stellt ein TLS-Zertifikat für die Domain \*.hostsharing.net zur Verfügung, welches mit der Paketdomain xyz00.hostsharing.net genutzt werden kann. 
         Bei einer Nutzung abseits der Paketdomain muss das Zertifikat vom Browser explizit bestätigt werden, da das Zertifikat nicht zur aufgerufenen Domain passt.
          
 
@@ -35,7 +35,7 @@ Inhalt:
         :maxdepth: 1                
          
         varianten 
-        eigene-ssl-zertifikate
+        eigene-tls-zertifikate
 
 
 
