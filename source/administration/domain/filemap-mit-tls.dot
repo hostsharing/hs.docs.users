@@ -1,5 +1,6 @@
 digraph d  { 
 	node [peripheries=0, style=filled, fillcolor="grey92", font=Helvetica, fontcolor=black]
+
 	enquire_information [shape=box, label="https://www.example.com/<path>" ]
 
 
@@ -11,13 +12,13 @@ digraph d  {
 	fqdn_matches [shape=diamond, label="FQDN-Treffer"]
 	root_htdocs_ok [shape=record, label="root = htdocs-ssl"]
 	root_search_in_subs [shape=diamond, label="Gibt es eine passende Sub-Domain?"]
-    	root_subs_ok [shape=record, label="root = subs-ssl"]
+    root_subs_ok [shape=record, label="root = subs-ssl"]
 	htdocsfallback_subs [shape=diamond, label="Ist htdocs fallback aktiv?" ]
 	404 [shape=record, label="Error 404"] 
         
 	vh_check_fqdn -> path_cgi_bin 
 	path_cgi_bin -> root_cgi_bin [headlabel="Ja"]
-    	path_cgi_bin -> path_fastcgi [headlabel="Nein"]   
+    path_cgi_bin -> path_fastcgi [headlabel="Nein"]   
 	path_fastcgi -> root_fastcgi [headlabel="Ja"]
 	path_fastcgi -> fqdn_matches [headlabel="Nein"] 
 	fqdn_matches -> root_htdocs_ok [headlabel="Ja"]
@@ -27,3 +28,4 @@ digraph d  {
 	htdocsfallback_subs -> root_htdocs_ok [headlabel="Ja"]
 	htdocsfallback_subs -> 404 [headlabel="Nein"]
 }
+
