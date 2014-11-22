@@ -14,8 +14,8 @@ Webspace einrichten
 Ordnerstruktur
 ==============
 
-Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines Domain-
-Admins::
+Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
+:doc:`../administration/benutzer/domain-admin`::
 
     ├── doms
     │   ├── domain1.tld
@@ -23,7 +23,8 @@ Admins::
     │   │   ├── app-ssl
     │   │   ├── cgi
     │   │   │   └── test.cgi
-    │   │   ├── cgi-ssl -> cgi
+    │   │   ├── cgi-ssl
+    │   │   │   └── test.cgi
     │   │   ├── etc
     │   │   │   └── pri.domain1.tld
     │   │   ├── fastcgi
@@ -40,18 +41,18 @@ Admins::
     │   │   ├── subs-ssl
     │   │   │   └── www
     │   │   └── var
-    │   │       ├── config.err
-    │   │       └── handles.domain1.tld
     │   └── domain2.tld
     │       ├── app
     │       └── …
+    ├── etc
+    │   └── config.ini
     ├── Maildir
     ├── procmail.log
     ├── vacation.cache
     └── vacation.msg
 
 ``~/doms``
-    Alle von Ihnen bestellten Domains liegen im Verzeichnis ``doms``.
+    Alle dem Domain-Admin zugewiesenen Domains liegen im Verzeichnis ``doms``.
 
     ``~/doms/domain1.tld``
         ``domain1`` steht für eine beliebige Domain und ``tld`` für eine beliebige top level domain z.B.
@@ -65,9 +66,15 @@ Admins::
         Dies ist das Basisverzeichnis für CGI-Skripte. Ein Alias bildet HTTP-Requests auf ``/cgi-bin/`` für
         alle Zugriffe auf den Virtual Host auf dieses Verzeichnisses ab.
     ``~/doms/domain1.tld/cgi-ssl``
-        Dies ist in der Standardkonfiguration ein symbolischer Link auf ``~/doms/domain1.tld/cgi``.
+        Analog ``~/doms/domain1.tld/cgi`` das Basisverzeichnis für CGI-Skripte beim Zugriff via https.
     ``~/doms/domain1.tld/etc``
-        Dieses Verzeichnis enthält Dateien für die Konfiguration der Domain wie etc.
+        Dieses Verzeichnis enthält ggf. das Zonefile, mit der sich der Nameserver `BIND
+        <http://de.wikipedia.org/wiki/BIND>`_ konfigurieren lässt:
+
+            ``~/doms/domain1.tld/etc/pri.domain1.tld``
+                Mit dieser Datei können Sie ein Zonendatei für Ihre Domain selbst verwalten. Damit können z.B.
+                einzelne Subdomains auf andere Server umgeleitet, eigene Mailserver angesprochen werden etc.
+
     ``~/doms/domain1.tld/fastcgi``
         Dies ist das Basisverzeichnis für FastCGI-Skripte. Ein Alias bildet HTTP-Requests auf
         ``/fastcgi-bin/`` für alle Zugriffe auf den Virtual Host auf dieses Verzeichnis ab.
@@ -96,21 +103,14 @@ Admins::
         ``~/doms/domain1.tld/subs/example``
             Dies ist ein Beispiel für eine Subdomain, die Sie einfach selbst anlegen können. Sie müssen hierzu
             nur ein Verzeichnis anlegen und anschließend die Dateien in das Verzeichnis übertragen.
-        ``~/doms/domain1.tld/subs/pri.domain1.tld``
-            Mit dieser Datei können Sie ein Zonendatei für Ihre Domain selbst verwalten. Damit können z.B.
-            einzelne Subdomains auf andere Server umgeleitet, eigene Mailserver angesprochen werden etc.
         ``~/doms/domain1.tld/subs/www``
             Dieses Verzeichnis wird automatisch angelegt und üblicherweise vom Webserver angesprochen, wenn
             keine Subdomain explizit genannt wird (also ``http://domain1.tld`` verweist üblicherweise auf
             ``http://www.domain1.tld``).
 
     ``~/doms/domain1.tld/var``
-        in diesem Verzeichnis liegen die Log-Dateien z.B. 
-
-        ``config.err``
-            Konfigurationsfehler 
-        ``web.err``
-            http-Fehlermeldungen
+        in diesem Verzeichnis werden nächtlich die Log-Dateien mit den Zugriffen auf die Domain gepackter Form
+        bereitgestellt, wenn dies in ``/home/pacs/xyz00/etc/config.ini`` entsprechend angegeben ist.
 
 Zugangsdaten und Einstellungen
 ==============================
