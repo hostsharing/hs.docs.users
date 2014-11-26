@@ -78,6 +78,10 @@ Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
     ``~/doms/domain1.tld/fastcgi``
         Dies ist das Basisverzeichnis für FastCGI-Skripte. Ein Alias bildet HTTP-Requests auf
         ``/fastcgi-bin/`` für alle Zugriffe auf den Virtual Host auf dieses Verzeichnis ab.
+    ``~/doms/domain1.tld/fastcgi-ssl``
+        Analog ``~/doms/domain1.tld/fastcgi`` ist dies das Basisverzeichnis
+        für FastCGI-Skripte, allerdings diesmal für https-Zugriffe. Ein Alias bildet HTTP-Requests
+        auf ``/fastcgi-bin/`` für alle Zugriffe auf den Virtual Host auf dieses Verzeichnis ab.
     ``~/doms/domain1.tld/htdocs``
         Dieses Verzeichnis ist als ``DocumentRoot`` des Apache Webserver konfiguriert. 
 
@@ -97,6 +101,9 @@ Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
             - Passwortschutz eingerichtet,
             - Weiterleitungen durchgeführt werden. 
 
+    ``~/doms/domain1.tld/htdocs-ssl``
+        Analog ``~/doms/domain1.tld/htdocs`` ist dieses Verzeichnis als
+        ``DocumentRoot`` des Apache Webserver für Zugriffe via https konfiguriert. 
     ``~/doms/domain1.tld/subs``
         Dieses Verzeichnis enthält alle Subdomains. Hier findet sich auch die Subdomain *www.domain1.tld*.
 
@@ -108,6 +115,9 @@ Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
             keine Subdomain explizit genannt wird (also ``http://domain1.tld`` verweist üblicherweise auf
             ``http://www.domain1.tld``).
 
+    ``~/doms/domain1.tld/subs-ssl``
+        Analog  ``~/doms/domain1.tld/subs`` enthält dieses Verzeichnis alle
+        Subdomains auf die via https zugegriffen wird.
     ``~/doms/domain1.tld/var``
         in diesem Verzeichnis werden nächtlich die Log-Dateien mit den Zugriffen auf die Domain gepackter Form
         bereitgestellt, wenn dies in ``/home/pacs/xyz00/etc/config.ini`` entsprechend angegeben ist.
