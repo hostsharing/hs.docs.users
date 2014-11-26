@@ -22,21 +22,18 @@ Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
     │   │   ├── app
     │   │   ├── app-ssl
     │   │   ├── cgi
-    │   │   │   └── test.cgi
     │   │   ├── cgi-ssl
-    │   │   │   └── test.cgi
     │   │   ├── etc
     │   │   │   └── pri.domain1.tld
     │   │   ├── fastcgi
     │   │   │   └── phpstub
-    │   │   ├── fastcgi-ssl -> fastcgi
+    │   │   ├── fastcgi-ssl
+    │   │   │   └── phpstub
     │   │   ├── htdocs
     │   │   │   └── .htaccess
     │   │   ├── htdocs-ssl
     │   │   │   └── .htaccess
     │   │   ├── subs
-    │   │   │   ├── example
-    │   │   │   ├── pri.domain1.tld
     │   │   │   └── www
     │   │   ├── subs-ssl
     │   │   │   └── www
