@@ -35,9 +35,11 @@ Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
     │   │   │   └── .htaccess
     │   │   ├── subs
     │   │   │   ├── www
+    │   │   │   │   └── index.html
     │   │   │   └── example
     │   │   ├── subs-ssl
     │   │   │   └── www
+    │   │   │       └── index.html
     │   │   └── var
     │   └── domain2.tld
     │       ├── app
