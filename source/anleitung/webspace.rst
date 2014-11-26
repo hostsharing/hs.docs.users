@@ -34,7 +34,8 @@ Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
     │   │   ├── htdocs-ssl
     │   │   │   └── .htaccess
     │   │   ├── subs
-    │   │   │   └── www
+    │   │   │   ├── www
+    │   │   │   └── example
     │   │   ├── subs-ssl
     │   │   │   └── www
     │   │   └── var
