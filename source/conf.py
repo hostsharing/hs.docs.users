@@ -172,7 +172,11 @@ latex_elements = {
 'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble':
+'''
+\DeclareUnicodeCharacter{251C}{+}
+\DeclareUnicodeCharacter{2514}{+}
+''',
 
 # The class options
 'classoptions': ',ngerman,oneside,openany',
