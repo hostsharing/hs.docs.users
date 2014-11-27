@@ -17,39 +17,39 @@ Ordnerstruktur
 Im folgenden die exemplarische Struktur des Home-Verzeichnisses eines
 :doc:`../administration/benutzer/domain-admin`::
 
-    +─ doms
-    │   +── domain1.tld
-    │   │   +── app
-    │   │   +── app-ssl
-    │   │   +── cgi
-    │   │   +── cgi-ssl
-    │   │   +── etc
-    │   │   │   +── pri.domain1.tld
-    │   │   +── fastcgi
-    │   │   │   +── phpstub
-    │   │   +── fastcgi-ssl
-    │   │   │   +── phpstub
-    │   │   +── htdocs
-    │   │   │   +── .htaccess
-    │   │   +── htdocs-ssl
-    │   │   │   +── .htaccess
-    │   │   +── subs
-    │   │   │   +── www
-    │   │   │   │   +── index.html
-    │   │   │   +── example
-    │   │   +── subs-ssl
-    │   │   │   +── www
-    │   │   │       +── index.html
-    │   │   +── var
-    │   +── domain2.tld
-    │       +── app
-    │       +── …
-    +── etc
-    │   +── config.ini
-    +── Maildir
-    +── procmail.log
-    +── vacation.cache
-    +── vacation.msg
+    ├── doms
+    │   ├── domain1.tld
+    │   │   ├── app
+    │   │   ├── app-ssl
+    │   │   ├── cgi
+    │   │   ├── cgi-ssl
+    │   │   ├── etc
+    │   │   │   └── pri.domain1.tld
+    │   │   ├── fastcgi
+    │   │   │   └── phpstub
+    │   │   ├── fastcgi-ssl
+    │   │   │   └── phpstub
+    │   │   ├── htdocs
+    │   │   │   └── .htaccess
+    │   │   ├── htdocs-ssl
+    │   │   │   └── .htaccess
+    │   │   ├── subs
+    │   │   │   ├── www
+    │   │   │   │   └── index.html
+    │   │   │   └── example
+    │   │   ├── subs-ssl
+    │   │   │   └── www
+    │   │   │       └── index.html
+    │   │   └── var
+    │   └── domain2.tld
+    │       ├── app
+    │       └── …
+    ├── etc
+    │   └── config.ini
+    ├── Maildir
+    ├── procmail.log
+    ├── vacation.cache
+    └── vacation.msg
 
 ``~/doms``
     Alle dem Domain-Admin zugewiesenen Domains liegen im Verzeichnis ``doms``.
