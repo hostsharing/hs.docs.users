@@ -25,4 +25,5 @@ Administration
     php
     logging/index
     backup
+    wartungsfenster
     hostkeys
