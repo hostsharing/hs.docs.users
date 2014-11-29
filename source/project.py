@@ -9,13 +9,9 @@ from datetime import date
 code = 'hsusers'
 project = u'Benutzerhandbuch'
 author = u'Hostsharing eG'
-copyright = u'2000-{year}, {author}'.format(year=date.today().year, author=author)
 
-# The version info for the project you're documenting, acts as replacement for
-# |version| and |release|, also used in various other places throughout the
-# built documents.
-#
-# The short X.Y version.
-version = date.today().strftime('%Y-%m-%d')
-# The full version, including alpha/beta/rc tags.
-release = date.today().strftime('%Y-%m-%d')
+published = date.today()
+copyright = u'2000-{year}, {author}'.format(year=published.year, author=author)
+today = published.strftime('%-d. %B %Y')
+release = published.strftime('%Y-%m-%d')
+version = published.strftime('%Y-%m-%d')
