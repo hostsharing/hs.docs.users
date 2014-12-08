@@ -1,6 +1,7 @@
 =====================
 Handbuch für Anwender
 =====================
+
 Die Hostsharing eG ist ein im Jahr 2000 gegründeter, genossenschaftlich
 organisierter Webhoster, dessen Schwerpunkte auf Sicherheit, Transparenz
 und Flexibilität liegen.
@@ -10,11 +11,7 @@ bei der Hostsharing eG betreiben möchten.
 Es bietet einen Überblick über die Infrastruktur, eine Einführung
 in deren Nutzung sowie eine Beschreibung typischer Prozesse.
 
-
-Danksagung
-==========
-
-Unser besonderer Dank gilt allen, die zum diesem Handbuch beigetragen haben,
+Unser besonderer Dank gilt allen, die zu diesem Handbuch beigetragen haben,
 insbesondere:
 
   - Purodha Blissenbach
@@ -34,8 +31,4 @@ insbesondere:
     sicherheit/index
     anleitung/index
     administration/index
-
-.. toctree::
-    :maxdepth: 1
-
     glossar
