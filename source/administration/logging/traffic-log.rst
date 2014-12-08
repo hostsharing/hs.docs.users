@@ -1,14 +1,6 @@
 ================
 Traffic-Log-File
 ================
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-          
-:Date: |date|, |time|
-
                
 Der im :doc:`Web-Paket<../webpaket/index>` erzeugte Traffic wird dem :doc:`Paket-Admin<../benutzer/paket-admin>` unter ``/home/pacs/xyz00/var/traffic-iptables-YYYY-MM.log`` zugänglich gemacht.
 Das Logfile hat folgenden Aufbau:

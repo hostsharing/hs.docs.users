@@ -2,15 +2,6 @@
 Eigenes Zonefile
 ================ 
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|
-
-
 Es können für :doc:`Domains<../domain/index>` jeweils eigene Zonefiles angelegt werden. In der Regel ist dies bei folgenden Anforderungen notwendig:
 
 * Domain oder Sub-Domain extern aufschalten

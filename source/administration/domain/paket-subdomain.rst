@@ -2,14 +2,6 @@
 Paket-Sub-Domain
 ================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time| 
-
-
 Paket-Sub-Domain xyz00.hostsharing.net
 --------------------------------------
 

@@ -2,15 +2,6 @@
 HSAdmin-Modul postgresqldb
 ==========================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-          - Dominic Schlegel
-
-:Date: |date|, |time|
-
-
 
 Das HSAdmin-Modul postgresqldb verfügt über folgende Optionen:
 

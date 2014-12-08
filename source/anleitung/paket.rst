@@ -2,15 +2,6 @@
 Web-Paket in Betrieb nehmen
 ===========================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-          - Christian Günter
-:Date: |date|, |time|
-
-
 
 
 Um ein Web-Paket in Betrieb zu nehmen, wird ein Passwort für den :doc:`Paket-Admin<../administration/benutzer/paket-admin>` vergeben. Die Konfiguration erfolgt mit dem Webfrontend, hierzu den Link https://admin.hostsharing.net in einem Browser aufrufen, es erfolgt eine Weiterleitung zur Login Seite https://login.hostsharing.net.

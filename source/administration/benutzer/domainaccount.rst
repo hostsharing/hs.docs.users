@@ -2,15 +2,6 @@
 Domain-Verwalter
 ================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-          - Dominic Schlegel
-
-:Date: |date|, |time|
-
-
 Allgemein
 ---------
 

@@ -1,16 +1,6 @@
 ============
 SSH-Hostkeys
 ============
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-
-:Date: |date|, |time|
-
 ::
 
         4096 a6:2c:72:63:33:b1:a9:70:ae:25:11:8b:58:f4:e4:5d root@h01.hostsharing.net (RSA)

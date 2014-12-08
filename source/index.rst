@@ -1,19 +1,6 @@
 =====================
 Handbuch für Anwender
 =====================
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-
-:Authors: - Christian Günter
-          - Michael Hierweck
-          - Uwe Müller
-          - Veit Schiele
-          - Dominic Schlegel
-          - et al.
-:Date: |date|, |time|
-
 Die Hostsharing eG ist ein im Jahr 2000 gegründeter, genossenschaftlich
 organisierter Webhoster, dessen Schwerpunkte auf Sicherheit, Transparenz
 und Flexibilität liegen.
@@ -22,6 +9,23 @@ Dieses Handbuch richtet sich an Anwender, welche ihre Internetprojekte
 bei der Hostsharing eG betreiben möchten.
 Es bietet einen Überblick über die Infrastruktur, eine Einführung
 in deren Nutzung sowie eine Beschreibung typischer Prozesse.
+
+
+Danksagung
+==========
+
+Unser besonderer Dank gilt allen, die zum diesem Handbuch beigetragen haben,
+insbesondere:
+
+  - Purodha Blissenbach
+  - Christian Günter
+  - Michael Hierweck
+  - Peter Hormanns
+  - Uwe Müller
+  - Veit Schiele
+  - Dominic Schlegel
+  - Lars Trebing
+
 
 .. toctree::
     :maxdepth: 2

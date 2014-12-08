@@ -2,14 +2,6 @@
 Kontrolle der Änderungen
 ========================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|
-
-
 Durchgeführte Änderungen am Zonefile können mit Hilfe der Logdatei named.log überprüft werden:
 
 .. code-block:: console

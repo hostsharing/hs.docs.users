@@ -2,14 +2,6 @@
 Expansion der Platzhalter
 =========================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|
-
-
 
 Der Platzhalter für das Gesamtzonefile {DEFAULT_ZONFILE} wird in drei Schritten folgermaßen expandiert. Zunächst werden die komplexen Platzhalter ersetzt.
 ::

@@ -1,15 +1,6 @@
 =================
 E-Mail einrichten
 =================
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-          - Christian Günter
-:Date: |date|, |time|
-
 In diesem Beispiel werden zwei E-Mail-Adressen angelegt:
 
 * Die erste E-Mail-Adresse wird einem Postfach im Webpaket zugeordnet

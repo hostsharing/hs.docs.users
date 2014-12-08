@@ -1,15 +1,6 @@
 =============================
 Verzeichnisebene Domain-Admin
 =============================
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-          - Dominic Schlegel
-
-:Date: |date|, |time|
-
 Das Home-Verzeichnis des :doc:`Domain-Admins<../benutzer/domain-admin>` umfasst folgende Verzeichnisse:
 
 +-----------------+-----------+--------+---------+----------------------------------------------------------------+

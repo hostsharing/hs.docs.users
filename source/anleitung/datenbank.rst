@@ -1,15 +1,6 @@
 ====================
 Datenbank einrichten
 ====================
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-          - Christian Günter
-:Date: |date|, |time|
-
 Beim Anlegen einer Datenbank ist die Reihenfolge entscheidend:
 
 * Zunächst den Datenbanknutzer anlegen, den Verwalter der jeweiligen Datenbank

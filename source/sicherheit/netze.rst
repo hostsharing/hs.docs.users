@@ -1,14 +1,6 @@
 =====
 Netze
 =====
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Veit Schiele
-:Date: |date|, |time|
-
 Separierte Netzwerke
 --------------------
 

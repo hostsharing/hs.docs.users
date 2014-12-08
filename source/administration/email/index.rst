@@ -2,14 +2,6 @@
 E-Mail
 ============================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date:    |date|, |time|
-
-
 Jeder :doc:`Benutzer<../benutzer/index>` im :doc:`Web-Paket<../webpaket/index>` besitzt ein E-Mail-Konto und kann E-Mail senden und empfangen. E-Mails werden unterhalb des Verzeichnisses ``~/Maildir`` abgelegt. Der Name des Ordners ``Maildir`` kann nicht verändert werden.
 
 Jedes E-Mail-Konto ist POP3- und IMAP-fähig.

@@ -1,15 +1,6 @@
 ================
 Domain bestellen
 ================
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-          - Christian Günter
-:Date: |date|, |time|
-
 Eine Domain wird in zwei Schritten angelegt:
 
 #. Die Domain im Web-Paket xyz00 aufschalten

@@ -2,14 +2,6 @@
 PHP
 ===
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|
-
-
 PHP ist standardmäßig über FastCGI konfiguriert. In den Ordnern ``fastcgi`` und ``fastcgi-ssl`` unterhalb des Domainordners findet sich eine phpstub-Datei; der Webserver liefert php-Dateien mit den
 Rechten des Users aus.
 
