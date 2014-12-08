@@ -39,4 +39,3 @@ insbesondere:
     :maxdepth: 1
 
     glossar
-    impressum
