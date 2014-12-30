@@ -29,7 +29,7 @@ HSAdmin verfügt über folgende Module:
 +---------------------------------------+-----------------------------------------------------+
 | :doc:`emailalias<emailaliases>`       | Modul zur Verwaltung von E-Mail-Aliasen             |
 +---------------------------------------+-----------------------------------------------------+
-| :doc:`domain<domain>`                 | Modul zur Verwaltung von Domains in eimem Web-Paket |
+| :doc:`domain<domain>`                 | Modul zur Verwaltung von Domains in einem Web-Paket |
 +---------------------------------------+-----------------------------------------------------+
 | :doc:`q<q>`                           | Modul zur Suche von Systemaufträgen von HSAdmin     |
 +---------------------------------------+-----------------------------------------------------+
