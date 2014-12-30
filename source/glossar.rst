@@ -56,10 +56,10 @@
     Account zur Verwaltung der Mitgliedschaft in der Genossenschaft.     
 
    shell
-    Unix-Shell, Traditionelle Benutzerschnittstelle unter Unix oder unioxiden Betriebssystemen.
+    Unix-Shell, Traditionelle Benutzerschnittstelle unter Unix oder ähnlichen Betriebssystemen.
     
    Sub-Domain
-    Eine Sub-Domain ist eine Domain, die unterhalb einer anderen liegt (z.B. test.example.com, www.example.de)
+    Eine Sub-Domain ist eine Domain, die unterhalb einer anderen liegt (z.B. test.example.com und www.example.com liegen unerhalb von example.com)
 
    SSI
     Server Side Includes sind in Dokumente eingebettete Skript-Befehle, die auf einem Webserver ausgeführt werden, bevor das Dokument an den Client ausgeliefert wird. 
