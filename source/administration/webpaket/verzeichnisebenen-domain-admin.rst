@@ -6,13 +6,13 @@ Das Home-Verzeichnis des :doc:`Domain-Admins<../benutzer/domain-admin>` umfasst 
 +-----------------+-----------+--------+---------+----------------------------------------------------------------+
 | Berechtigungen  | Nutzer    | Gruppe | Ordner  | Erläuterung                                                    |
 +=================+===========+========+=========+================================================================+
-| dr-xr-x--T      | httpd     | xyz00  | doms    |   Ablage der im Web-Paket aufgeschaltenen enthaltenen Domains. |
+| ` dr-xr-x--T `  | httpd     | xyz00  | doms    | Ablage der im Web-Paket aufgeschaltenen enthaltenen Domains dieses Domain-Admin. |
 +-----------------+-----------+--------+---------+----------------------------------------------------------------+
-| drwx------      | xyz00-abc | xyz00  | Maildir |  Mailordner des Domain-Admin.                                  |
+| ` drwx------ `  | xyz00-abc | xyz00  | Maildir | Mailordner des Domain-Admin.                                  |
 +-----------------+-----------+--------+---------+----------------------------------------------------------------+
 
 
-Unterhalb des Ordners *doms* und der Domain *example.de* befindet sich die Verzeichnisstruktur für die jeweilige Domain:
+Unterhalb des Ordners *doms* und jeder Domain, zum Beispiel *example.com*, befindet sich die Verzeichnisstruktur für die jeweilige Domain:
 
 
 +----------------+-----------+--------+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
