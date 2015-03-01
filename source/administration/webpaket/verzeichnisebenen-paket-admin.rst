@@ -1,15 +1,6 @@
 ===========================
 Verzeichnisebene Paketadmin
 ===========================
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-          - Dominic Schlegel
-
-:Date: |date|, |time|
-
 Das Home-Verzeichnis des :doc:`Paket-Admins<../benutzer/paket-admin>` umfasst folgende Verzeichnisse:
 
 +-----------------+--------+---------+----------+--------------------------------------------------------------------------+

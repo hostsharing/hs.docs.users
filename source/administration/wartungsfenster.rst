@@ -1,15 +1,6 @@
 ===============
 Wartungsfenster
 ===============
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Veit Schiele
-
-:Date: |date|, |time|
-
 Es gibt Standard-Wartungsfenster von 1 bis 2 Uhr (*früh*) und von 4 bis 5 Uhr
 (*spät*). Hives/Server mit ungeraden Nummern (h01, h03, …, h99) werden im
 Rahmen des frühen Wartungsfensters gewartet, Hives/Server mit geraden Nummern

@@ -1,15 +1,6 @@
 ======
 Syntax
 ======
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-          - Michael Hierweck
-
-:Date: |date|, |time|
-
 Die Funktionen von HSAdmin können über das Kommandozeilenprogramm
 hsscript aufgerufen werden, welches Befehle per Parameter,
 Dateiübergabe oder interaktiv entgegennimmt.

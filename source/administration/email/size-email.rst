@@ -2,14 +2,6 @@
 Größenbeschränkung einer E-Mail
 ===============================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|
-
-
 
 Die E-Mail-Server akzeptieren E-Mails bis zu einer maximalen Größe von 128 MB. Dateianhänge sollten daher die Größe von ca. 90 MB nicht überschreiten. 
 Allgemeine Informationen zur `Größenbeschränkung von E-Mails <https://wiki.hostsharing.net/index.php?title=Gr%C3%B6%C3%9Fenbeschr%C3%A4nkung_von_E-Mails>`_ im Wiki

@@ -2,14 +2,6 @@
 Web-Paket
 =========
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|          
-
-
 Ein Web-Paket ist technisch eine eigene UNIX-Nutzer-Gruppe. 
 Ein Web-Paket beinhaltet eine definierte Leistung und kann durch Optionen jederzeit erweitert werden.
 

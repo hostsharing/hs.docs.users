@@ -1,16 +1,6 @@
 ===========
 Datenbanken
 ===========
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-          - Dominic Schlegel
-
-
-:Date: |date|, |time|  
-
           
 
 Jeder :term:`Hive` hat einen eigenen MySQL- und PostgresSQL-Datenbankserver. Daraus ergibt sich, dass 

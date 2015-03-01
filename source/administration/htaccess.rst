@@ -1,14 +1,6 @@
 ========
 htaccess
 ========
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|
-
 Konfigurationen, die es ermöglichen, dass der Webserver Rechte anderer User erhalten kann, sind nicht erlaubt.
 Dies betrifft folgende Funktionen: 
 

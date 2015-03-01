@@ -2,15 +2,6 @@
 Backup
 ======
 
-.. |date| date:: %d.%m.%Y 
-.. |time| date:: %H:%M  
-   
-:Authors: - Michael Hierweck
-          - Uwe Müller  
-   
-:Date: |date|, |time|
-
-
 Hostsharing führt nächtliche Sicherungen der Daten durch. In der Regel können jeweils mindestens die letzten 15 nächtlichen Datensicherungen wiederhergestellt werden. 
 
 In der Datensicherung enthalten sind:

@@ -1,16 +1,6 @@
 =============
 Rechenzentren
 =============
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Veit Schiele
-          - Uwe Müller
-
-:Date: |date|, |time|
-
 Berlin
 ------
 

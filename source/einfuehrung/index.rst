@@ -1,14 +1,6 @@
 ==========
 Einführung
 ==========
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-:Date: |date|, |time|
-
 Die Hostsharing eG bietet ihren Mitgliedern Webhosting-Leistungen in Form
 von Web-Paketen oder Managed Servern an.
 Dieses Angebot wird durch passende Beratungs- und Unterstützungsleistungen

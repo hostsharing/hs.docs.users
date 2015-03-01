@@ -2,14 +2,6 @@
 Datenbanken und Nutzer
 ======================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date| , |time|
-
-
 
 
 Datenbanknutzer haben eine eigene Nutzerverwaltung und sind unabhängig von der Vergabe von Rechten auf Betriebsystemebene.

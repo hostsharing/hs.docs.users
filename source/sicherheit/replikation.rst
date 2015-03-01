@@ -1,13 +1,6 @@
 ===========
 Replikation
 ===========
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-:Date: |date|, |time|
-
 Hostsharing repliziert mit Hilfe der Software DRBD die Festplatteninhalte
 aller Produktivsysteme in Echtzeit auf ein Standby-System (RAID 1 über
 das Netzwerk).

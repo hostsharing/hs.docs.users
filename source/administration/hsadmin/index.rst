@@ -1,14 +1,6 @@
 =======
 HSAdmin
 =======
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-
-:Date: |date|, |time|
-
 HSAdmin ist ein Werkzeug zur Verwaltung von Nutzern, E-Mail-Adressen, E-Mail-Aliases, Domains, Datenbanken und Datenbank-Nutzern.
 Die Bedienung erfolgt über ein :doc:`Webfrontend<webfrontend>` oder mit dem HSAdmin-Client ``hsscript`` in der Konsole:
 
@@ -37,7 +29,7 @@ HSAdmin verfügt über folgende Module:
 +---------------------------------------+-----------------------------------------------------+
 | :doc:`emailalias<emailaliases>`       | Modul zur Verwaltung von E-Mail-Aliasen             |
 +---------------------------------------+-----------------------------------------------------+
-| :doc:`domain<domain>`                 | Modul zur Verwaltung von Domains in eimem Web-Paket |
+| :doc:`domain<domain>`                 | Modul zur Verwaltung von Domains in einem Web-Paket |
 +---------------------------------------+-----------------------------------------------------+
 | :doc:`q<q>`                           | Modul zur Suche von Systemaufträgen von HSAdmin     |
 +---------------------------------------+-----------------------------------------------------+

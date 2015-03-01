@@ -1,14 +1,6 @@
 ==============
 Managed Server
 ==============
-
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-:Date: |date|, |time|
-
 Managed Server werden mit dediziert zugewiesenen Ressourcen
 wie CPU-Threads, Arbeitsspeicher oder Speicherplatz bereitgestellt.
 

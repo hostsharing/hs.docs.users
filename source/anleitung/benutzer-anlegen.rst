@@ -2,15 +2,6 @@
 Benutzer anlegen
 ================
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Michael Hierweck
-          - Uwe Müller
-          - Christian Günter
-:Date: |date|, |time|
-
-
 
 
 Aufruf des Webfrontends über den Link https://admin.hostsharing.net.

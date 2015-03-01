@@ -2,14 +2,6 @@
 Benutzer
 ========
 
-.. |date| date:: %d.%m.%Y
-.. |time| date:: %H:%M
-
-:Authors: - Uwe Müller
-         
-:Date: |date|, |time|
- 
-
 Für unterschiedliche Aufgaben werden Rollen vergeben, die durch die Vergabe von Rechten auf Betriebssystemebene definiert werden. 
 Die Hierarchie gliedert sich in absteigender Reihenfolge:
 
