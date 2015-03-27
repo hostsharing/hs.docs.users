@@ -36,11 +36,7 @@ Der Rücksicherungsauftrag erfolgt per E-Mail an service@hostsharing.net und bei
 * den Pfad des rückzusichernden Verzeichnisses oder alternativ den Pfad und den Dateinamen der rückzusichernden Datei
 * sowie das Datum des angeforderten Sicherungslaufs.
 
-Die Rücksicherung ist unter:
-   
-``/home/restore/YYY-MM-DD``
-
-zu finden.
+Die Rücksicherung ist unter: ``/home/restore/YYY-MM-DD`` zu finden.
 
 
 .. note::
