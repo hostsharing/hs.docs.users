@@ -19,7 +19,6 @@ In der Datensicherung sind *nicht* enthalten:
 * Dateien im Paket, die vom Paketinhaber per Konfiguration von der Datensicherung ausgeschlossen wurden
 * Dateien in Verzeichnissen für temporäre Daten
 
-
 Datenbanken
 -----------
 
@@ -36,6 +35,12 @@ Der Rücksicherungsauftrag erfolgt per E-Mail an service@hostsharing.net und bei
 * das betreffende Webpaket,
 * den Pfad des rückzusichernden Verzeichnisses oder alternativ den Pfad und den Dateinamen der rückzusichernden Datei
 * sowie das Datum des angeforderten Sicherungslaufs.
+
+Die Rücksicherung ist unter:
+   
+``/home/restore/YYY-MM-DD``
+
+zu finden.
 
 
 .. note::
