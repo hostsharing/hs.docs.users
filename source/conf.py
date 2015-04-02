@@ -179,7 +179,7 @@ latex_elements = {
 ''',
 
 # The class options
-'classoptions': ',ngerman,oneside,openany',
+'classoptions': ',' + orientation + ',ngerman,oneside,openany',
 
 # Term for release
 'releasename': 'Version',
