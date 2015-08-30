@@ -24,11 +24,6 @@ Installation des Sphinx Documentation Generator::
         $ ../virtualenv/bin/python bootstrap.py
         $ ./bin/buildout
 
-Falls setuptools verlangt werden, sind diese zu installieren
-und der vorangegangene Schritt im Anschluss zu wiederholen::
-
-        $ ../virtualenv/bin/pip install 'distribute>=0.7'
-
 Erstellen der Ausgabe-Dateien::
 
         $ bin/sphinxbuilder
