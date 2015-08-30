@@ -9,6 +9,7 @@ einfügen und die unten folgenden Hinweise beachtet werden.
 Installationsanleitungen, Tipps und Tricks etc. gehören *nicht* in diese Dokumentation.
 Hierfür bieten wir das Wiki der Mitglieder `<https://wiki.hostsharing.net>`_ an.
 
+
 Allgemeine Hinweise
 -------------------
 
@@ -24,14 +25,18 @@ Anrede
 
 Die direkte Anrede ist zu vermeiden, auch ``man`` soll nicht verwendet werden. 
 
+
 Bilder
 ------
+
 Die Dateigröße von Bildern sollte klein gehalten und die Bilder selbst nicht überdimensioniert sein. 
+
 
 Syntax-Regeln
 -------------
 
 Die einheitliche Verwendung der Syntax-Regeln ist sehr wichtig für die Lesbarkeit der Dokumentation.
+
 
 Hervorhebungen
 --------------
@@ -46,6 +51,7 @@ Benennungsregeln
 
 Seitentitel müssen kurz und sprechend sein.
 
+
 Glossar
 -------
 
@@ -56,6 +62,7 @@ Dokumentenformat
 ================
 
 Hier einige Regeln, die bei der Dokumentation beachtet werden sollten:
+
 
 Seitenstruktur
 --------------
@@ -88,6 +95,7 @@ Abschnitten enthalten:
 * Überschrift des Abschnitts: Dieser wird im Inhaltsverzeichnis angezeigt.
 * Sphinx ``toctree``-Anweisung wobei jede Datei in diesem Ordner verlinkt sein sollte.
 
+
 Hervorhebungen
 --------------
 
@@ -97,7 +105,7 @@ Auch verschiedenartige Hervorhebungen lassen sich realisieren:
 
 - für Python-Skripte::
 
-.. code-block:: python
+    .. code-block:: python
         
         if "foo" == "bar":
             pass
@@ -128,7 +136,6 @@ Auch verschiedenartige Hervorhebungen lassen sich realisieren:
         
         $ ./bin/instance start
                          
-
 
 
 RestructuredText-Markierungen
@@ -167,12 +174,14 @@ Einbindung von Bilder::
 
         ..image:: bild.png
 
+
 Diagramme
 ---------
 
 Diagramme werden mit `graphviz http://www.graphviz.org`_ erstellt::
 
         .. graphviz:: filemap-mit-ssl.dot
+
 
 Glossar
 -------
@@ -181,6 +190,7 @@ Begriffe oder Abkürzungen im Text, die eine Erläuterung erhalten, werden so an
 
         :term:`Quota`
     
+
 Informationsboxen
 -----------------
 
@@ -223,6 +233,3 @@ Tipps
 
     .. tip::
         Diese Box enthält einen Tipp!
-
-
-
