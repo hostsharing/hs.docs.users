@@ -48,3 +48,5 @@ Ziele: *E-Mail* ausgewählt und dahinter dann die externe Mail-Adresse, hier web
 Liste der angelegten E-Mail-Adressen:
 
 .. image:: email-adresse-liste.jpg
+
+   .
