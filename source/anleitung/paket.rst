@@ -8,23 +8,26 @@ Um ein Web-Paket in Betrieb zu nehmen, wird ein Passwort für den :doc:`Paket-Ad
 
 Es wird die Mitgliederkennung beim Benutzernamen und unter Passwort das entsprechende Passwort eingetragen.
 
-.. image:: hsadmin.jpg
+.. image:: hsadmin-login.jpg
 
-Nach erfolgreichem Login werden alle angelegten Paket-Admins des Mitglieds angezeigt.
+Nach erfolgreichem Login wird die Startseite angezeigt.
 
-.. image:: mitglieder-login.jpg
+.. image:: hsadmin-start.jpg
 
 Es wird ein Passwort für den Paket-Admin des Web-Pakets xyz00 vergeben:
 
-Wechsel in den Tab *Unix User*.
+Dazu links unten zunächst auf Packge auswählen.
 
-.. image:: unix-user.jpg
+Dort links das entsprechende Paket xyz00 auswählen
+dann im Rechten Fenster den Tab *User* anklicken.
 
-Zeile xyz00 rechts außen auf das Icon *bearbeiten* (blauer Pfeil im Bild) klicken.
+Zum Schluss das entsprechende Paket auswählen und mit dem *Edit-Symbol* bearbeiten.
+
+.. image:: hsadmin-user.jpg
 
 Nun kann ein Passwort für den Paket-Admin vergeben werden. Ein Kommentar zum Paket-Admin kann hinterlegt werden, alle weiteren Einträge werden unverändert übernommen.
 
-.. image:: unix-user-bearbeiten.jpg
+.. image:: hsadmin-user-bearbeiten.jpg
 
-Bestätigung mit dem *speichern* Button.
+Bestätigung mit dem *OK* Button.
 
