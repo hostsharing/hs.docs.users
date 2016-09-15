@@ -14,19 +14,23 @@ Aufruf des Webfrontends über den Link https://admin.hostsharing.net.
 
 Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/paket-admin>` (xyz00) beim Benutzernamen und im Passwortfeld das entsprechende Passwort eingetragen.
 
-.. image:: hsadmin.jpg
+.. image:: hsadmin-login-pa.jpg
 
 
-Für das Anlegen einer Domain wird der Tab *Domains* aktiviert und dort *Domain konfigurieren* gewählt.
+Für das Anlegen einer Domain zunächst im linken Fenster das Paket auswählen und dann im Rechten Fenster den Tab *Domains* aktivieren.
+Es erscheint folgender Bildschirm:
+
+.. image:: hsadmin-domain.jpg
+ 
+Nun mit dem Icon *+* eine neue Domain aufschalten.
 
 Die Eingabemaske wird mit folgenden Daten gefüllt:
 
 Im Feld Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/benutzer/domain-admin>` xyz00-doms eintragen.
 
-.. image:
-   : domain-konfig.jpg
+.. image:: hsadmin-domain-neu.jpg
 
-Mit dem Button *speichern* bestätigen.
+Mit dem Button *OK* bestätigen.
 
 Damit ist die Domain in dem Web-Paket xyz00 technisch angelegt.
 
