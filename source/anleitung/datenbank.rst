@@ -8,36 +8,38 @@ Beim Anlegen einer Datenbank ist die Reihenfolge entscheidend:
 
 Anmeldung mit dem Paket-Admin xyz00 unter https://admin.hostsharing.net.
 
-Wechsel auf dem Tab *MySQL User*:
+.. image:: hsadmin-login-pa.jpg
 
-.. image:: db-user.jpg
+Nach erfolgreichem Login wird die Startseite des PaketAdmin angezeigt.
 
-Nach Button *User anlegen* erscheint folgende Eingabemaske:
+Wir wählen im linken Fenster unter *Package* ein Paket aus.
+Nun wird im rechten Fenster auf den Tab *MySQL User* geklickt:
 
-.. image:: db-user-anlegen.jpg
+.. image:: hsadmin-mysql-user.jpg
+
+Mit dem Icon *+* erscheint folgende Eingabemaske:
+
+.. image:: hsadmin-mysql-user-neu.jpg
 
 Die Felder werden wie folgt belegt:
 
-MySQL User: xyz00
-
-Benutzer-Postfix: dbuser (Zulässige Zeichen: 0 bis 9 und a bis z Buchstaben)
+Name: xyz00_dbuser
 
 Passwort: PASSWORT
 
-Mit dem Tab *MySQL DB* und dort dem Button *Datenbank anlegen* wird diese Eingabemaske sichtbar:
+Mit dem Button *OK* wird der Eintrag gespeichert.
 
-.. image:: db-anlegen.jpg
+Mit dem Tab *MySQL Database* und dort dem Icon *+* wird diese Eingabemaske sichtbar:
+
+.. image:: hsadmin-mysql-db-neu.jpg
 
 Die Felder hier:
 
-MySQL Datenbank 
+Name: xyz00_dbmysql
 
-Paket: xyz00
+Owner: xyz00_dbuser
 
-Datenbank-Postfix: dbmysql (Zulässige Zeichen: 0 bis 9 und a bis z Buchstaben)
+Encoding: UTF8
 
-Zeichensatz: utf8
-
-Verwalter: xyz00_dbuser
-
+Mit dem Button *OK* wird auch der Eintrag gespeichert.
 
