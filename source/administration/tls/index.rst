@@ -5,7 +5,7 @@ TLS Zertifikate
 Standardkonfiguration 
 ---------------------
 
-Pro :doc:`aufgeschalteter Domain<../../anleitung/domain>` ist ein Zertifikat möglich.
+Pro :doc:`aufgeschalteter Domain<../../anleitung/domain>` ist ein Zertifikat möglich .
 
 TLS-Inhalte werden durch die Verzeichnisse
 
