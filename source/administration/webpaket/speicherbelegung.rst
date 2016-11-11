@@ -54,15 +54,3 @@ können Sie dies z.B. folgendermaßen tun::
     lsof | awk '$5 == "REG" {freq[$2]++ ; names[$2] = $1 ;} END {for (pid in freq) print freq[pid], names[pid], pid ; }' | sort -n -r -k 1,1
 
    zeigt die Prozess mit den meisten geöffneten Dateien an.
-
-Sparse-Dateien
-==============
-
-Gelegentlich können Festplattenspeicherbelegung und tatsächliche Größe
-einer Datei differieren; falls ``du`` deutlich größere Werte anzeigt als
-``du --apparent-size``, handelt es sich vmtl: um ein sog. `Sparse-Dateien
-<https://de.wikipedia.org/wiki/Sparse-Datei>`_, bei dem Teile des
-reservierten Platzes unbestimmt sind. Um diesen Platz freizugeben kann z.B.
-folgendes angegeben werden::
-
-    $ sync; echo 3 >/proc/sys/vm/drop_caches
