@@ -1,20 +1,29 @@
 ================
 Speicherbelegung
 ================
-Zum belegten Web-Paket-Speicher zählen neben den Verzeichnissen und den darin abgelegten Daten ebenfalls die angelegten :doc:`Datenbanken<../datenbanken/index>`, Dateien unter ``/home/restore`` und temporäre
-Daten im Verzeichnis ``/tmp``.
 
-Quota
-=====
+Zum belegten Web-Paket-Speicher zählen neben der Verzeichnis-Struktur /home/pacs/xyz00 und den 
+darin abgelegten Daten ebenfalls die Sicherungen der :doc:`Datenbanken<../datenbanken/index>`
+unter /home/pacs/xyzoo/.bak/, gegebenenfalls  unter ``/home/restore`` 
+vorhandene Dateien und temporäre Daten im Verzeichnis ``/tmp``.
 
-Die Größe des von Ihnen belegten Speicherplatz können Sie sich ausgeben lassen mit::
+Die Speicherbegrenzung für ein Web-Paket ist unter Linux durch eine Quota
+für die Gruppe xyz00 realisiert. Die aktuelle Belegung der Quota
+läßt sich mit dem Kommando
 
-    quota -s
-    Disk quotas for user xyz00-user (uid 103045): 
-         Filesystem   space   quota   limit   grace   files   quota   limit   grace
-          /dev/vda2   1433M   1536M   2304M           19761       0       0        
+.. code-block:: console
 
-D.h.:
+    quota -gs
+    
+ermitteln. Die Ausgabe 
+    
+.. code-block:: console
+
+    Disk quotas for group xyz00 (gid 999999): 
+       Filesystem   space   quota   limit   grace   files   quota   limit   grace
+       /dev/vda2   1433M   1536M   2304M           19761       0       0        
+
+bedeutet:
 
 - Es sind 1433 MB von 1536 MB  belegt
 - Temporär dürfen bis zu 2304 MB in Anspruch genommen werden
@@ -22,35 +31,6 @@ D.h.:
 - Die maximale Anzahl der Dateien ist unbeschränkt
 - Sobald die Quota überschritten wird, würde unter ``grace`` die verbleibende
   Zeit angezeigt, innerhalb derer wieder die Quota unterschritten sein muss.
+  Sonst wird das Paket gesperrt, das heißt es können keine Dateien mehr 
+  angelegt werden, E-Mails werden nicht mehr zugestellt.
 
-Temporäre Dateien löschen
-=========================
-
-Gegebenenfalls können Sie temporäre Dateien auch regelmäßig mit enem Cronjob
-löschen, z.B. mit dem folgenden Eintrag in der crontab::
-
-    TMP=/tmp/user/$UID/
-    @reboot find $TMP -delete >/dev/null 2>&1
-
-Falls Sie ältere Dateien in Ihrem ``TMP``-Verzeichnis häufiger löschen wollen, 
-können Sie dies z.B. folgendermaßen tun::
-
-    */10 * * * * find $TMP -mmin +10 -delete >/dev/null 2>&1
-
-.. note:: Beachten Sie jedoch bitte, dass einige Programme dort temporäre Dateien anlegen, 
-   die sie während der gesamten Laufzeit verwenden, z.B. Caches.
-
-.. note:: Viele Programme, insbesondere sog. Daemons, erzeugen temporäre
-   Dateien, halten diese geöffnet und *unlink* diese. Dies hat den Vorteil, dass
-   temporäre Dateien so automatisch gelöscht werden, sobald sie
-   geschlossen/losgelassen werden, z.B. wenn das Programm abrupt beendet wird.
-   Solche *unlinked* Dateien werden mit ``ls`` oder ``du`` nicht erfasst; sie
-   können jedoch mit ``lsof`` (list open files) anzeigen lassen::
-
-    lsof -s | awk '$5 == "REG"' | sort -n -r -k 7,7 | head -n 50
-
-   zeigt die größten offenen Dateien an.
-
-    lsof | awk '$5 == "REG" {freq[$2]++ ; names[$2] = $1 ;} END {for (pid in freq) print freq[pid], names[pid], pid ; }' | sort -n -r -k 1,1
-
-   zeigt die Prozess mit den meisten geöffneten Dateien an.
