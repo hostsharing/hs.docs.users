@@ -21,3 +21,6 @@ Beispiel:
 
     xyz00@hsadmin> emailaddress.add ({set:{domain:'hs-example.de',localpart:'info',target:'ihre@emailadresse.de'}})
 
+.. code-block:: console
+
+    xyz00@hsadmin> emailaddress.search({where:{domain:"YOUR_DOMAIN"}})
