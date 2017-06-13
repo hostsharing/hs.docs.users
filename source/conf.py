@@ -180,6 +180,9 @@ latex_elements = {
 
 # Term for release
 'releasename': 'Version',
+
+'fncychap': '',
+
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
