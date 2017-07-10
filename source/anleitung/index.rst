@@ -10,6 +10,7 @@ Die Einrichtung erfolgt mit dem Webfrontend von :term:`HSAdmin`. Freunde der Kon
     paket
     benutzer-anlegen
     domain
+    letsencrypt
     webspace
     email
     datenbank
