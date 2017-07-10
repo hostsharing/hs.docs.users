@@ -17,11 +17,11 @@ Es wird die Benutzerkennung des :doc:`Paketadmins<../administration/benutzer/pak
 .. image:: hsadmin-login-pa.jpg
 
 
-Für das Anlegen einer Domain zunächst im linken Fenster den Reiter Packed auswählen:
+Für das Anlegen einer Domain zunächst im linken Fenster den Reiter Package auswählen:
 
 .. image:: hsadmin-start-pa.jpg
 
-Nun im linken Fensterteil das gewünnschte Paket an klicken und dann im rechten Fenster den Tab *Domains* aktivieren.
+Nun im linken Fensterteil das gewünschte *Paket* an klicken und dann im rechten Fenster den Tab *Domains* aktivieren.
 Es erscheint folgender Bildschirm:
 
 .. image:: hsadmin-domain.jpg
