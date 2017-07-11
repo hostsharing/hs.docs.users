@@ -3,11 +3,11 @@ Let´s Encrypt einrichten
 ================
 Wie einer Domain ein Let´s Encrypt Zertifikat zuordnen:
 
-#. Die Domain ist schon einem Web-Paket Benutzer zugeordnent
+#. Die Domain ist schon einem Web-Paket Benutzer zugeordnet
 #. Das Zertifikat erzeugen
 
 
-Die Domain auf dem Hostsharing-Server anlegen
+Als PaketAdmin anmelden
 ---------------------------------------------
 
 Aufruf des Webfrontends über den Link https://admin.hostsharing.net.
@@ -22,11 +22,15 @@ Für das aktivieren von Let´s Encrypt zunächst im linken Fenster den Reiter Pa
 .. image:: hsadmin-start-pa.jpg
 
 Nun im linken Fensterteil das gewünschte *Paket* an klicken und dann im rechten Fenster den Tab *Domains* aktivieren.
-Es erscheint folgender Bildschirm:
 
-.. image:: hsadmin-domain.jpg
+Einrichten des LE Zertififkats
+------------------------------
+
  
-Nun die gewünsche Domain auswählen und das *edit* Symbol an klicken
+Die gewünsche Domain auswählen und das *edit* Symbol an klicken
+
+.. image:: hsadmin-domain-auswahl.jpg
+
 Die Eingabemaske wird mit folgenden Daten gefüllt:
 
 .. image:: hsadmin-domain-le.jpg
