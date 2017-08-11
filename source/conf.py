@@ -160,6 +160,7 @@ html_show_sphinx = False
 
 
 # -- Options for LaTeX output --------------------------------------------------
+latex_engine= 'xelatex'
 
 latex_elements = {
 
@@ -167,12 +168,13 @@ latex_elements = {
 'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
-
 # Additional stuff for the LaTeX preamble.
-'preamble':
-'''
-\DeclareUnicodeCharacter{251C}{+}
-\DeclareUnicodeCharacter{2514}{+}
+'preamble': u'''
+\\usepackage{newunicodechar}
+\\newunicodechar{├}{+}
+\\newunicodechar{└}{\\textbackslash}
+%%\DeclareUnicodeCharacter{251C}{+}
+%%\DeclareUnicodeCharacter{2514}{+}
 ''',
 
 # The class options
@@ -182,6 +184,15 @@ latex_elements = {
 'releasename': 'Version',
 
 'fncychap': '',
+
+'fontenc': r'\usepackage{fontspec}',
+
+'fontpkg': r'''
+\usepackage{tgheros}
+\setmainfont{TeX Gyre Heros}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{TeX Gyre Cursor}
+'''            
 
 }
 
