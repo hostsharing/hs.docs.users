@@ -24,5 +24,5 @@ Angaben für den Postausgangsserver für den Massenversand:
 +-----------------------+-----------+-----------------+----------+
 | Postausgangsserver    | Protokoll | Port STARTTLS   | Port TLS | 
 +=======================+===========+=================+==========+
-| xyz00.hostsharing.net | SMTP      | 4025 oder 4587  | 465      |
+| xyz00.hostsharing.net | SMTP      | 4025 oder 4587  | 4465     |
 +-----------------------+-----------+-----------------+----------+
