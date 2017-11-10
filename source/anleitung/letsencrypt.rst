@@ -37,7 +37,7 @@ Die Eingabemaske wird mit folgenden Daten gefüllt:
 
 Mit dem Button *OK* bestätigen.
 
-Damit ist für die Domain ein Zertifikat angefordert.
+PS. Zertifikat für mehrere SubDomain -> Komma getrennte Liste bei *valid subdomain names* Bsp: www,test,blog
 
-Bis zur Zertifizierung vergehen normal nur 2-3 Minuten, es kann jedoch auch bis zu 24 Std dauern.
+Bis zur Zertifizierung vergehen normal nur 2-3 Minuten, es kann jedoch auch bis zu 36 Std dauern. (ggf DNS Delegation oder Konnektierung)
 
