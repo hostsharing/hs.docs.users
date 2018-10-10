@@ -4,6 +4,7 @@ Domain
 
 Die Verwaltung einer Domain umfasst:
  
+* Domain aufschalten (:doc:`Domainverwaltung<domainverwaltung>`),
 * :term:`Domain-Registrierung`,
 * :term:`Domain-Transfer` zur Hostsharing eG,
 * Extern registrierte Domain aufschalten,
