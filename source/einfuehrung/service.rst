@@ -1,5 +1,5 @@
 ==================
-Mitglieder-Service
+Mitglieder Service
 ==================
 
 Abrechnung
