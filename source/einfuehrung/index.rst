@@ -47,3 +47,4 @@ der nachfolgend schematisch dargestellten Prinzipien:
 
     web-pakete
     managed-server
+    service
