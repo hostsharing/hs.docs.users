@@ -12,17 +12,21 @@ im Rahmen des Zulässigen verstanden.
 
 Angaben für den Postausgangsserver:
 
-+-----------------------+-----------+---------------+----------+
-| Postausgangsserver    | Protokoll | Port STARTTLS | Port TLS |
-+=======================+===========+===============+==========+
-| xyz00.hostsharing.net | SMTP      | 25 oder 587   | 465      |
-+-----------------------+-----------+---------------+----------+
++-----------------------+-----------------------+-----------+---------------+--------------+
+| Postausgangsserver    | Postfach/Benutzername | Protokoll | Port STARTTLS | Port SSL/TLS |
++=======================+=======================+===========+===============+==============+
+| xyz00.hostsharing.net | xyz00-mailbox         | SMTP      | 587 oder 25   | 465          |
++-----------------------+-----------------------+-----------+---------------+--------------+
+
+Die Konfigurationsvariante SMTP über Port 587 mit STARTTLS wird empfohlen.
 
 
 Angaben für den Postausgangsserver für den Massenversand:
 
-+-----------------------+-----------+-----------------+----------+
-| Postausgangsserver    | Protokoll | Port STARTTLS   | Port TLS | 
-+=======================+===========+=================+==========+
-| xyz00.hostsharing.net | SMTP      | 4025 oder 4587  | 4465     |
-+-----------------------+-----------+-----------------+----------+
++-----------------------+-----------------------+-----------+---------------+--------------+
+| Postausgangsserver    | Postfach/Benutzername | Protokoll | Port STARTTLS | Port SSL/TLS |
++=======================+=======================+===========+===============+==============+
+| xyz00.hostsharing.net | xyz00-mailbox         | SMTP      | 487 oder 4025 | 465          |
++-----------------------+-----------------------+-----------+---------------+--------------+
+
+Die Konfigurationsvariante SMTP über Port 4587 mit STARTTLS wird empfohlen.
