@@ -16,13 +16,7 @@ Platzhalter
 
         {HEADER}    $TTL {TTL}
 
-        {SOA_RR}    {DOM_HOSTNAME}. IN SOA {SOA_HOSTNAME}. {SOA_EMAIL}. (
-                                        {SIO}   ; serial secs since Jan 1 1970
-                                        {REFRESH} ; refresh (>=10000)
-                                        {RETRY}   ; retry (>=1800)
-                                        {EXPIRE}  ; expire
-                                        {MINIMUM} ; minimum
-                                )
+        {SOA_RR}    {DOM_HOSTNAME}.   IN SOA {SOA_HOSTNAME}. {SOA_EMAIL}. ({SIO} {REFRESH} {RETRY} {EXPIRE} {MINIMUM})
 
         {NS_RR}     {DOM_HOSTNAME}.   IN  NS  {DNS1_HOSTNAME}.
                     {DOM_HOSTNAME}.   IN  NS  {DNS2_HOSTNAME}.
