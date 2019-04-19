@@ -11,8 +11,10 @@ Platzhalter
                             {NS_RR}
                             {MX_RR}
                             {A_RR}
+                            {AAAA_RR}
                             {WILDCARD_MX_RR}
                             {WILDCARD_A_RR}
+                            {WILDCARD_AAAA_RR}
 
         {HEADER}    $TTL {TTL}
 
