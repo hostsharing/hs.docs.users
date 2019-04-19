@@ -14,11 +14,11 @@ Das expandierte Standardzonefile
         example.com.    IN      MX      30 mailin2.hostsharing.net.
         example.com.    IN      MX      30 mailin3.hostsharing.net.
         example.com.    IN      A       83.223.95.160
-        example.com.    IN      AAAAA   2a01:37:1000::53df:5fa0:0
+        example.com.    IN      AAAA    2a01:37:1000::53df:5fa0:0
         example.com.    IN      TXT     "v=spf1 include:spf.hostsharing.net ?all"
         *.example.com.  IN      MX      30 mailin1.hostsharing.net.
         *.example.com.  IN      MX      30 mailin2.hostsharing.net.
         *.example.com.  IN      MX      30 mailin3.hostsharing.net.
         *.example.com.  IN      A       83.223.95.160
-        *.example.com.  IN      AAAAA   2a01:37:1000::53df:5fa0:0
+        *.example.com.  IN      AAAA    2a01:37:1000::53df:5fa0:0
         *.example.com.  IN      TXT     "v=spf1 include:spf.hostsharing.net ?all"
