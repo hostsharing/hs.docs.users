@@ -8,7 +8,7 @@ Es können für :doc:`Domains<../domain/index>` jeweils eigene Zonefiles angeleg
 * Dienste extern aufschalten (z.B. E-Mail)
 
 In eigenen Zonefiles müssen Platzhalter verwendet werden. Diese Platzhalter ermöglichen das Ändern der DNS-Konfiguration seitens Hostsharing, ohne dass der Domain-Admin sein
-Zonefile anpassen muss. Das Zonefile wird im Verzeichnis ``~/doms/example.com/etc/pri.example.com`` abgelegt und einige Minuten nach dem Speichern automatisch aktiv.
+Zonefile anpassen muss. Das Zonefile wird im Verzeichnis ``~/doms/example.com/etc/`` die Datei ``pri.example.com`` abgelegt und einige Minuten nach dem Speichern automatisch aktiv.
 
         .. warning::
  
