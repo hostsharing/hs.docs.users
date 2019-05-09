@@ -30,7 +30,7 @@ Nun mit dem Icon *+* eine neue Domain aufschalten.
 
 Die Eingabemaske wird mit folgenden Daten gefüllt:
 
-Im Feld Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/benutzer/domain-admin>` xyz00-doms eintragen.
+Im Feld Domain den neuen Domainnamen und als Adminstrator den :doc:`Domain-Admin<../administration/benutzer/domain-admin>` xyz00-domains eintragen.
 
 .. image:: hsadmin-domain-neu.jpg
 
