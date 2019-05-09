@@ -9,7 +9,7 @@ In diesem Beispiel werden zwei E-Mail-Adressen angelegt:
 E-Mail-Adresse an Postfach im Webpaket
 --------------------------------------
 
-Anmeldung unter https://admin.hostsharing.net als Domain-Admin (xyz00-doms) an:
+Anmeldung unter https://admin.hostsharing.net als Domain-Admin (xyz00-domains) an:
 
 .. image:: hsadmin-login-da.jpg
 
@@ -37,7 +37,7 @@ Subdomain:   bleibt *hier* leer, es wird eine E-Mail-Adresse für die Hauptdomai
 
 Domain: hs-example.de
 
-Target:         Postbox  xyz00-doms  (E-Mails sollen an ein Postfach gehen)
+Target:         Postbox  xyz00-domains  (E-Mails sollen an ein Postfach gehen)
 
 Bestätigen mit dem Button *OK*
 
