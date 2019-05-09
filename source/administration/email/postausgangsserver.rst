@@ -6,7 +6,7 @@ Für jedes Webpaket steht ein Postausgangsserver für reguäre E-Mails
 und ein Postausgangsserver für den Massenversand von E-Mails bereit.
 
 Unter Massenversand wird der Versand von Newslettern, Forenbenachrichtungen,
-der Betrieb von Mailinglisten und ähnliche Nutzungen verstanden
+der Betrieb von Mailinglisten und ähnliche Nutzungen 
 im Rahmen des Zulässigen verstanden.
 
 
