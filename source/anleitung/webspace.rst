@@ -120,7 +120,7 @@ benötigt (z.B. FileZilla, WinSCP oder :term:`SCP`).
 
 Server:   xyz00.hostsharing.net
 
-Benutzer: xyz00-doms
+Benutzer: xyz00-domains
 
 Passwort: PASSWORT
 
