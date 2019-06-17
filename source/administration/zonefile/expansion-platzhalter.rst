@@ -3,7 +3,7 @@ Expansion der Platzhalter
 =========================
 
 
-Der Platzhalter für das Gesamtzonefile {DEFAULT_ZONFILE} wird in drei Schritten folgermaßen expandiert.
+Der Platzhalter für das Gesamtzonefile {DEFAULT_ZONEFILE} wird in drei Schritten folgermaßen expandiert.
 
 Zunächst wird der Gesamtplatzhalter Platzhalter durch Platzhalter für die Resource Records ersetzt:
 
