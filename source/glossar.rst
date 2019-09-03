@@ -1,3 +1,6 @@
+=======
+Glossar
+=======
 .. glossary:: :sorted:
 
    SCP
