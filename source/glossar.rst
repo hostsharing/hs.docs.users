@@ -68,10 +68,13 @@ Glossar
     Server Side Includes sind in Dokumente eingebettete Skript-Befehle, die auf einem Webserver ausgeführt werden, bevor das Dokument an den Client ausgeliefert wird. 
 
    xyz00
-    Synonym für ein Web-Paket.      
+    Platzhalter für ein Web-Paket.      
 
-   xyz00_
-    Synonym: Präfix für einen Datenbanknamen oder einen Datenbanknutzer.
+   xyz00-
+    Platzhalter für das Präfix im Namen der Kennung eines Benutzer oder eines E-Mail-Alias.
+
+   xyz00\_
+    Platzhalter für das Präfix im Namen einer Datenbank oder eines Datenbanknutzers.
 
    xyz
-    Synonym für einen Mitgliedsnamen.
+    Platzhalter für einen Mitgliedsnamen.

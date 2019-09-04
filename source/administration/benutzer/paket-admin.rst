@@ -23,7 +23,9 @@ Alle Rechte eines :doc:`Domain-Admins <domain-admin>` und folgende zusätzliche 
 * kann die Rechte eines Nutzers seines :doc:`Web-Pakets<./../webpaket/index>` annehmen.
 
    .. warning:: 
-        Eine Domain kann auf den Account des :term:`Paket-Admins` aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.
+        Eine Domain kann auf den Account des :term:`Paket-Admin` aufgeschaltet werden. Aus Sicherheitsgründen empfiehlt cd
+        
+        es sich Domains auf separate :doc:`Domain-Admins <domain-admin>` aufzuschalten.
 
 
 Administration
@@ -31,8 +33,8 @@ Administration
 
 Nutzer einrichten, löschen und ändern; Domain(s) einem Domain-Admin zuordnen, Domain(s) administrieren: 
 
-* per Webfrontend, :doc:`siehe</administration/HSAdmin/webfrontend>`
-* mit ``hsscript``, :doc:`siehe</administration/HSAdmin/index>`
+* per :doc:`Webfrontend<./../hsadmin/webfrontend>`
+* mit ``hsscript``, siehe :doc:`Seite HSAdmin<./../hsadmin/index>`
 
 Rechte eines Web-Paket-Nutzers annehmen:
 

@@ -11,7 +11,7 @@ Hostsharing bietet folgende Konfigurationsmöglichkeiten:
 * Anlegen und Löschen von E-Mail-Adressen
 * Anlegen und Löschen von :term:`E-Mail-Alias`\`en
 * Einrichtung von E-Mail-Weiterleitungen 
-* Automatisches Versenden einer E-Mail-Bestätigung (:term:`Vacation`)
+* Automatisches Versenden einer Antwort auf eine E-Mail, zum Beispiel eine Abwesenheitsnachricht
 * Automatisches Filtern und Bearbeiten von E-Mails über `Managesieve <https://wiki.hostsharing.net/index.php?title=Sieve>`_ oder `Procmail <https://wiki.hostsharing.net/index.php?title=Procmail>`_
 * Mit E-Mail-Aliasen kann die Zustellung von Nachrichten in die Postfächer der Benutzer gesteuert werden.
 * E-Mail-Konten bei anderen Anbietern abfragen
